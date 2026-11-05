@@ -1,0 +1,145 @@
+{
+  "retrieved": "2026-11-05",
+  "pack": {
+    "cik": "1304280",
+    "annual": [
+      {
+        "form": "10-K",
+        "filing_date": "2026-05-19",
+        "report_date": "2026-03-31",
+        "accession": "0001304280-26-000019",
+        "url": "https://www.sec.gov/Archives/edgar/data/1304280/000130428026000019/nvl-20260331.htm"
+      }
+    ],
+    "quarterly": [
+      {
+        "form": "10-Q",
+        "filing_date": "2026-11-05",
+        "report_date": "2026-09-30",
+        "accession": "0001304280-26-000042",
+        "url": "https://www.sec.gov/Archives/edgar/data/1304280/000130428026000042/nvl-20260930.htm"
+      },
+      {
+        "form": "10-Q",
+        "filing_date": "2026-08-05",
+        "report_date": "2026-06-30",
+        "accession": "0001304280-26-000032",
+        "url": "https://www.sec.gov/Archives/edgar/data/1304280/000130428026000032/nvl-20260630.htm"
+      },
+      {
+        "form": "10-Q",
+        "filing_date": "2026-02-11",
+        "report_date": "2025-12-31",
+        "accession": "0001304280-26-000008",
+        "url": "https://www.sec.gov/Archives/edgar/data/1304280/000130428026000008/nvl-20251231.htm"
+      }
+    ],
+    "presentations": [],
+    "releases_instead_of_presentations": [
+      {
+        "form": "EX-99.1",
+        "filing_date": "2026-11-05",
+        "report_date": "2026-11-05",
+        "accession": "0001304280-26-000039",
+        "url": "https://www.sec.gov/Archives/edgar/data/1304280/000130428026000039/novelisq2fy27results.htm",
+        "period": "2026-09-30"
+      },
+      {
+        "form": "EX-99.1",
+        "filing_date": "2026-08-05",
+        "report_date": "2026-08-05",
+        "accession": "0001304280-26-000030",
+        "url": "https://www.sec.gov/Archives/edgar/data/1304280/000130428026000030/novelisq1fy27results.htm",
+        "period": "2026-06-30"
+      },
+      {
+        "form": "EX-99.1",
+        "filing_date": "2026-05-19",
+        "report_date": "2026-05-19",
+        "accession": "0001304280-26-000016",
+        "url": "https://www.sec.gov/Archives/edgar/data/1304280/000130428026000016/novelisq4fy26results.htm",
+        "period": "2026-03-31"
+      }
+    ],
+    "files_10k": true,
+    "complete": false,
+    "complete_with_releases": true,
+    "gaps": [
+      "3 of 3 quarters have a release, not a presentation, on EDGAR"
+    ]
+  },
+  "files": [
+    {
+      "form": "10-K",
+      "filing_date": "2026-05-19",
+      "report_date": "2026-03-31",
+      "accession": "0001304280-26-000019",
+      "url": "https://www.sec.gov/Archives/edgar/data/1304280/000130428026000019/nvl-20260331.htm",
+      "file": "10-K_2026-03-31_nvl-20260331.htm",
+      "sha256": "66a4c921a3270651a672548a64251d963652d047f5535a0ca3acdc4719af1f6b"
+    },
+    {
+      "form": "10-Q",
+      "filing_date": "2026-11-05",
+      "report_date": "2026-09-30",
+      "accession": "0001304280-26-000042",
+      "url": "https://www.sec.gov/Archives/edgar/data/1304280/000130428026000042/nvl-20260930.htm",
+      "file": "10-Q_2026-09-30_nvl-20260930.htm",
+      "sha256": "8f069bfdbb0741a53d9160ca4c74919ab9e6f75091c84bb86c3e6f7c1c66f1cd"
+    },
+    {
+      "form": "10-Q",
+      "filing_date": "2026-08-05",
+      "report_date": "2026-06-30",
+      "accession": "0001304280-26-000032",
+      "url": "https://www.sec.gov/Archives/edgar/data/1304280/000130428026000032/nvl-20260630.htm",
+      "file": "10-Q_2026-06-30_nvl-20260630.htm",
+      "sha256": "bd68a90a5d5a262aa9816e8ec12e65835d079b5e65f17c5e4f81d6abf74b03cd"
+    },
+    {
+      "form": "10-Q",
+      "filing_date": "2026-02-11",
+      "report_date": "2025-12-31",
+      "accession": "0001304280-26-000008",
+      "url": "https://www.sec.gov/Archives/edgar/data/1304280/000130428026000008/nvl-20251231.htm",
+      "file": "10-Q_2025-12-31_nvl-20251231.htm",
+      "sha256": "76ab86a6364c39bb2b9e3db05b399e1b81a3ea3ede0e78077cd9c861d2f80a9e"
+    },
+    {
+      "form": "EX-99.1",
+      "filing_date": "2026-11-05",
+      "report_date": "2026-11-05",
+      "accession": "0001304280-26-000039",
+      "url": "https://www.sec.gov/Archives/edgar/data/1304280/000130428026000039/novelisq2fy27results.htm",
+      "period": "2026-09-30",
+      "file": "EX-99.1_2026-11-05_novelisq2fy27results.htm",
+      "sha256": "0eef05face88fd991438201b76c0b2c30a1ab1aa200e76e43f7a2e4773a77b64",
+      "visible_text_chars": 25060,
+      "image_only": false
+    },
+    {
+      "form": "EX-99.1",
+      "filing_date": "2026-08-05",
+      "report_date": "2026-08-05",
+      "accession": "0001304280-26-000030",
+      "url": "https://www.sec.gov/Archives/edgar/data/1304280/000130428026000030/novelisq1fy27results.htm",
+      "period": "2026-06-30",
+      "file": "EX-99.1_2026-08-05_novelisq1fy27results.htm",
+      "sha256": "bc7860d9b1a1a6bed4fcc3d9d673703fb6641637366140993208db6a6f1775d6",
+      "visible_text_chars": 24396,
+      "image_only": false
+    },
+    {
+      "form": "EX-99.1",
+      "filing_date": "2026-05-19",
+      "report_date": "2026-05-19",
+      "accession": "0001304280-26-000016",
+      "url": "https://www.sec.gov/Archives/edgar/data/1304280/000130428026000016/novelisq4fy26results.htm",
+      "period": "2026-03-31",
+      "file": "EX-99.1_2026-05-19_novelisq4fy26results.htm",
+      "sha256": "b3417f8dcc04aad723f974b24b0e3601e1e92999326d75a1840c0b2d95a3a990",
+      "visible_text_chars": 28026,
+      "image_only": false
+    }
+  ]
+}
