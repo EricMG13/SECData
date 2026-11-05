@@ -1,8 +1,10 @@
 """EDGAR access for the issuer corpus.
 
 The fixtures are real EDGAR responses recorded on 2026-11-05 (HYG's N-PORT feed, EDGAR's name
-search, and the Caesars and American Airlines filing lists and 8-K exhibit indexes). Only the
-image-only deck case at the end is synthetic. No test calls the network.
+search, the Caesars and American Airlines filing lists and 8-K exhibit indexes, and GFL
+Environmental's filing list, 6-K indexes and the first 8 KB of each 6-K exhibit). The universe
+rows in the corpus tests and the documents in the image-only and resume cases are synthetic, and
+say so. No test calls the network.
 """
 
 import json
@@ -25,7 +27,25 @@ F = Path(__file__).resolve().parent / "fixtures/edgar"
 CZR = "1590895"
 
 
-def recorded(url: str) -> bytes:
+GFL = "1780232"
+GFL_URLS = json.loads((F / "gfl-urls.json").read_text())
+
+
+class Recorded:
+    """Recorded responses; `head` is a document's first 8 KB, as `Edgar.head` reads it."""
+
+    def __call__(self, url: str) -> bytes:
+        if url in GFL_URLS and "full" in GFL_URLS[url]:
+            return (F / GFL_URLS[url]["full"]).read_bytes()
+        return recorded_url(url)
+
+    def head(self, url: str) -> bytes:
+        if url in GFL_URLS and "head" in GFL_URLS[url]:
+            return (F / GFL_URLS[url]["head"]).read_bytes()
+        raise AssertionError(f"no recorded head for {url}")
+
+
+def recorded_url(url: str) -> bytes:
     if "browse-edgar" in url and "S000016772" in url:
         return (F / "hyg-nport-feed.xml").read_bytes()
     if "keysTyped=caesars%20entertainment" in url:
@@ -39,6 +59,9 @@ def recorded(url: str) -> bytes:
     if url in aal:
         return (F / aal[url]).read_bytes()
     raise AssertionError(f"no recorded response for {url}")
+
+
+recorded = Recorded()
 
 
 def test_latest_nport_reads_the_series_feed():
@@ -110,6 +133,26 @@ def test_pack_uses_only_filings_up_to_the_as_of_date():
     ]
 
 
+def test_foreign_private_issuer_pack_reads_6k_interim_reports_and_releases():
+    """GFL files a 40-F and furnishes each quarter on 6-K with generic EX-99 labels."""
+    pack = minimum_pack(recorded, GFL, date(2026, 11, 5))
+    assert pack["filer"] == "foreign private issuer" and not pack["files_10k"]
+    assert [(d["form"], d["filing_date"]) for d in pack["annual"]] == [("40-F", "2026-02-18")]
+    assert [d["filing_date"] for d in pack["quarterly"]] == [
+        "2026-10-30",
+        "2026-07-31",
+        "2026-05-01",
+    ]
+    assert {d["form"] for d in pack["quarterly"]} == {"6-K-EX-99.1"}
+    assert [d["filing_date"] for d in pack["releases_instead_of_presentations"]] == [
+        "2026-10-28",
+        "2026-07-29",
+        "2026-04-29",
+    ]
+    assert pack["files_20f_or_40f"] and pack["complete_with_releases"] and not pack["complete"]
+    assert pack["gaps"][1:] == ["3 of 3 quarters have a release, not a presentation, on EDGAR"]
+
+
 def test_blank_user_agent_is_refused():
     with pytest.raises(ValueError, match="SEC_USER_AGENT"):
         Edgar(" ")
@@ -133,9 +176,9 @@ def test_fetch_flags_an_image_only_deck(tmp_path):
     assert record["files"][0]["sha256"] == files[0]["sha256"]
 
 
-def issuer(key, name, kind, value):
+def issuer(key, name, kind, value, country="US"):
     fund = {"Fund": {"holdings": 1, "value_usd": value, "values_missing": 0}}
-    return {"key": key, "names": [name], "kinds": [kind], "funds": fund}
+    return {"key": key, "names": [name], "kinds": [kind], "funds": fund, "countries": [country]}
 
 
 def test_corpus_checks_loan_issuers_first_stops_at_the_target_and_merges_one_filer():
@@ -186,6 +229,33 @@ def test_corpus_resumes_from_a_saved_partial_result_without_rechecking():
     assert [c["key"] for c in resumed["checked"]] == ["C1", "A"]
     assert not any("caesars" in u or f"CIK{int(CZR):010d}" in u for u in asked)
     assert resumed["complete_with_releases"] == 2
+
+
+def test_non_us_pass_extends_a_finished_corpus_and_counts_only_non_us_packs():
+    """Synthetic universe rows over the recorded EDGAR responses. GFL was checked by the first
+    pass under the 10-K rule; the non-US pass checks it again and skips US issuers."""
+    from secdata.edgar import corpus
+
+    universe = {
+        "funds": [{"seriesName": "Fund"}],
+        "issuers": [
+            issuer("A", "AMERICAN AIRLINES INC", "bond", "900"),
+            issuer("C1", "CAESARS ENTERTAINMENT INC", "loan", "10", country="GB"),
+            issuer("G", "GFL ENVIRONMENTAL INC", "bond", "50", country="CA"),
+        ],
+    }
+    base = corpus(recorded, universe, 1, date(2026, 11, 5), lambda line: None)
+    base["checked"].append({"key": "G", "names": ["GFL ENVIRONMENTAL INC"], "result": "earlier"})
+    extended = corpus(recorded, universe, 2, date(2026, 11, 5), lambda line: None, None, base, True)
+    assert [(c["key"], c.get("pass")) for c in extended["checked"]] == [
+        ("C1", None),
+        ("G", None),
+        ("G", "non-US"),
+    ]
+    assert extended["non_us_complete_with_releases"] == 2 and extended["non_us_target"] == 2
+    assert extended["target_complete"] == 1  # The first pass's target, unchanged.
+    gfl = next(c for c in extended["issuers"] if c["cik"] == GFL)
+    assert gfl["countries"] == ["CA"] and gfl["pack"]["filer"] == "foreign private issuer"
 
 
 def test_visible_text_ignores_scripts_styles_and_tags():
