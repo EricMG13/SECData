@@ -1,0 +1,145 @@
+{
+  "retrieved": "2026-11-05",
+  "pack": {
+    "cik": "1739104",
+    "annual": [
+      {
+        "form": "10-K",
+        "filing_date": "2026-02-24",
+        "report_date": "2025-12-31",
+        "accession": "0001739104-26-000012",
+        "url": "https://www.sec.gov/Archives/edgar/data/1739104/000173910426000012/elan-20251231.htm"
+      }
+    ],
+    "quarterly": [
+      {
+        "form": "10-Q",
+        "filing_date": "2026-08-05",
+        "report_date": "2026-06-30",
+        "accession": "0001739104-26-000043",
+        "url": "https://www.sec.gov/Archives/edgar/data/1739104/000173910426000043/elan-20260630.htm"
+      },
+      {
+        "form": "10-Q",
+        "filing_date": "2026-05-06",
+        "report_date": "2026-03-31",
+        "accession": "0001739104-26-000030",
+        "url": "https://www.sec.gov/Archives/edgar/data/1739104/000173910426000030/elan-20260331.htm"
+      },
+      {
+        "form": "10-Q",
+        "filing_date": "2025-11-05",
+        "report_date": "2025-09-30",
+        "accession": "0001739104-25-000071",
+        "url": "https://www.sec.gov/Archives/edgar/data/1739104/000173910425000071/elan-20250930.htm"
+      }
+    ],
+    "presentations": [],
+    "releases_instead_of_presentations": [
+      {
+        "form": "EX-99.1",
+        "filing_date": "2026-08-05",
+        "report_date": "2026-08-05",
+        "accession": "0001739104-26-000040",
+        "url": "https://www.sec.gov/Archives/edgar/data/1739104/000173910426000040/elanco-20260630exhibit991.htm",
+        "period": "2026-06-30"
+      },
+      {
+        "form": "EX-99.1",
+        "filing_date": "2026-05-06",
+        "report_date": "2026-05-06",
+        "accession": "0001739104-26-000027",
+        "url": "https://www.sec.gov/Archives/edgar/data/1739104/000173910426000027/elanco-20260331exhibit991.htm",
+        "period": "2026-03-31"
+      },
+      {
+        "form": "EX-99.1",
+        "filing_date": "2026-02-24",
+        "report_date": "2026-02-24",
+        "accession": "0001739104-26-000008",
+        "url": "https://www.sec.gov/Archives/edgar/data/1739104/000173910426000008/elanco-12312025exhibit991.htm",
+        "period": "2025-12-31"
+      }
+    ],
+    "files_10k": true,
+    "complete": false,
+    "complete_with_releases": true,
+    "gaps": [
+      "3 of 3 quarters have a release, not a presentation, on EDGAR"
+    ]
+  },
+  "files": [
+    {
+      "form": "10-K",
+      "filing_date": "2026-02-24",
+      "report_date": "2025-12-31",
+      "accession": "0001739104-26-000012",
+      "url": "https://www.sec.gov/Archives/edgar/data/1739104/000173910426000012/elan-20251231.htm",
+      "file": "10-K_2025-12-31_elan-20251231.htm",
+      "sha256": "2e169d53c23b8fd147e2366208b908b5bcb608dfb6dfec570efc11dc43245058"
+    },
+    {
+      "form": "10-Q",
+      "filing_date": "2026-08-05",
+      "report_date": "2026-06-30",
+      "accession": "0001739104-26-000043",
+      "url": "https://www.sec.gov/Archives/edgar/data/1739104/000173910426000043/elan-20260630.htm",
+      "file": "10-Q_2026-06-30_elan-20260630.htm",
+      "sha256": "cc980d52e040cc0071288a71edcd0442712e5f116fdc0bd6abea2b694e466b73"
+    },
+    {
+      "form": "10-Q",
+      "filing_date": "2026-05-06",
+      "report_date": "2026-03-31",
+      "accession": "0001739104-26-000030",
+      "url": "https://www.sec.gov/Archives/edgar/data/1739104/000173910426000030/elan-20260331.htm",
+      "file": "10-Q_2026-03-31_elan-20260331.htm",
+      "sha256": "f2933fcb4b9becf36468ddff7bf9acb22eae656adfd7d34ff3865b7716751ecf"
+    },
+    {
+      "form": "10-Q",
+      "filing_date": "2025-11-05",
+      "report_date": "2025-09-30",
+      "accession": "0001739104-25-000071",
+      "url": "https://www.sec.gov/Archives/edgar/data/1739104/000173910425000071/elan-20250930.htm",
+      "file": "10-Q_2025-09-30_elan-20250930.htm",
+      "sha256": "e747438fe2cf35c3bb025c2ba024e4e4428a5db25eba8f8ac86145b466468e0a"
+    },
+    {
+      "form": "EX-99.1",
+      "filing_date": "2026-08-05",
+      "report_date": "2026-08-05",
+      "accession": "0001739104-26-000040",
+      "url": "https://www.sec.gov/Archives/edgar/data/1739104/000173910426000040/elanco-20260630exhibit991.htm",
+      "period": "2026-06-30",
+      "file": "EX-99.1_2026-08-05_elanco-20260630exhibit991.htm",
+      "sha256": "248e733ff73c92082d44e7cac57a7a138ec06fcce1cdded9a44ec509e85f7f53",
+      "visible_text_chars": 35642,
+      "image_only": false
+    },
+    {
+      "form": "EX-99.1",
+      "filing_date": "2026-05-06",
+      "report_date": "2026-05-06",
+      "accession": "0001739104-26-000027",
+      "url": "https://www.sec.gov/Archives/edgar/data/1739104/000173910426000027/elanco-20260331exhibit991.htm",
+      "period": "2026-03-31",
+      "file": "EX-99.1_2026-05-06_elanco-20260331exhibit991.htm",
+      "sha256": "4d6f4e3d6327d856a89c55b232d00ffc7d19fed5d37fa886a33c5e05410f6429",
+      "visible_text_chars": 32798,
+      "image_only": false
+    },
+    {
+      "form": "EX-99.1",
+      "filing_date": "2026-02-24",
+      "report_date": "2026-02-24",
+      "accession": "0001739104-26-000008",
+      "url": "https://www.sec.gov/Archives/edgar/data/1739104/000173910426000008/elanco-12312025exhibit991.htm",
+      "period": "2025-12-31",
+      "file": "EX-99.1_2026-02-24_elanco-12312025exhibit991.htm",
+      "sha256": "117f7c25a8ec96ca3ef71db3e384b3bae73818935816ca6c229f645f8a9115eb",
+      "visible_text_chars": 42893,
+      "image_only": false
+    }
+  ]
+}
