@@ -2,7 +2,8 @@
 
 The fixtures are real EDGAR responses recorded on 2026-11-05 (HYG's N-PORT feed, EDGAR's name
 search, the Caesars and American Airlines filing lists and 8-K exhibit indexes, and GFL
-Environmental's filing list, 6-K indexes and the first 8 KB of each 6-K exhibit). The universe
+Environmental's filing list, 6-K indexes, the first 8 KB of each 6-K exhibit and 32 KB of each
+6-K document without exhibits). The universe
 rows in the corpus tests and the documents in the image-only and resume cases are synthetic, and
 say so. No test calls the network.
 """
@@ -22,6 +23,7 @@ from secdata.edgar import (
     latest_nport,
     minimum_pack,
     name_key,
+    roles,
 )
 
 F = Path(__file__).resolve().parent / "fixtures/edgar"
@@ -33,16 +35,17 @@ GFL_URLS = json.loads((F / "gfl-urls.json").read_text())
 
 
 class Recorded:
-    """Recorded responses; `head` is a document's first 8 KB, as `Edgar.head` reads it."""
+    """Recorded responses; `head` is a document's first 8 KB or 32 KB, as `Edgar.head` reads it."""
 
     def __call__(self, url: str) -> bytes:
         if url in GFL_URLS and "full" in GFL_URLS[url]:
             return (F / GFL_URLS[url]["full"]).read_bytes()
         return recorded_url(url)
 
-    def head(self, url: str) -> bytes:
-        if url in GFL_URLS and "head" in GFL_URLS[url]:
-            return (F / GFL_URLS[url]["head"]).read_bytes()
+    def head(self, url: str, limit: int) -> bytes:
+        kind = {8192: "head", 32768: "body"}[limit]
+        if url in GFL_URLS and kind in GFL_URLS[url]:
+            return (F / GFL_URLS[url][kind]).read_bytes()
         raise AssertionError(f"no recorded head for {url}")
 
 
@@ -207,6 +210,47 @@ def test_foreign_interim_report_that_announces_results_is_also_the_release(tmp_p
     assert files[4]["file"] == files[1]["file"] and files[4]["sha256"] == files[1]["sha256"]
 
 
+COVER = "FORM 6-K Indicate by check mark ... Form 20-F x Form 40-F . "
+
+
+@pytest.mark.parametrize(
+    ("whole", "text", "expected"),
+    [
+        # Modelled on Millicom's and UBS's 6-K documents, which have no exhibits.
+        (
+            True,
+            COVER + "INDEX TO FURNISHED MATERIAL 1. Unaudited Interim Condensed Consolidated "
+            "Financial Statements for the six-month period. 2. Earnings Release for Q2 2026.",
+            ["interim", "release"],
+        ),
+        (
+            True,
+            COVER + "This Form 6-K consists of the presentation materials related to the second "
+            "quarter 2026 financial results of the company.",
+            ["deck", "release"],
+        ),
+        # Modelled on a Methanex note redemption release: its boilerplate, well after the title,
+        # cites the issuer's quarterly MD&A.
+        (
+            True,
+            COVER
+            + "NEWS RELEASE Example announces partial redemption of notes. "
+            + "x " * 800
+            + "described in our Second Quarter 2026 Management's Discussion and Analysis",
+            [],
+        ),
+        (
+            False,
+            "EXAMPLE REPORTS HIGHER EARNINGS AND CASH FLOWS IN THIRD QUARTER 2026",
+            ["release"],
+        ),
+        (False, "Unaudited pro forma condensed combined financial information", []),
+    ],
+)
+def test_6k_document_roles(whole, text, expected):
+    assert roles("6-K" if whole else "EX-99.1", "doc.htm", text, whole) == expected
+
+
 def test_blank_user_agent_is_refused():
     with pytest.raises(ValueError, match="SEC_USER_AGENT"):
         Edgar(" ")
@@ -296,6 +340,8 @@ def test_non_us_pass_extends_a_finished_corpus_and_counts_only_non_us_packs():
             issuer("A", "AMERICAN AIRLINES INC", "bond", "900"),
             issuer("C1", "CAESARS ENTERTAINMENT INC", "loan", "10", country="GB"),
             issuer("G", "GFL ENVIRONMENTAL INC", "bond", "50", country="CA"),
+            # Funds report XX for co-issuers in several countries; not counted as non-US.
+            issuer("X", "AMERICAN AIRLINES INC", "bond", "1", country="XX"),
         ],
     }
     base = corpus(recorded, universe, 1, date(2026, 11, 5), lambda line: None)

@@ -42,6 +42,7 @@ PRESENTATION = re.compile(r"presentation|slides|deck|earnings call|webcast", re.
 NEAR_PERIODIC = timedelta(days=10)  # An earnings 8-K is filed close to its 10-Q or 10-K.
 MIN_DECK_TEXT = 2000  # Fewer visible characters than this: slides are images, not text.
 HEAD_BYTES = 8192
+BODY_BYTES = 32768  # A 6-K's own document: its report starts after a cover page.
 FOREIGN_ANNUAL = ("20-F", "40-F")
 # Foreign private issuers furnish quarterly results on 6-K with generic exhibit labels, so the
 # exhibit's opening text decides what it is.
@@ -53,12 +54,16 @@ INTERIM = re.compile(
 )
 RESULTS = re.compile(
     r"reports? .{0,80}(first|second|third|fourth|q[1-4]|quarter|half[- ]year|full[- ]year)"
-    r".{0,40}results|results for (the )?(first|second|third|fourth) (quarter|half)"
+    r".{0,40}(results|earnings)|results for (the )?(first|second|third|fourth) (quarter|half)"
+    r"|reports? .{0,60}(results|earnings) .{0,60}(first|second|third|fourth|q[1-4]) quarter"
+    r"|earnings release for (the )?(q[1-4]|first|second|third|fourth)"
     r"|results for (the )?(three|six|nine|twelve) months"
     r"|(quarter|half[- ]year|nine months|interim) .{0,20}results",
     re.IGNORECASE,
 )
-DECK_TEXT = re.compile(r"(investor|earnings|results|financial) presentation", re.IGNORECASE)
+DECK_TEXT = re.compile(
+    r"(investor|earnings|results|financial) presentation|presentation materials", re.IGNORECASE
+)
 # Officers' certifications and offering pro formas cite interim statements but are not results.
 NOT_RESULTS = re.compile(
     r"certification of interim filings|52-109F|pro forma condensed", re.IGNORECASE
@@ -78,10 +83,10 @@ class Edgar:
     def __call__(self, url: str) -> bytes:
         return self.fetch(url, None)
 
-    def head(self, url: str) -> bytes:
+    def head(self, url: str, limit: int = HEAD_BYTES) -> bytes:
         """The document's first bytes, enough to read its title. EDGAR ignores Range requests,
         so the connection is closed after reading them."""
-        return self.fetch(url, HEAD_BYTES)
+        return self.fetch(url, limit)
 
     def fetch(self, url: str, limit: int | None) -> bytes:
         headers = {"User-Agent": self.user_agent}
@@ -316,7 +321,11 @@ def foreign_pack(
     furnished on 6-K (financial statements or MD&A, standing in for 10-Qs) and, for the three
     latest results events, the deck, else the results release. 6-Ks filed within ten days are one
     results event; two events at least 45 days apart are two quarters."""
-    head: Get = getattr(get, "head", get)
+    reader = getattr(get, "head", None)
+
+    def head(url: str, limit: int) -> bytes:
+        return reader(url, limit) if reader else get(url)
+
     annual = [document(f) for f in rows if f["form"] in FOREIGN_ANNUAL][:1]
     events: list[dict[str, Any]] = []
     for f in rows:
@@ -330,30 +339,18 @@ def foreign_pack(
         if f["form"] != "6-K":
             continue
         found: dict[str, dict[str, str]] = {}
-        for exhibit in exhibits(get, cik, f["accessionNumber"]):
-            if not exhibit["type"].startswith("EX-99") or exhibit["document"].endswith(".pdf"):
+        listed = exhibits(get, cik, f["accessionNumber"])
+        attached = [e for e in listed if e["type"].startswith("EX-99")]
+        # A 6-K without EX-99 exhibits carries its report in the 6-K document itself.
+        for exhibit in attached or [e for e in listed if e["type"] == "6-K"][:1]:
+            if exhibit["document"].endswith(".pdf"):
                 continue
-            opening = visible_text(head(exhibit["url"]))[:1500]
-            label = f"{exhibit['description']} {exhibit['document']} {opening}"
-            kind = (
-                None
-                if NOT_RESULTS.search(opening)
-                else "deck"
-                if PRESENTATION.search(f"{exhibit['description']} {exhibit['document']}")
-                or DECK_TEXT.search(opening)
-                else "interim"
-                if INTERIM.search(label)
-                else "release"
-                if RESULTS.search(label)
-                else None
-            )
-            item = {**document(f), "form": f"6-K-{exhibit['type']}", "url": exhibit["url"]}
-            item["period"] = f["reportDate"]
-            if kind and kind not in found:
-                found[kind] = item
-            # Some issuers announce their results in the interim report itself.
-            if kind == "interim" and RESULTS.search(label) and "release" not in found:
-                found["release"] = item
+            whole = exhibit["type"] == "6-K"
+            text = visible_text(head(exhibit["url"], BODY_BYTES if whole else HEAD_BYTES))
+            form = "6-K" if whole else f"6-K-{exhibit['type']}"
+            item = {**document(f), "form": form, "url": exhibit["url"], "period": f["reportDate"]}
+            for kind in roles(exhibit["description"], exhibit["document"], text, whole):
+                found.setdefault(kind, item)
         if not found:
             continue
         latest = events[-1] if events else None
@@ -396,6 +393,27 @@ def foreign_pack(
         "complete_with_releases": filings_complete and len(decks) + len(releases) == 3,
         "gaps": gaps,
     }
+
+
+def roles(description: str, document: str, text: str, whole: bool) -> list[str]:
+    """What a 6-K document is to a results event: "deck", "interim" (report) or "release". An
+    exhibit has one role, except that an interim report announcing its results is also the
+    release. A 6-K's own document often holds the release, deck and statements together, so it
+    takes every role it matches."""
+    start = text.find("Form 40-F") if whole else 0  # A 6-K cover ends with this check box.
+    # Titles and contents lists come first; later text cites other reports in boilerplate.
+    opening = text[max(start, 0) :][:1500]
+    if NOT_RESULTS.search(opening):
+        return []
+    named = f"{description} {document}"
+    deck = bool(PRESENTATION.search(named) or DECK_TEXT.search(opening))
+    interim = bool(INTERIM.search(f"{named} {opening}"))
+    release = bool(RESULTS.search(f"{named} {opening}"))
+    if whole:
+        return [k for k, hit in (("deck", deck), ("interim", interim), ("release", release)) if hit]
+    if deck:
+        return ["deck"]
+    return (["interim"] if interim else []) + (["release"] if release else [])
 
 
 class _VisibleText(html.parser.HTMLParser):
@@ -520,7 +538,9 @@ def corpus(
     pass_name = "non-US" if non_us else None
 
     def foreign(keys: list[str]) -> bool:
-        return all("US" not in countries[k] for k in keys)
+        reported = {x for k in keys for x in countries[k]}
+        # Funds report XX for a bond whose co-issuers are in several countries.
+        return "US" not in reported and bool(reported - {"XX"})
 
     def counted(c: dict[str, Any]) -> bool:
         return bool(c["pack"]["complete_with_releases"]) and (
