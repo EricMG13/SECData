@@ -14,6 +14,7 @@ from pathlib import Path
 import pytest
 
 from secdata.edgar import (
+    WWW,
     Edgar,
     entity_candidates,
     exhibits,
@@ -151,6 +152,59 @@ def test_foreign_private_issuer_pack_reads_6k_interim_reports_and_releases():
     ]
     assert pack["files_20f_or_40f"] and pack["complete_with_releases"] and not pack["complete"]
     assert pack["gaps"][1:] == ["3 of 3 quarters have a release, not a presentation, on EDGAR"]
+
+
+def synthetic_foreign_filer(sixk):
+    """Synthetic EDGAR responses for CIK 1: a 20-F, then one 6-K per (date, EX-99.1 text)."""
+    rows = [(d, "6-K", t) for d, t in sorted(sixk, reverse=True)] + [("2026-02-17", "20-F", "")]
+    accessions = [f"0000000001-26-{i:06d}" for i in range(len(rows))]
+    recent = {
+        "form": [r[1] for r in rows],
+        "filingDate": [r[0] for r in rows],
+        "reportDate": [r[0] for r in rows],
+        "accessionNumber": accessions,
+        "primaryDocument": ["main.htm"] * len(rows),
+    }
+    pages = {
+        f"https://data.sec.gov/submissions/CIK{1:010d}.json": json.dumps(
+            {"filings": {"recent": recent}}
+        ).encode()
+    }
+    for accession, (_, _, text) in zip(accessions, rows, strict=True):
+        folder = f"/Archives/edgar/data/1/{accession.replace('-', '')}"
+        row = f'<tr><td>1</td><td>EX-99.1</td><td><a href="{folder}/ex.htm">ex.htm</a></td>'
+        pages[f"{WWW}{folder}/{accession}-index.htm"] = (
+            f"<table>{row}<td>EX-99.1</td></tr>".encode()
+        )
+        pages[f"{WWW}{folder}/ex.htm"] = f"<p>{text}</p>".encode()
+        pages[f"{WWW}{folder}/main.htm"] = b"<p>Form</p>"
+    return pages.__getitem__
+
+
+RESULTS_IN_REPORT = "Example Announces Financial Results for the {}; Interim Report for the {}"
+
+
+def test_foreign_interim_report_that_announces_results_is_also_the_release(tmp_path):
+    """Synthetic filings shaped like Genmab's: each quarter's results are announced in its interim
+    report, and an offering 6-K's pro forma cites interim statements but is not a results report."""
+    pro_forma = "UNAUDITED PRO FORMA CONDENSED COMBINED FINANCIAL INFORMATION, from the interim "
+    get = synthetic_foreign_filer(
+        [
+            ("2026-11-05", RESULTS_IN_REPORT.format("Nine Months of 2026", "Nine Months")),
+            ("2026-08-06", RESULTS_IN_REPORT.format("First Half of 2026", "Six Months")),
+            ("2026-05-12", pro_forma + "condensed consolidated financial statements"),
+            ("2026-05-07", RESULTS_IN_REPORT.format("First Quarter of 2026", "Three Months")),
+        ]
+    )
+    pack = minimum_pack(get, "1", date(2026, 11, 5))
+    expected = ["2026-11-05", "2026-08-06", "2026-05-07"]
+    assert [d["filing_date"] for d in pack["quarterly"]] == expected
+    assert pack["releases_instead_of_presentations"] == pack["quarterly"]
+    assert pack["complete_with_releases"]
+    calls = []
+    files = fetch_pack(lambda url: calls.append(url) or get(url), pack, tmp_path / "p")
+    assert len(files) == 7 and len(calls) == 4  # Each combined document is fetched once.
+    assert files[4]["file"] == files[1]["file"] and files[4]["sha256"] == files[1]["sha256"]
 
 
 def test_blank_user_agent_is_refused():

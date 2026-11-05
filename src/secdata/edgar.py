@@ -53,12 +53,16 @@ INTERIM = re.compile(
 )
 RESULTS = re.compile(
     r"reports? .{0,80}(first|second|third|fourth|q[1-4]|quarter|half[- ]year|full[- ]year)"
-    r".{0,40}results|results for (the )?(first|second|third|fourth) quarter"
+    r".{0,40}results|results for (the )?(first|second|third|fourth) (quarter|half)"
+    r"|results for (the )?(three|six|nine|twelve) months"
     r"|(quarter|half[- ]year|nine months|interim) .{0,20}results",
     re.IGNORECASE,
 )
 DECK_TEXT = re.compile(r"(investor|earnings|results|financial) presentation", re.IGNORECASE)
-CERTIFICATION = re.compile(r"certification of interim filings|52-109F", re.IGNORECASE)
+# Officers' certifications and offering pro formas cite interim statements but are not results.
+NOT_RESULTS = re.compile(
+    r"certification of interim filings|52-109F|pro forma condensed", re.IGNORECASE
+)
 EVENT_GAP = timedelta(days=45)  # Two quarters' results are at least this far apart.
 
 
@@ -333,7 +337,7 @@ def foreign_pack(
             label = f"{exhibit['description']} {exhibit['document']} {opening}"
             kind = (
                 None
-                if CERTIFICATION.search(opening)
+                if NOT_RESULTS.search(opening)
                 else "deck"
                 if PRESENTATION.search(f"{exhibit['description']} {exhibit['document']}")
                 or DECK_TEXT.search(opening)
@@ -343,9 +347,13 @@ def foreign_pack(
                 if RESULTS.search(label)
                 else None
             )
+            item = {**document(f), "form": f"6-K-{exhibit['type']}", "url": exhibit["url"]}
+            item["period"] = f["reportDate"]
             if kind and kind not in found:
-                item = {**document(f), "form": f"6-K-{exhibit['type']}", "url": exhibit["url"]}
-                found[kind] = {**item, "period": f["reportDate"]}
+                found[kind] = item
+            # Some issuers announce their results in the interim report itself.
+            if kind == "interim" and RESULTS.search(label) and "release" not in found:
+                found["release"] = item
         if not found:
             continue
         latest = events[-1] if events else None
@@ -359,6 +367,7 @@ def foreign_pack(
     quarterly = [e["interim"] for e in events if e["interim"]][:3]
     decks = [e["deck"] for e in events[:3] if e["deck"]]
     releases = [e["release"] for e in events[:3] if not e["deck"] and e["release"]]
+    missing = [e["date"].isoformat() for e in events[:3] if not e["deck"] and not e["release"]]
     stale = not annual or (as_of - date.fromisoformat(annual[0]["filing_date"])).days > 400
     gaps = ["interim results furnished on 6-K, not 10-Q (foreign private issuer)"]
     if not annual:
@@ -369,6 +378,10 @@ def foreign_pack(
         gaps.append(f"{len(quarterly)} of 3 interim reports on 6-K")
     if releases:
         gaps.append(f"{len(releases)} of 3 quarters have a release, not a presentation, on EDGAR")
+    if missing:
+        gaps.append(f"no results release or deck on EDGAR for the 6-Ks of {', '.join(missing)}")
+    if len(events) < 3:
+        gaps.append(f"{len(events)} of 3 results events on 6-K")
     filings_complete = not stale and len(quarterly) == 3
     return {
         "cik": str(int(cik)),
@@ -418,12 +431,17 @@ def fetch_pack(get: Get, pack: dict[str, Any], folder: Path) -> list[dict[str, A
     """Download the pack's documents into a new folder, with a retrieval record."""
     folder.mkdir(parents=True)
     record = []
+    fetched: dict[str, dict[str, Any]] = {}
     for item in (
         pack["annual"]
         + pack["quarterly"]
         + pack["presentations"]
         + pack["releases_instead_of_presentations"]
     ):
+        if item["url"] in fetched:  # An interim report that is also the results release.
+            same = fetched[item["url"]]
+            record.append({**item, **{k: same[k] for k in same if k not in item}})
+            continue
         raw = get(item["url"])
         period = item["report_date"] or item["filing_date"]
         name = f"{item['form']}_{period}_{item['url'].rsplit('/', 1)[1]}"
@@ -433,6 +451,7 @@ def fetch_pack(get: Get, pack: dict[str, Any], folder: Path) -> list[dict[str, A
             entry["visible_text_chars"] = visible_text_chars(raw)
             entry["image_only"] = entry["visible_text_chars"] < MIN_DECK_TEXT
         record.append(entry)
+        fetched[item["url"]] = entry
     retrieval = {"retrieved": date.today().isoformat(), "pack": pack, "files": record}
     # The launcher ignores "_" names, so the record is never pinned as issuer evidence.
     (folder / "_retrieval.json").write_text(json.dumps(retrieval, indent=2) + "\n")
