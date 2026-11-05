@@ -1,0 +1,145 @@
+{
+  "retrieved": "2026-11-05",
+  "pack": {
+    "cik": "89089",
+    "annual": [
+      {
+        "form": "10-K",
+        "filing_date": "2026-02-12",
+        "report_date": "2025-12-31",
+        "accession": "0001628280-26-007695",
+        "url": "https://www.sec.gov/Archives/edgar/data/89089/000162828026007695/sci-20251231.htm"
+      }
+    ],
+    "quarterly": [
+      {
+        "form": "10-Q",
+        "filing_date": "2026-10-29",
+        "report_date": "2026-09-30",
+        "accession": "0000089089-26-000098",
+        "url": "https://www.sec.gov/Archives/edgar/data/89089/000008908926000098/sci-20260930.htm"
+      },
+      {
+        "form": "10-Q",
+        "filing_date": "2026-07-30",
+        "report_date": "2026-06-30",
+        "accession": "0000089089-26-000081",
+        "url": "https://www.sec.gov/Archives/edgar/data/89089/000008908926000081/sci-20260630.htm"
+      },
+      {
+        "form": "10-Q",
+        "filing_date": "2026-04-30",
+        "report_date": "2026-03-31",
+        "accession": "0000089089-26-000034",
+        "url": "https://www.sec.gov/Archives/edgar/data/89089/000008908926000034/sci-20260331.htm"
+      }
+    ],
+    "presentations": [],
+    "releases_instead_of_presentations": [
+      {
+        "form": "EX-99.1",
+        "filing_date": "2026-10-28",
+        "report_date": "2026-10-28",
+        "accession": "0000089089-26-000094",
+        "url": "https://www.sec.gov/Archives/edgar/data/89089/000008908926000094/exhibit991q326earningsrele.htm",
+        "period": "2026-09-30"
+      },
+      {
+        "form": "EX-99.1",
+        "filing_date": "2026-07-29",
+        "report_date": "2026-07-29",
+        "accession": "0000089089-26-000076",
+        "url": "https://www.sec.gov/Archives/edgar/data/89089/000008908926000076/exhibit991q226earningsrele.htm",
+        "period": "2026-06-30"
+      },
+      {
+        "form": "EX-99.1",
+        "filing_date": "2026-04-29",
+        "report_date": "2026-04-29",
+        "accession": "0000089089-26-000031",
+        "url": "https://www.sec.gov/Archives/edgar/data/89089/000008908926000031/exhibit991q126earningsrele.htm",
+        "period": "2026-03-31"
+      }
+    ],
+    "files_10k": true,
+    "complete": false,
+    "complete_with_releases": true,
+    "gaps": [
+      "3 of 3 quarters have a release, not a presentation, on EDGAR"
+    ]
+  },
+  "files": [
+    {
+      "form": "10-K",
+      "filing_date": "2026-02-12",
+      "report_date": "2025-12-31",
+      "accession": "0001628280-26-007695",
+      "url": "https://www.sec.gov/Archives/edgar/data/89089/000162828026007695/sci-20251231.htm",
+      "file": "10-K_2025-12-31_sci-20251231.htm",
+      "sha256": "dff8ddd8970480036d878b11a30bc30268fe9b12b77230f1504b5a4ed7150371"
+    },
+    {
+      "form": "10-Q",
+      "filing_date": "2026-10-29",
+      "report_date": "2026-09-30",
+      "accession": "0000089089-26-000098",
+      "url": "https://www.sec.gov/Archives/edgar/data/89089/000008908926000098/sci-20260930.htm",
+      "file": "10-Q_2026-09-30_sci-20260930.htm",
+      "sha256": "afb5e61d9de50f94df9c5955d1959b9b31ea918fae9295a055d39e4d63cc1b43"
+    },
+    {
+      "form": "10-Q",
+      "filing_date": "2026-07-30",
+      "report_date": "2026-06-30",
+      "accession": "0000089089-26-000081",
+      "url": "https://www.sec.gov/Archives/edgar/data/89089/000008908926000081/sci-20260630.htm",
+      "file": "10-Q_2026-06-30_sci-20260630.htm",
+      "sha256": "ab083f26810899fbe63697aae82f5366a3398dbb698ffed09364a2626ca81417"
+    },
+    {
+      "form": "10-Q",
+      "filing_date": "2026-04-30",
+      "report_date": "2026-03-31",
+      "accession": "0000089089-26-000034",
+      "url": "https://www.sec.gov/Archives/edgar/data/89089/000008908926000034/sci-20260331.htm",
+      "file": "10-Q_2026-03-31_sci-20260331.htm",
+      "sha256": "be9c45a7c6e680049e9a02ea52e7ecd1bae21fd2218bfe80ebfe9a482856834e"
+    },
+    {
+      "form": "EX-99.1",
+      "filing_date": "2026-10-28",
+      "report_date": "2026-10-28",
+      "accession": "0000089089-26-000094",
+      "url": "https://www.sec.gov/Archives/edgar/data/89089/000008908926000094/exhibit991q326earningsrele.htm",
+      "period": "2026-09-30",
+      "file": "EX-99.1_2026-10-28_exhibit991q326earningsrele.htm",
+      "sha256": "2dcdea37569b61d18387fa28c0b2cfe359b1d68d62fd8c0ed8b6d2bece93ec2c",
+      "visible_text_chars": 40434,
+      "image_only": false
+    },
+    {
+      "form": "EX-99.1",
+      "filing_date": "2026-07-29",
+      "report_date": "2026-07-29",
+      "accession": "0000089089-26-000076",
+      "url": "https://www.sec.gov/Archives/edgar/data/89089/000008908926000076/exhibit991q226earningsrele.htm",
+      "period": "2026-06-30",
+      "file": "EX-99.1_2026-07-29_exhibit991q226earningsrele.htm",
+      "sha256": "f7433fb71e3b30d710070ffd838af4be58e69c2b50dffa7cebb371e64f7f6ed6",
+      "visible_text_chars": 39691,
+      "image_only": false
+    },
+    {
+      "form": "EX-99.1",
+      "filing_date": "2026-04-29",
+      "report_date": "2026-04-29",
+      "accession": "0000089089-26-000031",
+      "url": "https://www.sec.gov/Archives/edgar/data/89089/000008908926000031/exhibit991q126earningsrele.htm",
+      "period": "2026-03-31",
+      "file": "EX-99.1_2026-04-29_exhibit991q126earningsrele.htm",
+      "sha256": "8640a6aba254bcbd11199d69d61a42243a3741bacef0d0d5768da65b6f36e5d6",
+      "visible_text_chars": 34431,
+      "image_only": false
+    }
+  ]
+}

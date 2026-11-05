@@ -1,0 +1,145 @@
+{
+  "retrieved": "2026-11-05",
+  "pack": {
+    "cik": "913142",
+    "annual": [
+      {
+        "form": "10-K",
+        "filing_date": "2026-02-17",
+        "report_date": "2025-12-31",
+        "accession": "0000913142-26-000009",
+        "url": "https://www.sec.gov/Archives/edgar/data/913142/000091314226000009/bdc-20251231.htm"
+      }
+    ],
+    "quarterly": [
+      {
+        "form": "10-Q",
+        "filing_date": "2026-10-29",
+        "report_date": "2026-09-27",
+        "accession": "0000913142-26-000042",
+        "url": "https://www.sec.gov/Archives/edgar/data/913142/000091314226000042/bdc-20260927.htm"
+      },
+      {
+        "form": "10-Q",
+        "filing_date": "2026-07-30",
+        "report_date": "2026-06-28",
+        "accession": "0000913142-26-000034",
+        "url": "https://www.sec.gov/Archives/edgar/data/913142/000091314226000034/bdc-20260628.htm"
+      },
+      {
+        "form": "10-Q",
+        "filing_date": "2026-04-30",
+        "report_date": "2026-03-29",
+        "accession": "0000913142-26-000023",
+        "url": "https://www.sec.gov/Archives/edgar/data/913142/000091314226000023/bdc-20260329.htm"
+      }
+    ],
+    "presentations": [],
+    "releases_instead_of_presentations": [
+      {
+        "form": "EX-99.1",
+        "filing_date": "2026-10-29",
+        "report_date": "2026-10-29",
+        "accession": "0000913142-26-000039",
+        "url": "https://www.sec.gov/Archives/edgar/data/913142/000091314226000039/companynewsreleasedatedoct.htm",
+        "period": "2026-09-27"
+      },
+      {
+        "form": "EX-99.1",
+        "filing_date": "2026-07-30",
+        "report_date": "2026-07-30",
+        "accession": "0000913142-26-000031",
+        "url": "https://www.sec.gov/Archives/edgar/data/913142/000091314226000031/companynewsreleasedatedjul.htm",
+        "period": "2026-06-28"
+      },
+      {
+        "form": "EX-99.1",
+        "filing_date": "2026-04-30",
+        "report_date": "2026-04-30",
+        "accession": "0000913142-26-000021",
+        "url": "https://www.sec.gov/Archives/edgar/data/913142/000091314226000021/companynewsreleasedatedmar.htm",
+        "period": "2026-03-29"
+      }
+    ],
+    "files_10k": true,
+    "complete": false,
+    "complete_with_releases": true,
+    "gaps": [
+      "3 of 3 quarters have a release, not a presentation, on EDGAR"
+    ]
+  },
+  "files": [
+    {
+      "form": "10-K",
+      "filing_date": "2026-02-17",
+      "report_date": "2025-12-31",
+      "accession": "0000913142-26-000009",
+      "url": "https://www.sec.gov/Archives/edgar/data/913142/000091314226000009/bdc-20251231.htm",
+      "file": "10-K_2025-12-31_bdc-20251231.htm",
+      "sha256": "e550fe93a7a776ef09c8ed828eb139b74699902994b942e89b3abe41d9d9bb1f"
+    },
+    {
+      "form": "10-Q",
+      "filing_date": "2026-10-29",
+      "report_date": "2026-09-27",
+      "accession": "0000913142-26-000042",
+      "url": "https://www.sec.gov/Archives/edgar/data/913142/000091314226000042/bdc-20260927.htm",
+      "file": "10-Q_2026-09-27_bdc-20260927.htm",
+      "sha256": "0abfde164cc289838f1acada4a937ecb6c8c39a6f7a71b85d346b3feae42be83"
+    },
+    {
+      "form": "10-Q",
+      "filing_date": "2026-07-30",
+      "report_date": "2026-06-28",
+      "accession": "0000913142-26-000034",
+      "url": "https://www.sec.gov/Archives/edgar/data/913142/000091314226000034/bdc-20260628.htm",
+      "file": "10-Q_2026-06-28_bdc-20260628.htm",
+      "sha256": "f55815cc9a1224058ad2a10a2b6c00201c3eda9d5e593e6d4439a4003e9d2796"
+    },
+    {
+      "form": "10-Q",
+      "filing_date": "2026-04-30",
+      "report_date": "2026-03-29",
+      "accession": "0000913142-26-000023",
+      "url": "https://www.sec.gov/Archives/edgar/data/913142/000091314226000023/bdc-20260329.htm",
+      "file": "10-Q_2026-03-29_bdc-20260329.htm",
+      "sha256": "ab4b08797b8999f3913ea6b01a3f2ef5c14d758bea8b2a7e516711a6f3625c53"
+    },
+    {
+      "form": "EX-99.1",
+      "filing_date": "2026-10-29",
+      "report_date": "2026-10-29",
+      "accession": "0000913142-26-000039",
+      "url": "https://www.sec.gov/Archives/edgar/data/913142/000091314226000039/companynewsreleasedatedoct.htm",
+      "period": "2026-09-27",
+      "file": "EX-99.1_2026-10-29_companynewsreleasedatedoct.htm",
+      "sha256": "d7daafa425147f6b4de2a344cdda06fbd394fbbb7d91e2d42f70ebbd05c295c3",
+      "visible_text_chars": 23017,
+      "image_only": false
+    },
+    {
+      "form": "EX-99.1",
+      "filing_date": "2026-07-30",
+      "report_date": "2026-07-30",
+      "accession": "0000913142-26-000031",
+      "url": "https://www.sec.gov/Archives/edgar/data/913142/000091314226000031/companynewsreleasedatedjul.htm",
+      "period": "2026-06-28",
+      "file": "EX-99.1_2026-07-30_companynewsreleasedatedjul.htm",
+      "sha256": "b47a7734732ec40f64a1299ecdde165b3f2c4cba55bd074522779e09c9fce05d",
+      "visible_text_chars": 21850,
+      "image_only": false
+    },
+    {
+      "form": "EX-99.1",
+      "filing_date": "2026-04-30",
+      "report_date": "2026-04-30",
+      "accession": "0000913142-26-000021",
+      "url": "https://www.sec.gov/Archives/edgar/data/913142/000091314226000021/companynewsreleasedatedmar.htm",
+      "period": "2026-03-29",
+      "file": "EX-99.1_2026-04-30_companynewsreleasedatedmar.htm",
+      "sha256": "f77ddc6358e47308eaaa19c70a829362be39ec81e4de52f5a578fa7f77c23fbb",
+      "visible_text_chars": 20213,
+      "image_only": false
+    }
+  ]
+}

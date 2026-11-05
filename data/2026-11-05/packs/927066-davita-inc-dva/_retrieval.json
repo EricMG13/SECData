@@ -1,0 +1,145 @@
+{
+  "retrieved": "2026-11-05",
+  "pack": {
+    "cik": "927066",
+    "annual": [
+      {
+        "form": "10-K",
+        "filing_date": "2026-02-11",
+        "report_date": "2025-12-31",
+        "accession": "0000927066-26-000012",
+        "url": "https://www.sec.gov/Archives/edgar/data/927066/000092706626000012/dva-20251231.htm"
+      }
+    ],
+    "quarterly": [
+      {
+        "form": "10-Q",
+        "filing_date": "2026-10-29",
+        "report_date": "2026-09-30",
+        "accession": "0000927066-26-000134",
+        "url": "https://www.sec.gov/Archives/edgar/data/927066/000092706626000134/dva-20260930.htm"
+      },
+      {
+        "form": "10-Q",
+        "filing_date": "2026-08-04",
+        "report_date": "2026-06-30",
+        "accession": "0000927066-26-000108",
+        "url": "https://www.sec.gov/Archives/edgar/data/927066/000092706626000108/dva-20260630.htm"
+      },
+      {
+        "form": "10-Q",
+        "filing_date": "2026-05-05",
+        "report_date": "2026-03-31",
+        "accession": "0000927066-26-000062",
+        "url": "https://www.sec.gov/Archives/edgar/data/927066/000092706626000062/dva-20260331.htm"
+      }
+    ],
+    "presentations": [],
+    "releases_instead_of_presentations": [
+      {
+        "form": "EX-99.1",
+        "filing_date": "2026-10-29",
+        "report_date": "2026-10-29",
+        "accession": "0000927066-26-000132",
+        "url": "https://www.sec.gov/Archives/edgar/data/927066/000092706626000132/dva93026ex991.htm",
+        "period": "2026-09-30"
+      },
+      {
+        "form": "EX-99.1",
+        "filing_date": "2026-08-04",
+        "report_date": "2026-08-04",
+        "accession": "0000927066-26-000105",
+        "url": "https://www.sec.gov/Archives/edgar/data/927066/000092706626000105/dva63026ex991.htm",
+        "period": "2026-06-30"
+      },
+      {
+        "form": "EX-99.1",
+        "filing_date": "2026-05-05",
+        "report_date": "2026-05-05",
+        "accession": "0000927066-26-000060",
+        "url": "https://www.sec.gov/Archives/edgar/data/927066/000092706626000060/dva33126ex991.htm",
+        "period": "2026-03-31"
+      }
+    ],
+    "files_10k": true,
+    "complete": false,
+    "complete_with_releases": true,
+    "gaps": [
+      "3 of 3 quarters have a release, not a presentation, on EDGAR"
+    ]
+  },
+  "files": [
+    {
+      "form": "10-K",
+      "filing_date": "2026-02-11",
+      "report_date": "2025-12-31",
+      "accession": "0000927066-26-000012",
+      "url": "https://www.sec.gov/Archives/edgar/data/927066/000092706626000012/dva-20251231.htm",
+      "file": "10-K_2025-12-31_dva-20251231.htm",
+      "sha256": "ed3f58bb6b1c21a69b0c1dd09e20571dc98aa5594c46bf62ffc8bacd6546c869"
+    },
+    {
+      "form": "10-Q",
+      "filing_date": "2026-10-29",
+      "report_date": "2026-09-30",
+      "accession": "0000927066-26-000134",
+      "url": "https://www.sec.gov/Archives/edgar/data/927066/000092706626000134/dva-20260930.htm",
+      "file": "10-Q_2026-09-30_dva-20260930.htm",
+      "sha256": "76f235e559d7a5a35e7881ed5f2236f19906d480a8b4e4214c04000db9d3f7ad"
+    },
+    {
+      "form": "10-Q",
+      "filing_date": "2026-08-04",
+      "report_date": "2026-06-30",
+      "accession": "0000927066-26-000108",
+      "url": "https://www.sec.gov/Archives/edgar/data/927066/000092706626000108/dva-20260630.htm",
+      "file": "10-Q_2026-06-30_dva-20260630.htm",
+      "sha256": "ed7c626f4c7340472e74b0c1f3e4abe11b88d293f28ba411015ebe05c90701e7"
+    },
+    {
+      "form": "10-Q",
+      "filing_date": "2026-05-05",
+      "report_date": "2026-03-31",
+      "accession": "0000927066-26-000062",
+      "url": "https://www.sec.gov/Archives/edgar/data/927066/000092706626000062/dva-20260331.htm",
+      "file": "10-Q_2026-03-31_dva-20260331.htm",
+      "sha256": "aeda06df5f6a96b9001c4d148cf37f498939fe81a3932a35815d8ec50750e155"
+    },
+    {
+      "form": "EX-99.1",
+      "filing_date": "2026-10-29",
+      "report_date": "2026-10-29",
+      "accession": "0000927066-26-000132",
+      "url": "https://www.sec.gov/Archives/edgar/data/927066/000092706626000132/dva93026ex991.htm",
+      "period": "2026-09-30",
+      "file": "EX-99.1_2026-10-29_dva93026ex991.htm",
+      "sha256": "14a0abb36549282aeda0d26a1d85687e7ab1fb594a1656f0b98c78b1c883780e",
+      "visible_text_chars": 48104,
+      "image_only": false
+    },
+    {
+      "form": "EX-99.1",
+      "filing_date": "2026-08-04",
+      "report_date": "2026-08-04",
+      "accession": "0000927066-26-000105",
+      "url": "https://www.sec.gov/Archives/edgar/data/927066/000092706626000105/dva63026ex991.htm",
+      "period": "2026-06-30",
+      "file": "EX-99.1_2026-08-04_dva63026ex991.htm",
+      "sha256": "0d40de329733799e9fad58fd0778f73c7c2ed46e818d3e548ad613a99bcff120",
+      "visible_text_chars": 45290,
+      "image_only": false
+    },
+    {
+      "form": "EX-99.1",
+      "filing_date": "2026-05-05",
+      "report_date": "2026-05-05",
+      "accession": "0000927066-26-000060",
+      "url": "https://www.sec.gov/Archives/edgar/data/927066/000092706626000060/dva33126ex991.htm",
+      "period": "2026-03-31",
+      "file": "EX-99.1_2026-05-05_dva33126ex991.htm",
+      "sha256": "8bdfc9f147cba49647644a0dffb30534437aece351f860be51e41999be7a1037",
+      "visible_text_chars": 46143,
+      "image_only": false
+    }
+  ]
+}
