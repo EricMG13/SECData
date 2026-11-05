@@ -68,6 +68,10 @@ DECK_TEXT = re.compile(
 NOT_RESULTS = re.compile(
     r"certification of interim filings|52-109F|pro forma condensed", re.IGNORECASE
 )
+# A report on a full year is the annual report's, not an interim report, unless it names a part.
+ANNUAL = re.compile(r"years? ended|annual[ _-]?(report|financial|management)", re.IGNORECASE)
+PART_YEAR = re.compile(r"(three|six|nine) months|quarter|half[- ]year|interim", re.IGNORECASE)
+EXHIBIT_TITLE = 400  # An exhibit's title is near its start; later text cites other reports.
 EVENT_GAP = timedelta(days=45)  # Two quarters' results are at least this far apart.
 
 
@@ -398,8 +402,9 @@ def foreign_pack(
 def roles(description: str, document: str, text: str, whole: bool) -> list[str]:
     """What a 6-K document is to a results event: "deck", "interim" (report) or "release". An
     exhibit has one role, except that an interim report announcing its results is also the
-    release. A 6-K's own document often holds the release, deck and statements together, so it
-    takes every role it matches."""
+    release; it is an interim report only if its title says so, since releases and circulars
+    cite the MD&A further down. A 6-K's own document often holds the release, deck and
+    statements together, so it takes every role it matches."""
     start = text.find("Form 40-F") if whole else 0  # A 6-K cover ends with this check box.
     # Titles and contents lists come first; later text cites other reports in boilerplate.
     opening = text[max(start, 0) :][:1500]
@@ -407,8 +412,16 @@ def roles(description: str, document: str, text: str, whole: bool) -> list[str]:
         return []
     named = f"{description} {document}"
     deck = bool(PRESENTATION.search(named) or DECK_TEXT.search(opening))
-    interim = bool(INTERIM.search(f"{named} {opening}"))
-    release = bool(RESULTS.search(f"{named} {opening}"))
+    title = f"{named} {opening if whole else opening[:EXHIBIT_TITLE]}"
+    full_year = bool(ANNUAL.search(title)) and not PART_YEAR.search(title)
+    report = INTERIM.search(title)
+    results = RESULTS.search(f"{named} {opening}")
+    interim = bool(report) and not full_year
+    # A release headed with its results that then cites "the interim financial statements" is
+    # not the report; one that calls itself the interim report is both.
+    if report and results and not whole and results.start() < report.start():
+        interim = interim and "report" in report.group(0).lower()
+    release = bool(results)
     if whole:
         return [k for k, hit in (("deck", deck), ("interim", interim), ("release", release)) if hit]
     if deck:

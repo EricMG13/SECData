@@ -245,10 +245,38 @@ COVER = "FORM 6-K Indicate by check mark ... Form 20-F x Form 40-F . "
             ["release"],
         ),
         (False, "Unaudited pro forma condensed combined financial information", []),
+        # Modelled on Skeena's and Hudbay's exhibits: a release that cites the MD&A further down,
+        # and an annual MD&A.
+        (
+            False,
+            "Example Reports Fourth Quarter and Annual 2025 Financial Results. "
+            + "x " * 250
+            + "Read this with the Management's Discussion and Analysis for the year.",
+            ["release"],
+        ),
+        (
+            False,
+            "Management's Discussion and Analysis of Results For the year ended December 31, 2025",
+            [],
+        ),
+        (
+            False,
+            "Management's Discussion and Analysis For the Quarter Ended September 27, 2026",
+            ["interim"],
+        ),
+        # Modelled on Skeena's releases and Methanex's annual report.
+        (
+            False,
+            "Example Reports Q2 2026 Financial Results. The interim financial statements and MD&A "
+            + "are available on the company's website.",
+            ["release"],
+        ),
+        (False, "TABLE OF CONTENTS 6 Management's Discussion and Analysis 50 Statements", []),
     ],
 )
 def test_6k_document_roles(whole, text, expected):
-    assert roles("6-K" if whole else "EX-99.1", "doc.htm", text, whole) == expected
+    document = "a2025annualreport.htm" if text.startswith("TABLE") else "doc.htm"
+    assert roles("6-K" if whole else "EX-99.1", document, text, whole) == expected
 
 
 def test_blank_user_agent_is_refused():
