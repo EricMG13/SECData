@@ -1,0 +1,7 @@
+{
+ "https://efts.sec.gov/LATEST/search-index?keysTyped=american%20airlines": "aal-search-index_keysTyped_american_airlines",
+ "https://data.sec.gov/submissions/CIK0000004515.json": "aal-CIK0000004515.json",
+ "https://www.sec.gov/Archives/edgar/data/4515/000000620126000064/0000006201-26-000064-index.htm": "aal-0000006201-26-000064-index.htm",
+ "https://www.sec.gov/Archives/edgar/data/4515/000000620126000051/0000006201-26-000051-index.htm": "aal-0000006201-26-000051-index.htm",
+ "https://www.sec.gov/Archives/edgar/data/4515/000000620126000031/0000006201-26-000031-index.htm": "aal-0000006201-26-000031-index.htm"
+}
