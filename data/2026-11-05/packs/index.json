@@ -50,6 +50,30 @@
     "image_only_decks": 0
   },
   {
+    "cik": "1619762",
+    "entity": "Brightstar Lottery PLC (BRSL)",
+    "folder": "1619762-brightstar-lottery-plc-brsl",
+    "kinds": [
+      "bond"
+    ],
+    "documents": 7,
+    "presentations": 3,
+    "releases": 0,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "1610520",
+    "entity": "UBS Group AG (UBS)",
+    "folder": "1610520-ubs-group-ag-ubs",
+    "kinds": [
+      "bond"
+    ],
+    "documents": 7,
+    "presentations": 3,
+    "releases": 0,
+    "image_only_decks": 0
+  },
+  {
     "cik": "1590895",
     "entity": "Caesars Entertainment, Inc. (CZR)",
     "folder": "1590895-caesars-entertainment-inc-czr",
@@ -1213,6 +1237,198 @@
     "cik": "1101302",
     "entity": "ENTEGRIS INC (ENTG)",
     "folder": "1101302-entegris-inc-entg",
+    "kinds": [
+      "bond"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "1780232",
+    "entity": "GFL Environmental Inc. (GFL)",
+    "folder": "1780232-gfl-environmental-inc-gfl",
+    "kinds": [
+      "bond"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "868675",
+    "entity": "TELUS CORP (TU)",
+    "folder": "868675-telus-corp-tu",
+    "kinds": [
+      "bond"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "1434265",
+    "entity": "GENMAB A/S (GMAB, GNMSF)",
+    "folder": "1434265-genmab-a-s-gmab-gnmsf",
+    "kinds": [
+      "bond"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "1603923",
+    "entity": "Weatherford International plc (WFRD)",
+    "folder": "1603923-weatherford-international-plc-wfrd",
+    "kinds": [
+      "bond"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "314808",
+    "entity": "Valaris Ltd (VAL, VAL-WT)",
+    "folder": "314808-valaris-ltd-val-val-wt",
+    "kinds": [
+      "bond"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "1563411",
+    "entity": "CONSTELLIUM SE (CSTM)",
+    "folder": "1563411-constellium-se-cstm",
+    "kinds": [
+      "bond"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "1262976",
+    "entity": "CIMPRESS plc (CMPR)",
+    "folder": "1262976-cimpress-plc-cmpr",
+    "kinds": [
+      "bond"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 3
+  },
+  {
+    "cik": "815097",
+    "entity": "Carnival Corp Ltd. (CCL)",
+    "folder": "815097-carnival-corp-ltd-ccl",
+    "kinds": [
+      "bond"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "1713748",
+    "entity": "Skeena Resources Ltd (SKE)",
+    "folder": "1713748-skeena-resources-ltd-ske",
+    "kinds": [
+      "bond"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "912958",
+    "entity": "MILLICOM INTERNATIONAL CELLULAR SA (TIGO, MLCMF)",
+    "folder": "912958-millicom-international-cellular-sa-tigo",
+    "kinds": [
+      "bond"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "1144800",
+    "entity": "TRANSALTA CORP (TAC, TSLTF, TRNTF, TACPF)",
+    "folder": "1144800-transalta-corp-tac-tsltf-trntf-tacpf",
+    "kinds": [
+      "bond"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "1322422",
+    "entity": "Hudbay Minerals Inc. (HBM)",
+    "folder": "1322422-hudbay-minerals-inc-hbm",
+    "kinds": [
+      "bond"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "918608",
+    "entity": "ELDORADO GOLD CORP /FI (EGO)",
+    "folder": "918608-eldorado-gold-corp-fi-ego",
+    "kinds": [
+      "bond"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "1013605",
+    "entity": "PRECISION DRILLING Corp (PDS)",
+    "folder": "1013605-precision-drilling-corp-pds",
+    "kinds": [
+      "bond"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "1394832",
+    "entity": "ATS Corp /ATS (ATS)",
+    "folder": "1394832-ats-corp-ats-ats",
+    "kinds": [
+      "bond"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "1279495",
+    "entity": "BAYTEX ENERGY CORP. (BTE)",
+    "folder": "1279495-baytex-energy-corp-bte",
     "kinds": [
       "bond"
     ],
