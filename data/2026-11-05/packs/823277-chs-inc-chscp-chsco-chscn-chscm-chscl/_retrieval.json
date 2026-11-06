@@ -1,0 +1,145 @@
+{
+  "retrieved": "2026-11-05",
+  "pack": {
+    "cik": "823277",
+    "annual": [
+      {
+        "form": "10-K",
+        "filing_date": "2026-11-04",
+        "report_date": "2026-08-31",
+        "accession": "0000823277-26-000039",
+        "url": "https://www.sec.gov/Archives/edgar/data/823277/000082327726000039/chscp-20260831.htm"
+      }
+    ],
+    "quarterly": [
+      {
+        "form": "10-Q",
+        "filing_date": "2026-07-08",
+        "report_date": "2026-05-31",
+        "accession": "0000823277-26-000023",
+        "url": "https://www.sec.gov/Archives/edgar/data/823277/000082327726000023/chscp-20260531.htm"
+      },
+      {
+        "form": "10-Q",
+        "filing_date": "2026-04-08",
+        "report_date": "2026-02-28",
+        "accession": "0000823277-26-000016",
+        "url": "https://www.sec.gov/Archives/edgar/data/823277/000082327726000016/chscp-20260228.htm"
+      },
+      {
+        "form": "10-Q",
+        "filing_date": "2026-01-07",
+        "report_date": "2025-11-30",
+        "accession": "0000823277-26-000006",
+        "url": "https://www.sec.gov/Archives/edgar/data/823277/000082327726000006/chscp-20251130.htm"
+      }
+    ],
+    "presentations": [],
+    "releases_instead_of_presentations": [
+      {
+        "form": "EX-99.1",
+        "filing_date": "2026-11-04",
+        "report_date": "2026-11-04",
+        "accession": "0000823277-26-000040",
+        "url": "https://www.sec.gov/Archives/edgar/data/823277/000082327726000040/a4qfy26earningrelease.htm",
+        "period": "2026-08-31"
+      },
+      {
+        "form": "EX-99.1",
+        "filing_date": "2026-07-08",
+        "report_date": "2026-07-08",
+        "accession": "0000823277-26-000025",
+        "url": "https://www.sec.gov/Archives/edgar/data/823277/000082327726000025/a3qfy26earningrelease.htm",
+        "period": "2026-05-31"
+      },
+      {
+        "form": "EX-99.1",
+        "filing_date": "2026-04-08",
+        "report_date": "2026-04-08",
+        "accession": "0000823277-26-000017",
+        "url": "https://www.sec.gov/Archives/edgar/data/823277/000082327726000017/a2qfy26earningrelease.htm",
+        "period": "2026-02-28"
+      }
+    ],
+    "files_10k": true,
+    "complete": false,
+    "complete_with_releases": true,
+    "gaps": [
+      "3 of 3 quarters have a release, not a presentation, on EDGAR"
+    ]
+  },
+  "files": [
+    {
+      "form": "10-K",
+      "filing_date": "2026-11-04",
+      "report_date": "2026-08-31",
+      "accession": "0000823277-26-000039",
+      "url": "https://www.sec.gov/Archives/edgar/data/823277/000082327726000039/chscp-20260831.htm",
+      "file": "10-K_2026-08-31_chscp-20260831.htm",
+      "sha256": "b057a761d8468d33b9289cff601ef9f051f64ae6e857539ca700dd5072a94621"
+    },
+    {
+      "form": "10-Q",
+      "filing_date": "2026-07-08",
+      "report_date": "2026-05-31",
+      "accession": "0000823277-26-000023",
+      "url": "https://www.sec.gov/Archives/edgar/data/823277/000082327726000023/chscp-20260531.htm",
+      "file": "10-Q_2026-05-31_chscp-20260531.htm",
+      "sha256": "e88b4da618c4e57ae4c555015b1696ba2b9a3ff34e37d9515b33b6b253016e50"
+    },
+    {
+      "form": "10-Q",
+      "filing_date": "2026-04-08",
+      "report_date": "2026-02-28",
+      "accession": "0000823277-26-000016",
+      "url": "https://www.sec.gov/Archives/edgar/data/823277/000082327726000016/chscp-20260228.htm",
+      "file": "10-Q_2026-02-28_chscp-20260228.htm",
+      "sha256": "cd16dc11a193fedfbc7c32d5389a6e32aac39f769d9f25855c15b06200ebcaa1"
+    },
+    {
+      "form": "10-Q",
+      "filing_date": "2026-01-07",
+      "report_date": "2025-11-30",
+      "accession": "0000823277-26-000006",
+      "url": "https://www.sec.gov/Archives/edgar/data/823277/000082327726000006/chscp-20251130.htm",
+      "file": "10-Q_2025-11-30_chscp-20251130.htm",
+      "sha256": "89e0037a0efc18355ca90ae80d4f79cfc6acdf5eb48d238983074162b02d3bfb"
+    },
+    {
+      "form": "EX-99.1",
+      "filing_date": "2026-11-04",
+      "report_date": "2026-11-04",
+      "accession": "0000823277-26-000040",
+      "url": "https://www.sec.gov/Archives/edgar/data/823277/000082327726000040/a4qfy26earningrelease.htm",
+      "period": "2026-08-31",
+      "file": "EX-99.1_2026-11-04_a4qfy26earningrelease.htm",
+      "sha256": "fcebbd07671b195d579c1a4780a29ef729a2537c5fe7c7c13ad768bedab3fe50",
+      "visible_text_chars": 11087,
+      "image_only": false
+    },
+    {
+      "form": "EX-99.1",
+      "filing_date": "2026-07-08",
+      "report_date": "2026-07-08",
+      "accession": "0000823277-26-000025",
+      "url": "https://www.sec.gov/Archives/edgar/data/823277/000082327726000025/a3qfy26earningrelease.htm",
+      "period": "2026-05-31",
+      "file": "EX-99.1_2026-07-08_a3qfy26earningrelease.htm",
+      "sha256": "915851e5eda4ff3b438db93e74d5efd38408a2e63186b6b3067553273ca6f5b4",
+      "visible_text_chars": 9792,
+      "image_only": false
+    },
+    {
+      "form": "EX-99.1",
+      "filing_date": "2026-04-08",
+      "report_date": "2026-04-08",
+      "accession": "0000823277-26-000017",
+      "url": "https://www.sec.gov/Archives/edgar/data/823277/000082327726000017/a2qfy26earningrelease.htm",
+      "period": "2026-02-28",
+      "file": "EX-99.1_2026-04-08_a2qfy26earningrelease.htm",
+      "sha256": "bf3db759b42fa8e514519ca3ae608bfcdd49e51cfc56dd047a566f4f145c528c",
+      "visible_text_chars": 9351,
+      "image_only": false
+    }
+  ]
+}

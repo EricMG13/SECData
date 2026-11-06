@@ -1,0 +1,1440 @@
+[
+  {
+    "cik": "4515",
+    "entity": "AMERICAN AIRLINES, INC.",
+    "folder": "4515-american-airlines-inc",
+    "kinds": [
+      "bond",
+      "loan"
+    ],
+    "documents": 7,
+    "presentations": 3,
+    "releases": 0,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "67215",
+    "entity": "DYCOM INDUSTRIES INC (DY)",
+    "folder": "67215-dycom-industries-inc-dy",
+    "kinds": [
+      "bond",
+      "loan"
+    ],
+    "documents": 7,
+    "presentations": 3,
+    "releases": 0,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "1395942",
+    "entity": "OPENLANE, Inc. (OPLN)",
+    "folder": "1395942-openlane-inc-opln",
+    "kinds": [
+      "loan"
+    ],
+    "documents": 7,
+    "presentations": 3,
+    "releases": 0,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "785161",
+    "entity": "Encompass Health Corp (EHC)",
+    "folder": "785161-encompass-health-corp-ehc",
+    "kinds": [
+      "bond"
+    ],
+    "documents": 7,
+    "presentations": 3,
+    "releases": 0,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "1619762",
+    "entity": "Brightstar Lottery PLC (BRSL)",
+    "folder": "1619762-brightstar-lottery-plc-brsl",
+    "kinds": [
+      "bond"
+    ],
+    "documents": 7,
+    "presentations": 3,
+    "releases": 0,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "1610520",
+    "entity": "UBS Group AG (UBS)",
+    "folder": "1610520-ubs-group-ag-ubs",
+    "kinds": [
+      "bond"
+    ],
+    "documents": 7,
+    "presentations": 3,
+    "releases": 0,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "1590895",
+    "entity": "Caesars Entertainment, Inc. (CZR)",
+    "folder": "1590895-caesars-entertainment-inc-czr",
+    "kinds": [
+      "bond",
+      "loan"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "1236275",
+    "entity": "QXO, Inc. (QXO, QXO-PB)",
+    "folder": "1236275-qxo-inc-qxo-qxo-pb",
+    "kinds": [
+      "bond",
+      "loan"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "1627223",
+    "entity": "Chemours Co (CC)",
+    "folder": "1627223-chemours-co-cc",
+    "kinds": [
+      "bond",
+      "loan"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "43196",
+    "entity": "GRAY MEDIA, INC (GTN, GTN-A)",
+    "folder": "43196-gray-media-inc-gtn-gtn-a",
+    "kinds": [
+      "bond",
+      "loan"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "797721",
+    "entity": "VIASAT INC (VSAT)",
+    "folder": "797721-viasat-inc-vsat",
+    "kinds": [
+      "bond",
+      "loan"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "1048477",
+    "entity": "BIOMARIN PHARMACEUTICAL INC (BMRN)",
+    "folder": "1048477-biomarin-pharmaceutical-inc-bmrn",
+    "kinds": [
+      "bond",
+      "loan"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "1020569",
+    "entity": "IRON MOUNTAIN INC (IRM)",
+    "folder": "1020569-iron-mountain-inc-irm",
+    "kinds": [
+      "bond",
+      "loan"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "2058873",
+    "entity": "Qnity Electronics, Inc. (Q)",
+    "folder": "2058873-qnity-electronics-inc-q",
+    "kinds": [
+      "bond",
+      "loan"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "2042694",
+    "entity": "Primo Brands Corp (PRMB)",
+    "folder": "2042694-primo-brands-corp-prmb",
+    "kinds": [
+      "loan"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "1411207",
+    "entity": "Allison Transmission Holdings Inc (ALSN)",
+    "folder": "1411207-allison-transmission-holdings-inc-alsn",
+    "kinds": [
+      "bond",
+      "loan"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "16058",
+    "entity": "CACI INTERNATIONAL INC /DE/ (CACI)",
+    "folder": "16058-caci-international-inc-de-caci",
+    "kinds": [
+      "bond",
+      "loan"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "41719",
+    "entity": "Magnera Corp (MAGN)",
+    "folder": "41719-magnera-corp-magn",
+    "kinds": [
+      "bond",
+      "loan"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "2011286",
+    "entity": "Amentum Holdings, Inc. (AMTM)",
+    "folder": "2011286-amentum-holdings-inc-amtm",
+    "kinds": [
+      "bond",
+      "loan"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "1005229",
+    "entity": "COLUMBUS MCKINNON CORP (CMCO)",
+    "folder": "1005229-columbus-mckinnon-corp-cmco",
+    "kinds": [
+      "bond",
+      "loan"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "1796209",
+    "entity": "APi Group Corp (APG)",
+    "folder": "1796209-api-group-corp-apg",
+    "kinds": [
+      "bond",
+      "loan"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "1635327",
+    "entity": "Flutter Entertainment plc (FLUT)",
+    "folder": "1635327-flutter-entertainment-plc-flut",
+    "kinds": [
+      "loan"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "820318",
+    "entity": "COHERENT CORP. (COHR)",
+    "folder": "820318-coherent-corp-cohr",
+    "kinds": [
+      "bond",
+      "loan"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "78814",
+    "entity": "PITNEY BOWES INC /DE/ (PBI, PBI-PB)",
+    "folder": "78814-pitney-bowes-inc-de-pbi-pbi-pb",
+    "kinds": [
+      "bond",
+      "loan"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "1526520",
+    "entity": "TripAdvisor, Inc. (TRIP)",
+    "folder": "1526520-tripadvisor-inc-trip",
+    "kinds": [
+      "loan"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "1590714",
+    "entity": "Element Solutions Inc (ESI)",
+    "folder": "1590714-element-solutions-inc-esi",
+    "kinds": [
+      "bond",
+      "loan"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "1739104",
+    "entity": "Elanco Animal Health Inc (ELAN)",
+    "folder": "1739104-elanco-animal-health-inc-elan",
+    "kinds": [
+      "bond",
+      "loan"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "1000623",
+    "entity": "Mativ Holdings, Inc. (MATV)",
+    "folder": "1000623-mativ-holdings-inc-matv",
+    "kinds": [
+      "bond",
+      "loan"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "1357615",
+    "entity": "KBR, INC. (KBR)",
+    "folder": "1357615-kbr-inc-kbr",
+    "kinds": [
+      "bond",
+      "loan"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "1781755",
+    "entity": "Baldwin Insurance Group, Inc. (BWIN)",
+    "folder": "1781755-baldwin-insurance-group-inc-bwin",
+    "kinds": [
+      "loan"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "913142",
+    "entity": "BELDEN INC. (BDC)",
+    "folder": "913142-belden-inc-bdc",
+    "kinds": [
+      "loan"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "1158463",
+    "entity": "JETBLUE AIRWAYS CORP (JBLU)",
+    "folder": "1158463-jetblue-airways-corp-jblu",
+    "kinds": [
+      "loan"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "1570827",
+    "entity": "Victory Capital Holdings, Inc. (VCTR)",
+    "folder": "1570827-victory-capital-holdings-inc-vctr",
+    "kinds": [
+      "loan"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "1411579",
+    "entity": "AMC ENTERTAINMENT HOLDINGS, INC. (AMC)",
+    "folder": "1411579-amc-entertainment-holdings-inc-amc",
+    "kinds": [
+      "loan"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "1434621",
+    "entity": "LendingTree, Inc. (TREE)",
+    "folder": "1434621-lendingtree-inc-tree",
+    "kinds": [
+      "loan"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "1288469",
+    "entity": "MAXLINEAR, INC (MXL)",
+    "folder": "1288469-maxlinear-inc-mxl",
+    "kinds": [
+      "loan"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "1595974",
+    "entity": "MAGNITE, INC. (MGNI)",
+    "folder": "1595974-magnite-inc-mgni",
+    "kinds": [
+      "loan"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "1967649",
+    "entity": "Vestis Corp (VSTS)",
+    "folder": "1967649-vestis-corp-vsts",
+    "kinds": [
+      "loan"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "1465128",
+    "entity": "STARWOOD PROPERTY TRUST, INC. (STWD)",
+    "folder": "1465128-starwood-property-trust-inc-stwd",
+    "kinds": [
+      "loan"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "102752",
+    "entity": "VSE CORP (VSEC, VSECU)",
+    "folder": "102752-vse-corp-vsec-vsecu",
+    "kinds": [
+      "loan"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "1853145",
+    "entity": "EverCommerce Inc. (EVCM)",
+    "folder": "1853145-evercommerce-inc-evcm",
+    "kinds": [
+      "loan"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "1020710",
+    "entity": "DXP ENTERPRISES INC (DXPE)",
+    "folder": "1020710-dxp-enterprises-inc-dxpe",
+    "kinds": [
+      "loan"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "1032220",
+    "entity": "MAXIMUS, INC. (MMS)",
+    "folder": "1032220-maximus-inc-mms",
+    "kinds": [
+      "loan"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "1520262",
+    "entity": "Alkermes plc. (ALKS)",
+    "folder": "1520262-alkermes-plc-alks",
+    "kinds": [
+      "loan"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "1630472",
+    "entity": "TPG RE Finance Trust, Inc. (TRTX, TRTX-PC)",
+    "folder": "1630472-tpg-re-finance-trust-inc-trtx-trtx-pc",
+    "kinds": [
+      "loan"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "2040127",
+    "entity": "Karman Holdings Inc. (KRMN)",
+    "folder": "2040127-karman-holdings-inc-krmn",
+    "kinds": [
+      "loan"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "866706",
+    "entity": "ESCO TECHNOLOGIES INC (ESE)",
+    "folder": "866706-esco-technologies-inc-ese",
+    "kinds": [
+      "loan"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "1818201",
+    "entity": "CCC Intelligent Solutions Holdings Inc. (CCC)",
+    "folder": "1818201-ccc-intelligent-solutions-holdings-inc-c",
+    "kinds": [
+      "loan"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "1747079",
+    "entity": "Bally's Corp (BALY)",
+    "folder": "1747079-bally-s-corp-baly",
+    "kinds": [
+      "loan"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "1674168",
+    "entity": "Hilton Grand Vacations Inc. (HGV)",
+    "folder": "1674168-hilton-grand-vacations-inc-hgv",
+    "kinds": [
+      "bond"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "1271833",
+    "entity": "CCO HOLDINGS LLC",
+    "folder": "1271833-cco-holdings-llc",
+    "kinds": [
+      "bond"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "1071739",
+    "entity": "CENTENE CORP (CNC)",
+    "folder": "1071739-centene-corp-cnc",
+    "kinds": [
+      "bond"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "1552275",
+    "entity": "Sunoco LP (SUN)",
+    "folder": "1552275-sunoco-lp-sun",
+    "kinds": [
+      "bond"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "823277",
+    "entity": "CHS INC (CHSCP, CHSCO, CHSCN, CHSCM, CHSCL)",
+    "folder": "823277-chs-inc-chscp-chsco-chscn-chscm-chscl",
+    "kinds": [
+      "bond"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "1769628",
+    "entity": "CoreWeave, Inc. (CRWV)",
+    "folder": "1769628-coreweave-inc-crwv",
+    "kinds": [
+      "bond"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "764065",
+    "entity": "CLEVELAND-CLIFFS INC. (CLF)",
+    "folder": "764065-cleveland-cliffs-inc-clf",
+    "kinds": [
+      "bond"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "1530950",
+    "entity": "Post Holdings, Inc. (POST)",
+    "folder": "1530950-post-holdings-inc-post",
+    "kinds": [
+      "bond"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "893538",
+    "entity": "SM Energy Co (SM)",
+    "folder": "893538-sm-energy-co-sm",
+    "kinds": [
+      "bond"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "1422183",
+    "entity": "FS KKR Capital Corp (FSK)",
+    "folder": "1422183-fs-kkr-capital-corp-fsk",
+    "kinds": [
+      "bond"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "1276187",
+    "entity": "Energy Transfer LP (ET, ET-PI)",
+    "folder": "1276187-energy-transfer-lp-et-et-pi",
+    "kinds": [
+      "bond"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "1334978",
+    "entity": "Clear Channel Outdoor Holdings, Inc.",
+    "folder": "1334978-clear-channel-outdoor-holdings-inc",
+    "kinds": [
+      "bond"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "1022321",
+    "entity": "GENESIS ENERGY LP (GEL)",
+    "folder": "1022321-genesis-energy-lp-gel",
+    "kinds": [
+      "bond"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "814547",
+    "entity": "FAIR ISAAC CORP (FICO)",
+    "folder": "814547-fair-isaac-corp-fico",
+    "kinds": [
+      "bond"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "1767042",
+    "entity": "Kodiak Gas Services, Inc. (KGS)",
+    "folder": "1767042-kodiak-gas-services-inc-kgs",
+    "kinds": [
+      "bond"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "2020795",
+    "entity": "Uniti Group Inc. (UNIT)",
+    "folder": "2020795-uniti-group-inc-unit",
+    "kinds": [
+      "bond"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "20212",
+    "entity": "Churchill Downs Inc (CHDN)",
+    "folder": "20212-churchill-downs-inc-chdn",
+    "kinds": [
+      "bond"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "1163739",
+    "entity": "NABORS INDUSTRIES LTD (NBR)",
+    "folder": "1163739-nabors-industries-ltd-nbr",
+    "kinds": [
+      "bond"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "1084961",
+    "entity": "ENCORE CAPITAL GROUP INC (ECPG)",
+    "folder": "1084961-encore-capital-group-inc-ecpg",
+    "kinds": [
+      "bond"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "1566011",
+    "entity": "PBF Holding Co LLC",
+    "folder": "1566011-pbf-holding-co-llc",
+    "kinds": [
+      "bond"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "1556593",
+    "entity": "Rithm Capital Corp. (RITM, RITM-PF, RITM-PE, RITM-PD, RITM-PC, RITM-PB, RITM-PA)",
+    "folder": "1556593-rithm-capital-corp-ritm-ritm-pf-ritm-pe",
+    "kinds": [
+      "bond"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "1514991",
+    "entity": "AMC Global Media Inc. (AMCX)",
+    "folder": "1514991-amc-global-media-inc-amcx",
+    "kinds": [
+      "bond"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "1783398",
+    "entity": "UWM Holdings Corp (UWMC)",
+    "folder": "1783398-uwm-holdings-corp-uwmc",
+    "kinds": [
+      "bond"
+    ],
+    "documents": 7,
+    "presentations": 1,
+    "releases": 2,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "74303",
+    "entity": "OLIN Corp (OLN)",
+    "folder": "74303-olin-corp-oln",
+    "kinds": [
+      "bond"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "1070412",
+    "entity": "CNX Resources Corp (CNX)",
+    "folder": "1070412-cnx-resources-corp-cnx",
+    "kinds": [
+      "bond"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "1002638",
+    "entity": "OPEN TEXT CORP (OTEX)",
+    "folder": "1002638-open-text-corp-otex",
+    "kinds": [
+      "bond"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "1725255",
+    "entity": "AdaptHealth Corp. (AHCO)",
+    "folder": "1725255-adapthealth-corp-ahco",
+    "kinds": [
+      "bond"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "1100682",
+    "entity": "CHARLES RIVER LABORATORIES INTERNATIONAL, INC. (CRL)",
+    "folder": "1100682-charles-river-laboratories-international",
+    "kinds": [
+      "bond"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "717423",
+    "entity": "MURPHY OIL CORP (MUR)",
+    "folder": "717423-murphy-oil-corp-mur",
+    "kinds": [
+      "bond"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "1185348",
+    "entity": "PRA GROUP INC (PRAA)",
+    "folder": "1185348-pra-group-inc-praa",
+    "kinds": [
+      "bond"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "1576940",
+    "entity": "Century Communities, Inc. (CCS)",
+    "folder": "1576940-century-communities-inc-ccs",
+    "kinds": [
+      "bond"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "1376139",
+    "entity": "CVR ENERGY INC (CVI)",
+    "folder": "1376139-cvr-energy-inc-cvi",
+    "kinds": [
+      "bond"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "1601712",
+    "entity": "Synchrony Financial (SYF, SYF-PB, SYF-PA)",
+    "folder": "1601712-synchrony-financial-syf-syf-pb-syf-pa",
+    "kinds": [
+      "bond"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "921738",
+    "entity": "PENN Entertainment, Inc. (PENN)",
+    "folder": "921738-penn-entertainment-inc-penn",
+    "kinds": [
+      "bond"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "70318",
+    "entity": "TENET HEALTHCARE CORP (THC)",
+    "folder": "70318-tenet-healthcare-corp-thc",
+    "kinds": [
+      "bond"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "1805284",
+    "entity": "Rocket Companies, Inc. (RKT)",
+    "folder": "1805284-rocket-companies-inc-rkt",
+    "kinds": [
+      "bond"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "927066",
+    "entity": "DAVITA INC. (DVA)",
+    "folder": "927066-davita-inc-dva",
+    "kinds": [
+      "bond"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "1512673",
+    "entity": "Block, Inc. (XYZ, BSQKZ)",
+    "folder": "1512673-block-inc-xyz-bsqkz",
+    "kinds": [
+      "bond"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "1318742",
+    "entity": "NCL CORP Ltd.",
+    "folder": "1318742-ncl-corp-ltd",
+    "kinds": [
+      "bond"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "1316835",
+    "entity": "Builders FirstSource, Inc. (BLDR)",
+    "folder": "1316835-builders-firstsource-inc-bldr",
+    "kinds": [
+      "bond"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "1364479",
+    "entity": "HERC HOLDINGS INC (HRI)",
+    "folder": "1364479-herc-holdings-inc-hri",
+    "kinds": [
+      "bond"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "106640",
+    "entity": "WHIRLPOOL CORP /DE/ (WHR, WHR-PA)",
+    "folder": "106640-whirlpool-corp-de-whr-whr-pa",
+    "kinds": [
+      "bond"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "814453",
+    "entity": "NEWELL BRANDS INC. (NWL)",
+    "folder": "814453-newell-brands-inc-nwl",
+    "kinds": [
+      "bond"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "1304280",
+    "entity": "Novelis Inc.",
+    "folder": "1304280-novelis-inc",
+    "kinds": [
+      "bond"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "1179929",
+    "entity": "MOLINA HEALTHCARE, INC. (MOH)",
+    "folder": "1179929-molina-healthcare-inc-moh",
+    "kinds": [
+      "bond"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "885590",
+    "entity": "Bausch Health Companies Inc. (BHC)",
+    "folder": "885590-bausch-health-companies-inc-bhc",
+    "kinds": [
+      "bond"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "64803",
+    "entity": "CVS HEALTH Corp (CVS)",
+    "folder": "64803-cvs-health-corp-cvs",
+    "kinds": [
+      "bond"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "1158449",
+    "entity": "ADVANCE AUTO PARTS INC (AAP)",
+    "folder": "1158449-advance-auto-parts-inc-aap",
+    "kinds": [
+      "bond"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "945394",
+    "entity": "Service Properties Trust (SVC)",
+    "folder": "945394-service-properties-trust-svc",
+    "kinds": [
+      "bond"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "1616707",
+    "entity": "Wayfair Inc. (W)",
+    "folder": "1616707-wayfair-inc-w",
+    "kinds": [
+      "bond"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "89089",
+    "entity": "SERVICE CORP INTERNATIONAL (SCI)",
+    "folder": "89089-service-corp-international-sci",
+    "kinds": [
+      "bond"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "1690820",
+    "entity": "CARVANA CO. (CVNA)",
+    "folder": "1690820-carvana-co-cvna",
+    "kinds": [
+      "bond"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "1101302",
+    "entity": "ENTEGRIS INC (ENTG)",
+    "folder": "1101302-entegris-inc-entg",
+    "kinds": [
+      "bond"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "1780232",
+    "entity": "GFL Environmental Inc. (GFL)",
+    "folder": "1780232-gfl-environmental-inc-gfl",
+    "kinds": [
+      "bond"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "868675",
+    "entity": "TELUS CORP (TU)",
+    "folder": "868675-telus-corp-tu",
+    "kinds": [
+      "bond"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "1434265",
+    "entity": "GENMAB A/S (GMAB, GNMSF)",
+    "folder": "1434265-genmab-a-s-gmab-gnmsf",
+    "kinds": [
+      "bond"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "1603923",
+    "entity": "Weatherford International plc (WFRD)",
+    "folder": "1603923-weatherford-international-plc-wfrd",
+    "kinds": [
+      "bond"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "314808",
+    "entity": "Valaris Ltd (VAL, VAL-WT)",
+    "folder": "314808-valaris-ltd-val-val-wt",
+    "kinds": [
+      "bond"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "1563411",
+    "entity": "CONSTELLIUM SE (CSTM)",
+    "folder": "1563411-constellium-se-cstm",
+    "kinds": [
+      "bond"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "1262976",
+    "entity": "CIMPRESS plc (CMPR)",
+    "folder": "1262976-cimpress-plc-cmpr",
+    "kinds": [
+      "bond"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 3
+  },
+  {
+    "cik": "815097",
+    "entity": "Carnival Corp Ltd. (CCL)",
+    "folder": "815097-carnival-corp-ltd-ccl",
+    "kinds": [
+      "bond"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "1713748",
+    "entity": "Skeena Resources Ltd (SKE)",
+    "folder": "1713748-skeena-resources-ltd-ske",
+    "kinds": [
+      "bond"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "912958",
+    "entity": "MILLICOM INTERNATIONAL CELLULAR SA (TIGO, MLCMF)",
+    "folder": "912958-millicom-international-cellular-sa-tigo",
+    "kinds": [
+      "bond"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "1144800",
+    "entity": "TRANSALTA CORP (TAC, TSLTF, TRNTF, TACPF)",
+    "folder": "1144800-transalta-corp-tac-tsltf-trntf-tacpf",
+    "kinds": [
+      "bond"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "1322422",
+    "entity": "Hudbay Minerals Inc. (HBM)",
+    "folder": "1322422-hudbay-minerals-inc-hbm",
+    "kinds": [
+      "bond"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "918608",
+    "entity": "ELDORADO GOLD CORP /FI (EGO)",
+    "folder": "918608-eldorado-gold-corp-fi-ego",
+    "kinds": [
+      "bond"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "1013605",
+    "entity": "PRECISION DRILLING Corp (PDS)",
+    "folder": "1013605-precision-drilling-corp-pds",
+    "kinds": [
+      "bond"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "1394832",
+    "entity": "ATS Corp /ATS (ATS)",
+    "folder": "1394832-ats-corp-ats-ats",
+    "kinds": [
+      "bond"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  },
+  {
+    "cik": "1279495",
+    "entity": "BAYTEX ENERGY CORP. (BTE)",
+    "folder": "1279495-baytex-energy-corp-bte",
+    "kinds": [
+      "bond"
+    ],
+    "documents": 7,
+    "presentations": 0,
+    "releases": 3,
+    "image_only_decks": 0
+  }
+]

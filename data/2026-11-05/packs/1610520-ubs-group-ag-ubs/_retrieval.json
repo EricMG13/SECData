@@ -1,0 +1,147 @@
+{
+  "retrieved": "2026-11-05",
+  "pack": {
+    "cik": "1610520",
+    "filer": "foreign private issuer",
+    "annual": [
+      {
+        "form": "20-F",
+        "filing_date": "2026-03-09",
+        "report_date": "2025-12-31",
+        "accession": "0001610520-26-000023",
+        "url": "https://www.sec.gov/Archives/edgar/data/1610520/000161052026000023/ubs-20251231.htm"
+      }
+    ],
+    "quarterly": [
+      {
+        "form": "6-K",
+        "filing_date": "2026-10-28",
+        "report_date": "2026-09-30",
+        "accession": "0001610520-26-000108",
+        "url": "https://www.sec.gov/Archives/edgar/data/1610520/000161052026000108/edgar3q26kubsgroupc.htm",
+        "period": "2026-09-30"
+      },
+      {
+        "form": "6-K",
+        "filing_date": "2026-07-29",
+        "report_date": "2026-07-29",
+        "accession": "0001610520-26-000087",
+        "url": "https://www.sec.gov/Archives/edgar/data/1114446/000161052026000087/edgarq2q26kubsgroup.htm",
+        "period": "2026-07-29"
+      },
+      {
+        "form": "6-K",
+        "filing_date": "2026-04-29",
+        "report_date": "2026-03-31",
+        "accession": "0001610520-26-000047",
+        "url": "https://www.sec.gov/Archives/edgar/data/1610520/000161052026000047/edgarq1q26kubsgroupagc.htm",
+        "period": "2026-03-31"
+      }
+    ],
+    "presentations": [
+      {
+        "form": "6-K",
+        "filing_date": "2026-10-29",
+        "report_date": "2026-09-30",
+        "accession": "0001610520-26-000113",
+        "url": "https://www.sec.gov/Archives/edgar/data/1114446/000161052026000113/investorpresotext2026.htm",
+        "period": "2026-09-30"
+      },
+      {
+        "form": "6-K",
+        "filing_date": "2026-07-30",
+        "report_date": "2026-06-30",
+        "accession": "0001610520-26-000089",
+        "url": "https://www.sec.gov/Archives/edgar/data/1114446/000161052026000089/investorpresotext2026.htm",
+        "period": "2026-06-30"
+      },
+      {
+        "form": "6-K",
+        "filing_date": "2026-04-30",
+        "report_date": "2026-03-31",
+        "accession": "0001610520-26-000053",
+        "url": "https://www.sec.gov/Archives/edgar/data/1114446/000161052026000053/investorpresotext2026.htm",
+        "period": "2026-03-31"
+      }
+    ],
+    "releases_instead_of_presentations": [],
+    "files_10k": false,
+    "files_20f_or_40f": true,
+    "complete": true,
+    "complete_with_releases": true,
+    "gaps": [
+      "interim results furnished on 6-K, not 10-Q (foreign private issuer)"
+    ]
+  },
+  "files": [
+    {
+      "form": "20-F",
+      "filing_date": "2026-03-09",
+      "report_date": "2025-12-31",
+      "accession": "0001610520-26-000023",
+      "url": "https://www.sec.gov/Archives/edgar/data/1610520/000161052026000023/ubs-20251231.htm",
+      "file": "20-F_2025-12-31_ubs-20251231.htm",
+      "sha256": "36bec97b7eb5fd59b0b7662315606cd2cbd2ceb80e0c38bb731595006f6a5672"
+    },
+    {
+      "form": "6-K",
+      "filing_date": "2026-10-28",
+      "report_date": "2026-09-30",
+      "accession": "0001610520-26-000108",
+      "url": "https://www.sec.gov/Archives/edgar/data/1610520/000161052026000108/edgar3q26kubsgroupc.htm",
+      "period": "2026-09-30",
+      "file": "6-K_2026-09-30_edgar3q26kubsgroupc.htm",
+      "sha256": "abe5d2565f7ee4265c9172d2a23a3d7583569b156ce8384fd8d84d2ec9979023"
+    },
+    {
+      "form": "6-K",
+      "filing_date": "2026-07-29",
+      "report_date": "2026-07-29",
+      "accession": "0001610520-26-000087",
+      "url": "https://www.sec.gov/Archives/edgar/data/1114446/000161052026000087/edgarq2q26kubsgroup.htm",
+      "period": "2026-07-29",
+      "file": "6-K_2026-07-29_edgarq2q26kubsgroup.htm",
+      "sha256": "997e9c4369e477224a14a527b62886342fcfddd6dac093d33cae22c53ff29e9f"
+    },
+    {
+      "form": "6-K",
+      "filing_date": "2026-04-29",
+      "report_date": "2026-03-31",
+      "accession": "0001610520-26-000047",
+      "url": "https://www.sec.gov/Archives/edgar/data/1610520/000161052026000047/edgarq1q26kubsgroupagc.htm",
+      "period": "2026-03-31",
+      "file": "6-K_2026-03-31_edgarq1q26kubsgroupagc.htm",
+      "sha256": "f830084883c117fee9cfa7da84ba2c965cd806823b638168d828023dcba960cb"
+    },
+    {
+      "form": "6-K",
+      "filing_date": "2026-10-29",
+      "report_date": "2026-09-30",
+      "accession": "0001610520-26-000113",
+      "url": "https://www.sec.gov/Archives/edgar/data/1114446/000161052026000113/investorpresotext2026.htm",
+      "period": "2026-09-30",
+      "file": "6-K_2026-09-30_investorpresotext2026.htm",
+      "sha256": "f190338240b51b161285084a7efa96e40bfd6cb9c817701d090e2d6aad271da0"
+    },
+    {
+      "form": "6-K",
+      "filing_date": "2026-07-30",
+      "report_date": "2026-06-30",
+      "accession": "0001610520-26-000089",
+      "url": "https://www.sec.gov/Archives/edgar/data/1114446/000161052026000089/investorpresotext2026.htm",
+      "period": "2026-06-30",
+      "file": "6-K_2026-06-30_investorpresotext2026.htm",
+      "sha256": "8a2918459456435305e173a644e41f4e9d8e588725e477db72198798d771b3e1"
+    },
+    {
+      "form": "6-K",
+      "filing_date": "2026-04-30",
+      "report_date": "2026-03-31",
+      "accession": "0001610520-26-000053",
+      "url": "https://www.sec.gov/Archives/edgar/data/1114446/000161052026000053/investorpresotext2026.htm",
+      "period": "2026-03-31",
+      "file": "6-K_2026-03-31_investorpresotext2026.htm",
+      "sha256": "fbd895cfd49256c10ef81f005967d701cc05eb0a48a778d6dbb352350311e9f6"
+    }
+  ]
+}

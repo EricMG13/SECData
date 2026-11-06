@@ -5,9 +5,10 @@ issuer's minimum filing pack from SEC EDGAR. The packs are the offline source fo
 runs in [final-workflow](https://github.com/EricMG13/final-workflow), where an agent answers each
 module with `cpos_launch --config host --modules minimum`.
 
-The filing documents themselves are not stored here. `data/2026-11-05/packs-manifest.json` lists
-every document of every pack with its EDGAR URL, accession and sha256; `secdata.edgar packs`
-downloads them again into `data/2026-11-05/packs/`, which git ignores.
+The filing documents are stored in `data/2026-11-05/packs/` (1.3 GB), so a clone, including a
+cloud session, can run final-workflow without reaching EDGAR. `data/2026-11-05/packs-manifest.json`
+lists every document of every pack with its EDGAR URL, accession and sha256, and
+`secdata.edgar packs` can download them again.
 
 Everything here is public data from EDGAR. Nothing here is analysis: the corpus says which
 issuers have the filings, not anything about their credit.
@@ -119,7 +120,7 @@ folder has `_retrieval.json` with every document's URL, accession and sha256. Th
 launcher ignores `_` names, so the record is not pinned as issuer evidence. The manifest collects
 those records for all packs.
 
-| Packs of 2026-11-05 (documents not in the repository) | Count |
+| Packs in `data/2026-11-05/packs` | Count |
 | --- | --- |
 | Packs | 118: 46 loan issuers, 20 non-US issuers, 13 foreign private issuers |
 | Annual reports | 105 10-Ks, 9 40-Fs, 4 20-Fs |
@@ -129,7 +130,7 @@ those records for all packs.
 | Packs with at least one deck / three decks | 7 / 6 |
 | Documents flagged `image_only` | 3, Cimpress's releases (71 characters of text each) |
 | Files whose sha256 differs from `_retrieval.json` | 0 |
-| Size when downloaded | 1.3 GB |
+| Size | 1.3 GB |
 
 ## Layout
 
@@ -140,7 +141,7 @@ data/2026-11-05/
   corpus-first-pass.json the first pass: 808 issuers checked, 119 10-K filers
   corpus.json            both passes: every issuer checked, the filers found and their packs
   packs-manifest.json    every pack document: URL, accession, sha256, file name
-  packs/                 not in git: the downloaded packs, one folder per usable issuer
+  packs/                 one folder per usable issuer: <cik>-<name>/, and index.json
   contexts/              one final-workflow context/1 file per pack folder
 src/secdata/             universe.py (offline), edgar.py and contexts.py (EDGAR access)
 tests/                   offline tests; fixtures are recorded EDGAR responses

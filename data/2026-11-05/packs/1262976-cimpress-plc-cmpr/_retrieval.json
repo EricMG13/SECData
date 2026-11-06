@@ -1,0 +1,145 @@
+{
+  "retrieved": "2026-11-05",
+  "pack": {
+    "cik": "1262976",
+    "annual": [
+      {
+        "form": "10-K",
+        "filing_date": "2026-08-07",
+        "report_date": "2026-06-30",
+        "accession": "0001262976-26-000027",
+        "url": "https://www.sec.gov/Archives/edgar/data/1262976/000126297626000027/cmpr-20260630.htm"
+      }
+    ],
+    "quarterly": [
+      {
+        "form": "10-Q",
+        "filing_date": "2026-10-29",
+        "report_date": "2026-09-30",
+        "accession": "0001262976-26-000044",
+        "url": "https://www.sec.gov/Archives/edgar/data/1262976/000126297626000044/cmpr-20260930.htm"
+      },
+      {
+        "form": "10-Q",
+        "filing_date": "2026-05-01",
+        "report_date": "2026-03-31",
+        "accession": "0001262976-26-000016",
+        "url": "https://www.sec.gov/Archives/edgar/data/1262976/000126297626000016/cmpr-20260331.htm"
+      },
+      {
+        "form": "10-Q",
+        "filing_date": "2026-01-29",
+        "report_date": "2025-12-31",
+        "accession": "0001262976-26-000006",
+        "url": "https://www.sec.gov/Archives/edgar/data/1262976/000126297626000006/cmpr-20251231.htm"
+      }
+    ],
+    "presentations": [],
+    "releases_instead_of_presentations": [
+      {
+        "form": "EX-99.1",
+        "filing_date": "2026-10-28",
+        "report_date": "2026-10-28",
+        "accession": "0001262976-26-000041",
+        "url": "https://www.sec.gov/Archives/edgar/data/1262976/000126297626000041/q1_fy27quarterlyearnings.htm",
+        "period": "2026-09-30"
+      },
+      {
+        "form": "EX-99.1",
+        "filing_date": "2026-07-29",
+        "report_date": "2026-07-29",
+        "accession": "0001262976-26-000025",
+        "url": "https://www.sec.gov/Archives/edgar/data/1262976/000126297626000025/q4_fy26quarterlyearnings.htm",
+        "period": "2026-06-30"
+      },
+      {
+        "form": "EX-99.1",
+        "filing_date": "2026-04-30",
+        "report_date": "2026-04-29",
+        "accession": "0001262976-26-000013",
+        "url": "https://www.sec.gov/Archives/edgar/data/1262976/000126297626000013/q3_fy26quarterlyearnings.htm",
+        "period": "2026-03-31"
+      }
+    ],
+    "files_10k": true,
+    "complete": false,
+    "complete_with_releases": true,
+    "gaps": [
+      "3 of 3 quarters have a release, not a presentation, on EDGAR"
+    ]
+  },
+  "files": [
+    {
+      "form": "10-K",
+      "filing_date": "2026-08-07",
+      "report_date": "2026-06-30",
+      "accession": "0001262976-26-000027",
+      "url": "https://www.sec.gov/Archives/edgar/data/1262976/000126297626000027/cmpr-20260630.htm",
+      "file": "10-K_2026-06-30_cmpr-20260630.htm",
+      "sha256": "f222eb62e19a140808384faed35aa709f4800a0a0df4b658b19102ee0bfdd913"
+    },
+    {
+      "form": "10-Q",
+      "filing_date": "2026-10-29",
+      "report_date": "2026-09-30",
+      "accession": "0001262976-26-000044",
+      "url": "https://www.sec.gov/Archives/edgar/data/1262976/000126297626000044/cmpr-20260930.htm",
+      "file": "10-Q_2026-09-30_cmpr-20260930.htm",
+      "sha256": "8825b0805d7a5bf6ed1b5187b307c72ae932a53562c36d6eb3c09f7210e03538"
+    },
+    {
+      "form": "10-Q",
+      "filing_date": "2026-05-01",
+      "report_date": "2026-03-31",
+      "accession": "0001262976-26-000016",
+      "url": "https://www.sec.gov/Archives/edgar/data/1262976/000126297626000016/cmpr-20260331.htm",
+      "file": "10-Q_2026-03-31_cmpr-20260331.htm",
+      "sha256": "2f640f2d3e3af3911a0a0e483d57f6a98fbb9bf95703ba93c77cbc498a6e4fe3"
+    },
+    {
+      "form": "10-Q",
+      "filing_date": "2026-01-29",
+      "report_date": "2025-12-31",
+      "accession": "0001262976-26-000006",
+      "url": "https://www.sec.gov/Archives/edgar/data/1262976/000126297626000006/cmpr-20251231.htm",
+      "file": "10-Q_2025-12-31_cmpr-20251231.htm",
+      "sha256": "900d4a8af759f7a347c5391dfbfe7a35df63548381ecb953c414cc2335904203"
+    },
+    {
+      "form": "EX-99.1",
+      "filing_date": "2026-10-28",
+      "report_date": "2026-10-28",
+      "accession": "0001262976-26-000041",
+      "url": "https://www.sec.gov/Archives/edgar/data/1262976/000126297626000041/q1_fy27quarterlyearnings.htm",
+      "period": "2026-09-30",
+      "file": "EX-99.1_2026-10-28_q1_fy27quarterlyearnings.htm",
+      "sha256": "43c47b65d4e9e9d4bee5a0030caca959278dd672bac6f4a2b553f2e3a41f0be9",
+      "visible_text_chars": 71,
+      "image_only": true
+    },
+    {
+      "form": "EX-99.1",
+      "filing_date": "2026-07-29",
+      "report_date": "2026-07-29",
+      "accession": "0001262976-26-000025",
+      "url": "https://www.sec.gov/Archives/edgar/data/1262976/000126297626000025/q4_fy26quarterlyearnings.htm",
+      "period": "2026-06-30",
+      "file": "EX-99.1_2026-07-29_q4_fy26quarterlyearnings.htm",
+      "sha256": "746b22097516ef5f52d653b8fc9b28cd7d43ae53cdef1dfd43d4c815aafdea90",
+      "visible_text_chars": 71,
+      "image_only": true
+    },
+    {
+      "form": "EX-99.1",
+      "filing_date": "2026-04-30",
+      "report_date": "2026-04-29",
+      "accession": "0001262976-26-000013",
+      "url": "https://www.sec.gov/Archives/edgar/data/1262976/000126297626000013/q3_fy26quarterlyearnings.htm",
+      "period": "2026-03-31",
+      "file": "EX-99.1_2026-04-29_q3_fy26quarterlyearnings.htm",
+      "sha256": "d47dd4861a475b7227d31baa9fa844fae3d374b9cc678c116a0f6dceafa9a302",
+      "visible_text_chars": 71,
+      "image_only": true
+    }
+  ]
+}
