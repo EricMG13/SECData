@@ -5,6 +5,10 @@ issuer's minimum filing pack from SEC EDGAR. The packs are the offline source fo
 runs in [final-workflow](https://github.com/EricMG13/final-workflow), where an agent answers each
 module with `cpos_launch --config host --modules minimum`.
 
+The filing documents themselves are not stored here. `data/2026-11-05/packs-manifest.json` lists
+every document of every pack with its EDGAR URL, accession and sha256; `secdata.edgar packs`
+downloads them again into `data/2026-11-05/packs/`, which git ignores.
+
 Everything here is public data from EDGAR. Nothing here is analysis: the corpus says which
 issuers have the filings, not anything about their credit.
 
@@ -112,9 +116,10 @@ In `corpus.json`, `presentations` lists the decks and `releases_instead_of_prese
 releases. `complete` means three decks; `complete_with_releases` counts releases in their place.
 A foreign issuer's pack has `filer: "foreign private issuer"` and `files_20f_or_40f`. Each pack
 folder has `_retrieval.json` with every document's URL, accession and sha256. The final-workflow
-launcher ignores `_` names, so the record is not pinned as issuer evidence.
+launcher ignores `_` names, so the record is not pinned as issuer evidence. The manifest collects
+those records for all packs.
 
-| Packs in `data/2026-11-05/packs` | Count |
+| Packs of 2026-11-05 (documents not in the repository) | Count |
 | --- | --- |
 | Packs | 118: 46 loan issuers, 20 non-US issuers, 13 foreign private issuers |
 | Annual reports | 105 10-Ks, 9 40-Fs, 4 20-Fs |
@@ -124,7 +129,7 @@ launcher ignores `_` names, so the record is not pinned as issuer evidence.
 | Packs with at least one deck / three decks | 7 / 6 |
 | Documents flagged `image_only` | 3, Cimpress's releases (71 characters of text each) |
 | Files whose sha256 differs from `_retrieval.json` | 0 |
-| Size | 1.3 GB |
+| Size when downloaded | 1.3 GB |
 
 ## Layout
 
@@ -134,7 +139,8 @@ data/2026-11-05/
   universe.json          corporate bond and loan issuers, grouped by LEI or printed name
   corpus-first-pass.json the first pass: 808 issuers checked, 119 10-K filers
   corpus.json            both passes: every issuer checked, the filers found and their packs
-  packs/                 one folder per usable issuer: <cik>-<name>/, and index.json
+  packs-manifest.json    every pack document: URL, accession, sha256, file name
+  packs/                 not in git: the downloaded packs, one folder per usable issuer
   contexts/              one final-workflow context/1 file per pack folder
 src/secdata/             universe.py (offline), edgar.py and contexts.py (EDGAR access)
 tests/                   offline tests; fixtures are recorded EDGAR responses
@@ -165,7 +171,9 @@ PYTHONPATH=src python3 -m secdata.edgar pack --cik 1590895 --as-of 2026-11-05 --
 - `corpus` saves its file after every issuer, marked `in progress`; the same command resumes it.
 - `--non-us` extends a finished corpus given as `--base`; its `--target` counts non-US packs only.
 - `packs` writes each pack to a `.partial` folder and renames it when complete, so a rerun keeps
-  finished packs and redoes only an interrupted one.
+  finished packs and redoes only an interrupted one. Check a download against
+  `packs-manifest.json`: every file's sha256 must match, since EDGAR serves a filed document
+  unchanged.
 - A deck with fewer than 2,000 visible characters is flagged `image_only`: its slides are images.
 - The first command line reproduces the first pass only at commit `adecf8f`; the current code
   would also accept 20-F and 40-F filers in it.
