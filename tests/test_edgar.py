@@ -245,6 +245,9 @@ COVER = "FORM 6-K Indicate by check mark ... Form 20-F x Form 40-F . "
             ["release"],
         ),
         (False, "Unaudited pro forma condensed combined financial information", []),
+        # Modelled on Trekor's and Baytex's notices of the results date.
+        (False, "Trekor to Release Third Quarter 2026 Results. The Company will host a call", []),
+        (False, "Baytex Energy Corp. will release its third quarter 2026 financial results", []),
         # Modelled on Skeena's and Hudbay's exhibits: a release that cites the MD&A further down,
         # and an annual MD&A.
         (

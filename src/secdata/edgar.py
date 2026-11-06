@@ -64,9 +64,13 @@ RESULTS = re.compile(
 DECK_TEXT = re.compile(
     r"(investor|earnings|results|financial) presentation|presentation materials", re.IGNORECASE
 )
-# Officers' certifications and offering pro formas cite interim statements but are not results.
+# Officers' certifications and offering pro formas cite interim statements, and notices give the
+# date results will come out; none of them is results.
 NOT_RESULTS = re.compile(
-    r"certification of interim filings|52-109F|pro forma condensed", re.IGNORECASE
+    r"certification of interim filings|52-109F|pro forma condensed"
+    r"|\bto (release|report|announce) .{0,60}results"
+    r"|will (release|report|announce) (its )?.{0,60}results",
+    re.IGNORECASE,
 )
 # A report on a full year is the annual report's, not an interim report, unless it names a part.
 ANNUAL = re.compile(r"years? ended|annual[ _-]?(report|financial|management)", re.IGNORECASE)
