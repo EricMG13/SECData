@@ -135,7 +135,8 @@ data/2026-11-05/
   corpus-first-pass.json the first pass: 808 issuers checked, 119 10-K filers
   corpus.json            both passes: every issuer checked, the filers found and their packs
   packs/                 one folder per usable issuer: <cik>-<name>/, and index.json
-src/secdata/             universe.py (offline) and edgar.py (EDGAR access)
+  contexts/              one final-workflow context/1 file per pack folder
+src/secdata/             universe.py (offline), edgar.py and contexts.py (EDGAR access)
 tests/                   offline tests; fixtures are recorded EDGAR responses
 ```
 
@@ -177,6 +178,28 @@ PYTHONPATH=src .venv/bin/python -m deploy_workflow.owners.cpos_launch \
   --config host --modules minimum --out runs/<run-folder>
 ```
 
+## Run contexts
+
+`data/2026-11-05/contexts/<pack folder>.json` holds one final-workflow `context/1` file per usable
+issuer, made by `secdata.contexts` from a final-workflow context used as the template:
+
+```bash
+PYTHONPATH=src python3 -m secdata.contexts --corpus $D/corpus.json --as-of 2026-11-05 \
+  --template ../final-workflow/runs/cpos-launch-host-czr-001/context.json --out $D/contexts
+```
+
+- **Reporting currency:** the unit of the filer's XBRL `Assets` concept, US GAAP or IFRS (111 USD,
+  7 CAD). final-workflow refuses a run whose CP-1 reports another currency.
+- **Sector and ticker:** EDGAR's SIC description and first ticker. Five issuers have no ticker,
+  and FS KKR has no SIC sector.
+- **Country:** the funds' N-PORT country, written as a name.
+- **Periods:** the latest interim report, snapped to the fiscal quarter grid of the annual
+  report's year-end. A fiscal year is named by the year it ends in; for example ATS's quarter to
+  September 2026 is `q2-2027`. CHS filed its FY2026 10-K after its last 10-Q, so it is `fy-2026`.
+
+All 118 pass final-workflow's `cpos_launch` preparation with `--config host --modules minimum`:
+each context validates and every pack document is pinned and converted.
+
 ## How issuers are matched
 
 - **Universe.** Holdings with asset category `DBT` (bond) or `LON` (loan) are kept unless the
@@ -193,7 +216,7 @@ PYTHONPATH=src .venv/bin/python -m deploy_workflow.owners.cpos_launch \
 
 ## Checks
 
-- `python -m pytest`: 35 tests, offline. The fixtures are real EDGAR responses recorded on
+- `python -m pytest`: 42 tests, offline. The fixtures are real EDGAR responses recorded on
   2026-11-05: HYG's N-PORT feed, the name search, the Caesars and American Airlines filing lists
   and 8-K indexes, and GFL Environmental's filing list, 6-K indexes, exhibit heads and 6-K
   documents. The universe test reads the real BKLN filing; its expected counts and sums come from
