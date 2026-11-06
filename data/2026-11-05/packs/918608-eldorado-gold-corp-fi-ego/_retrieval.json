@@ -1,0 +1,160 @@
+{
+  "retrieved": "2026-11-05",
+  "pack": {
+    "cik": "918608",
+    "filer": "foreign private issuer",
+    "annual": [
+      {
+        "form": "40-F",
+        "filing_date": "2026-03-27",
+        "report_date": "2025-12-31",
+        "accession": "0000918608-26-000007",
+        "url": "https://www.sec.gov/Archives/edgar/data/918608/000091860826000007/ego-20251231_d2.htm"
+      }
+    ],
+    "quarterly": [
+      {
+        "form": "6-K-EX-99.1",
+        "filing_date": "2026-10-28",
+        "report_date": "2026-09-30",
+        "accession": "0000918608-26-000027",
+        "url": "https://www.sec.gov/Archives/edgar/data/918608/000091860826000027/unauditedcondensedconsolid.htm",
+        "period": "2026-09-30"
+      },
+      {
+        "form": "6-K-EX-99.1",
+        "filing_date": "2026-07-30",
+        "report_date": "2026-06-30",
+        "accession": "0000918608-26-000023",
+        "url": "https://www.sec.gov/Archives/edgar/data/918608/000091860826000023/unauditedcondensedconsolid.htm",
+        "period": "2026-06-30"
+      },
+      {
+        "form": "6-K-EX-99.1",
+        "filing_date": "2026-04-30",
+        "report_date": "2026-03-31",
+        "accession": "0000918608-26-000013",
+        "url": "https://www.sec.gov/Archives/edgar/data/918608/000091860826000013/unauditedcondensedconsolid.htm",
+        "period": "2026-03-31"
+      }
+    ],
+    "presentations": [],
+    "releases_instead_of_presentations": [
+      {
+        "form": "6-K-EX-99.1",
+        "filing_date": "2026-10-28",
+        "report_date": "2026-09-30",
+        "accession": "0000918608-26-000025",
+        "url": "https://www.sec.gov/Archives/edgar/data/918608/000091860826000025/eldoradogoldreportsq32026f.htm",
+        "period": "2026-09-30"
+      },
+      {
+        "form": "6-K-EX-99.1",
+        "filing_date": "2026-07-30",
+        "report_date": "2026-06-30",
+        "accession": "0000918608-26-000022",
+        "url": "https://www.sec.gov/Archives/edgar/data/918608/000091860826000022/eldoradogoldreportsq22026f.htm",
+        "period": "2026-06-30"
+      },
+      {
+        "form": "6-K-EX-99.1",
+        "filing_date": "2026-04-30",
+        "report_date": "2026-03-31",
+        "accession": "0000918608-26-000011",
+        "url": "https://www.sec.gov/Archives/edgar/data/918608/000091860826000011/eldoradogoldreportsfirstqu.htm",
+        "period": "2026-03-31"
+      }
+    ],
+    "files_10k": false,
+    "files_20f_or_40f": true,
+    "complete": false,
+    "complete_with_releases": true,
+    "gaps": [
+      "interim results furnished on 6-K, not 10-Q (foreign private issuer)",
+      "3 of 3 quarters have a release, not a presentation, on EDGAR"
+    ]
+  },
+  "files": [
+    {
+      "form": "40-F",
+      "filing_date": "2026-03-27",
+      "report_date": "2025-12-31",
+      "accession": "0000918608-26-000007",
+      "url": "https://www.sec.gov/Archives/edgar/data/918608/000091860826000007/ego-20251231_d2.htm",
+      "file": "40-F_2025-12-31_ego-20251231_d2.htm",
+      "sha256": "d8d562810797551d0efa19b0ec4075920ae15561f2d0d94eedfdfb3381c5cd8b"
+    },
+    {
+      "form": "6-K-EX-99.1",
+      "filing_date": "2026-10-28",
+      "report_date": "2026-09-30",
+      "accession": "0000918608-26-000027",
+      "url": "https://www.sec.gov/Archives/edgar/data/918608/000091860826000027/unauditedcondensedconsolid.htm",
+      "period": "2026-09-30",
+      "file": "6-K-EX-99.1_2026-09-30_unauditedcondensedconsolid.htm",
+      "sha256": "3fe3ccf280dba4a74ca762dc78d8a4d6c6e7227bdd2b000dfe89f9cca2050fbe",
+      "visible_text_chars": 74964,
+      "image_only": false
+    },
+    {
+      "form": "6-K-EX-99.1",
+      "filing_date": "2026-07-30",
+      "report_date": "2026-06-30",
+      "accession": "0000918608-26-000023",
+      "url": "https://www.sec.gov/Archives/edgar/data/918608/000091860826000023/unauditedcondensedconsolid.htm",
+      "period": "2026-06-30",
+      "file": "6-K-EX-99.1_2026-06-30_unauditedcondensedconsolid.htm",
+      "sha256": "521f14ca03b2adcdf6306b01f1dfc0dc7ffa051d4ee227f97c97e9ee5ce4cfdd",
+      "visible_text_chars": 72773,
+      "image_only": false
+    },
+    {
+      "form": "6-K-EX-99.1",
+      "filing_date": "2026-04-30",
+      "report_date": "2026-03-31",
+      "accession": "0000918608-26-000013",
+      "url": "https://www.sec.gov/Archives/edgar/data/918608/000091860826000013/unauditedcondensedconsolid.htm",
+      "period": "2026-03-31",
+      "file": "6-K-EX-99.1_2026-03-31_unauditedcondensedconsolid.htm",
+      "sha256": "7060449c49d1c1198c7727f9ba203ac1db4552b2a9ee496abc8e0907251e5a77",
+      "visible_text_chars": 55462,
+      "image_only": false
+    },
+    {
+      "form": "6-K-EX-99.1",
+      "filing_date": "2026-10-28",
+      "report_date": "2026-09-30",
+      "accession": "0000918608-26-000025",
+      "url": "https://www.sec.gov/Archives/edgar/data/918608/000091860826000025/eldoradogoldreportsq32026f.htm",
+      "period": "2026-09-30",
+      "file": "6-K-EX-99.1_2026-09-30_eldoradogoldreportsq32026f.htm",
+      "sha256": "2dac5a7799cdb5632fd56e8a85e6a21282aa659ec05080d1b58b158de21354bf",
+      "visible_text_chars": 102614,
+      "image_only": false
+    },
+    {
+      "form": "6-K-EX-99.1",
+      "filing_date": "2026-07-30",
+      "report_date": "2026-06-30",
+      "accession": "0000918608-26-000022",
+      "url": "https://www.sec.gov/Archives/edgar/data/918608/000091860826000022/eldoradogoldreportsq22026f.htm",
+      "period": "2026-06-30",
+      "file": "6-K-EX-99.1_2026-06-30_eldoradogoldreportsq22026f.htm",
+      "sha256": "9c41a537db215ce24a4f7a90568a306502cc383b5422b48b29287d432a80911a",
+      "visible_text_chars": 92524,
+      "image_only": false
+    },
+    {
+      "form": "6-K-EX-99.1",
+      "filing_date": "2026-04-30",
+      "report_date": "2026-03-31",
+      "accession": "0000918608-26-000011",
+      "url": "https://www.sec.gov/Archives/edgar/data/918608/000091860826000011/eldoradogoldreportsfirstqu.htm",
+      "period": "2026-03-31",
+      "file": "6-K-EX-99.1_2026-03-31_eldoradogoldreportsfirstqu.htm",
+      "sha256": "cf0f043c8caaf5b46128772ddad81d77dda55561d91988b958f27c6b55fdb85e",
+      "visible_text_chars": 77277,
+      "image_only": false
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "retrieved": "2026-11-05",
+  "pack": {
+    "cik": "1394832",
+    "filer": "foreign private issuer",
+    "annual": [
+      {
+        "form": "40-F",
+        "filing_date": "2026-05-28",
+        "report_date": "2026-03-31",
+        "accession": "0001394832-26-000015",
+        "url": "https://www.sec.gov/Archives/edgar/data/1394832/000139483226000015/ats-20260331_d2.htm"
+      }
+    ],
+    "quarterly": [
+      {
+        "form": "6-K-EX-99.1",
+        "filing_date": "2026-11-04",
+        "report_date": "2026-09-27",
+        "accession": "0001394832-26-000028",
+        "url": "https://www.sec.gov/Archives/edgar/data/1394832/000139483226000028/ats-mdaxfy27q2.htm",
+        "period": "2026-09-27"
+      },
+      {
+        "form": "6-K-EX-99.1",
+        "filing_date": "2026-08-06",
+        "report_date": "2026-06-28",
+        "accession": "0001394832-26-000023",
+        "url": "https://www.sec.gov/Archives/edgar/data/1394832/000139483226000023/ats-mdaxfy27q1.htm",
+        "period": "2026-06-28"
+      },
+      {
+        "form": "6-K-EX-99.1",
+        "filing_date": "2026-02-04",
+        "report_date": "2025-12-28",
+        "accession": "0001394832-26-000004",
+        "url": "https://www.sec.gov/Archives/edgar/data/1394832/000139483226000004/ats-mdaxfy26q3.htm",
+        "period": "2025-12-28"
+      }
+    ],
+    "presentations": [],
+    "releases_instead_of_presentations": [
+      {
+        "form": "6-K-EX-99.5",
+        "filing_date": "2026-11-04",
+        "report_date": "2026-09-27",
+        "accession": "0001394832-26-000028",
+        "url": "https://www.sec.gov/Archives/edgar/data/1394832/000139483226000028/ats-pressreleasexfy27q2.htm",
+        "period": "2026-09-27"
+      },
+      {
+        "form": "6-K-EX-99.5",
+        "filing_date": "2026-08-06",
+        "report_date": "2026-06-28",
+        "accession": "0001394832-26-000023",
+        "url": "https://www.sec.gov/Archives/edgar/data/1394832/000139483226000023/ats-pressreleasexfy27q1.htm",
+        "period": "2026-06-28"
+      },
+      {
+        "form": "6-K-EX-99.1",
+        "filing_date": "2026-05-28",
+        "report_date": "2026-03-31",
+        "accession": "0001394832-26-000017",
+        "url": "https://www.sec.gov/Archives/edgar/data/1394832/000139483226000017/ats-pressreleasexfy26q4.htm",
+        "period": "2026-03-31"
+      }
+    ],
+    "files_10k": false,
+    "files_20f_or_40f": true,
+    "complete": false,
+    "complete_with_releases": true,
+    "gaps": [
+      "interim results furnished on 6-K, not 10-Q (foreign private issuer)",
+      "3 of 3 quarters have a release, not a presentation, on EDGAR"
+    ]
+  },
+  "files": [
+    {
+      "form": "40-F",
+      "filing_date": "2026-05-28",
+      "report_date": "2026-03-31",
+      "accession": "0001394832-26-000015",
+      "url": "https://www.sec.gov/Archives/edgar/data/1394832/000139483226000015/ats-20260331_d2.htm",
+      "file": "40-F_2026-03-31_ats-20260331_d2.htm",
+      "sha256": "37796541d541cd5c599a99e43753dfcb039b0ba83a7912a64f09371e175e4d29"
+    },
+    {
+      "form": "6-K-EX-99.1",
+      "filing_date": "2026-11-04",
+      "report_date": "2026-09-27",
+      "accession": "0001394832-26-000028",
+      "url": "https://www.sec.gov/Archives/edgar/data/1394832/000139483226000028/ats-mdaxfy27q2.htm",
+      "period": "2026-09-27",
+      "file": "6-K-EX-99.1_2026-09-27_ats-mdaxfy27q2.htm",
+      "sha256": "1c76e39b226f720d4a802442ae89b2e703dee130d10991855da76f9b4074aec8",
+      "visible_text_chars": 127231,
+      "image_only": false
+    },
+    {
+      "form": "6-K-EX-99.1",
+      "filing_date": "2026-08-06",
+      "report_date": "2026-06-28",
+      "accession": "0001394832-26-000023",
+      "url": "https://www.sec.gov/Archives/edgar/data/1394832/000139483226000023/ats-mdaxfy27q1.htm",
+      "period": "2026-06-28",
+      "file": "6-K-EX-99.1_2026-06-28_ats-mdaxfy27q1.htm",
+      "sha256": "25fc5a33aa22344bdfe62d2a12bc9852c193eaf8562fd1bfd877ca689ad8de0a",
+      "visible_text_chars": 114098,
+      "image_only": false
+    },
+    {
+      "form": "6-K-EX-99.1",
+      "filing_date": "2026-02-04",
+      "report_date": "2025-12-28",
+      "accession": "0001394832-26-000004",
+      "url": "https://www.sec.gov/Archives/edgar/data/1394832/000139483226000004/ats-mdaxfy26q3.htm",
+      "period": "2025-12-28",
+      "file": "6-K-EX-99.1_2025-12-28_ats-mdaxfy26q3.htm",
+      "sha256": "c935abcede07d27693cb42710c89208e0f8cade48ec7c8cc944a7b25d8ee73e5",
+      "visible_text_chars": 106802,
+      "image_only": false
+    },
+    {
+      "form": "6-K-EX-99.5",
+      "filing_date": "2026-11-04",
+      "report_date": "2026-09-27",
+      "accession": "0001394832-26-000028",
+      "url": "https://www.sec.gov/Archives/edgar/data/1394832/000139483226000028/ats-pressreleasexfy27q2.htm",
+      "period": "2026-09-27",
+      "file": "6-K-EX-99.5_2026-09-27_ats-pressreleasexfy27q2.htm",
+      "sha256": "21e694525585fcc397a94b039d8c8054cdca5ea6294600f46b7067d78ead0ef1",
+      "visible_text_chars": 82048,
+      "image_only": false
+    },
+    {
+      "form": "6-K-EX-99.5",
+      "filing_date": "2026-08-06",
+      "report_date": "2026-06-28",
+      "accession": "0001394832-26-000023",
+      "url": "https://www.sec.gov/Archives/edgar/data/1394832/000139483226000023/ats-pressreleasexfy27q1.htm",
+      "period": "2026-06-28",
+      "file": "6-K-EX-99.5_2026-06-28_ats-pressreleasexfy27q1.htm",
+      "sha256": "e47999ffe3afc0fddea1a396e4f2dc27b0d93ac30d8eaa87efadaf820b09ec3f",
+      "visible_text_chars": 72166,
+      "image_only": false
+    },
+    {
+      "form": "6-K-EX-99.1",
+      "filing_date": "2026-05-28",
+      "report_date": "2026-03-31",
+      "accession": "0001394832-26-000017",
+      "url": "https://www.sec.gov/Archives/edgar/data/1394832/000139483226000017/ats-pressreleasexfy26q4.htm",
+      "period": "2026-03-31",
+      "file": "6-K-EX-99.1_2026-03-31_ats-pressreleasexfy26q4.htm",
+      "sha256": "292f6a36dba400b039de5b61d7f943729a32f483a49f31f0e7013bc45a373e85",
+      "visible_text_chars": 74042,
+      "image_only": false
+    }
+  ]
+}
