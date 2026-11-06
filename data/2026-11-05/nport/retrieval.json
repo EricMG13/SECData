@@ -1,0 +1,85 @@
+{
+  "retrieved": "2026-11-05",
+  "filings": [
+    {
+      "ticker": "HYG",
+      "series_id": "S000016772",
+      "accession": "0001410368-26-108075",
+      "filing_date": "2026-10-23",
+      "url": "https://www.sec.gov/Archives/edgar/data/1100663/000141036826108075/primary_doc.xml",
+      "file": "HYG-2026-08-31-NPORT.xml",
+      "holdings_date": "2026-08-31",
+      "sha256": "540407aa395d78a30feb2f2edb8732ec804fe5898a219bfb7633b7aadeeaab2f"
+    },
+    {
+      "ticker": "USHY",
+      "series_id": "S000059297",
+      "accession": "0001410368-26-099899",
+      "filing_date": "2026-09-25",
+      "url": "https://www.sec.gov/Archives/edgar/data/1100663/000141036826099899/primary_doc.xml",
+      "file": "USHY-2026-07-31-NPORT.xml",
+      "holdings_date": "2026-07-31",
+      "sha256": "5ede1d3743cf38c522b133b47decfe57703422eb1e20ad81ac9ba4b5f86cd468"
+    },
+    {
+      "ticker": "JNK",
+      "series_id": "S000019669",
+      "accession": "0001410368-26-089139",
+      "filing_date": "2026-08-28",
+      "url": "https://www.sec.gov/Archives/edgar/data/1064642/000141036826089139/primary_doc.xml",
+      "file": "JNK-2026-06-30-NPORT.xml",
+      "holdings_date": "2026-06-30",
+      "sha256": "4fb42af2d7333812aee04de120dd52d995548261539e24d644fe1d6aea2302d1"
+    },
+    {
+      "ticker": "BKLN",
+      "series_id": "S000031053",
+      "accession": "0001378872-26-001974",
+      "filing_date": "2026-10-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/1378872/000137887226001974/primary_doc.xml",
+      "file": "BKLN-2026-08-31-NPORT.xml",
+      "holdings_date": "2026-08-31",
+      "sha256": "fcb1a7abede94098625ca15e90484c67365db6fd1d1bc28bdf92b3db8a1a227b"
+    },
+    {
+      "ticker": "SRLN",
+      "series_id": "S000033064",
+      "accession": "0001410368-26-089164",
+      "filing_date": "2026-08-28",
+      "url": "https://www.sec.gov/Archives/edgar/data/1516212/000141036826089164/primary_doc.xml",
+      "file": "SRLN-2026-06-30-NPORT.xml",
+      "holdings_date": "2026-06-30",
+      "sha256": "3b0922d347694441bc7087fba3b91b421a514bba24138b02754fe1fe22bfd484"
+    },
+    {
+      "ticker": "FLBL",
+      "series_id": "S000061948",
+      "accession": "0000940400-26-035132",
+      "filing_date": "2026-08-27",
+      "url": "https://www.sec.gov/Archives/edgar/data/1655589/000094040026035132/primary_doc.xml",
+      "file": "FLBL-2026-06-30-NPORT.xml",
+      "holdings_date": "2026-06-30",
+      "sha256": "c8b86542b64697d975c71d09f4ab78d9afbcebf3364341085eb92ad1c8b8eb3a"
+    },
+    {
+      "ticker": "SEIX",
+      "series_id": "S000064735",
+      "accession": "0000940400-26-038960",
+      "filing_date": "2026-09-29",
+      "url": "https://www.sec.gov/Archives/edgar/data/1648403/000094040026038960/primary_doc.xml",
+      "file": "SEIX-2026-07-31-NPORT.xml",
+      "holdings_date": "2026-07-31",
+      "sha256": "8785e67501b46c95bccc42b68ea50c21904c4f24d49bc17b120502cccdb37ae2"
+    },
+    {
+      "ticker": "FLRT",
+      "series_id": "S000073714",
+      "accession": "0000894189-26-028988",
+      "filing_date": "2026-09-29",
+      "url": "https://www.sec.gov/Archives/edgar/data/1616668/000089418926028988/primary_doc.xml",
+      "file": "FLRT-2026-07-31-NPORT.xml",
+      "holdings_date": "2026-07-31",
+      "sha256": "1cfc0f70931c1f5668749fb287b1a754608f4311556124064bf2be844dad8e35"
+    }
+  ]
+}

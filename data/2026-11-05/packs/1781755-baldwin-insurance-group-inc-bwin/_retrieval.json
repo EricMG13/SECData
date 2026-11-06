@@ -1,0 +1,145 @@
+{
+  "retrieved": "2026-11-05",
+  "pack": {
+    "cik": "1781755",
+    "annual": [
+      {
+        "form": "10-K",
+        "filing_date": "2026-02-26",
+        "report_date": "2025-12-31",
+        "accession": "0001781755-26-000018",
+        "url": "https://www.sec.gov/Archives/edgar/data/1781755/000178175526000018/bwin-20251231.htm"
+      }
+    ],
+    "quarterly": [
+      {
+        "form": "10-Q",
+        "filing_date": "2026-07-30",
+        "report_date": "2026-06-30",
+        "accession": "0001781755-26-000049",
+        "url": "https://www.sec.gov/Archives/edgar/data/1781755/000178175526000049/bwin-20260630.htm"
+      },
+      {
+        "form": "10-Q",
+        "filing_date": "2026-05-04",
+        "report_date": "2026-03-31",
+        "accession": "0001781755-26-000034",
+        "url": "https://www.sec.gov/Archives/edgar/data/1781755/000178175526000034/bwin-20260331.htm"
+      },
+      {
+        "form": "10-Q",
+        "filing_date": "2025-11-04",
+        "report_date": "2025-09-30",
+        "accession": "0001781755-25-000109",
+        "url": "https://www.sec.gov/Archives/edgar/data/1781755/000178175525000109/bwin-20250930.htm"
+      }
+    ],
+    "presentations": [],
+    "releases_instead_of_presentations": [
+      {
+        "form": "EX-99.1",
+        "filing_date": "2026-07-30",
+        "report_date": "2026-07-30",
+        "accession": "0001781755-26-000047",
+        "url": "https://www.sec.gov/Archives/edgar/data/1781755/000178175526000047/ex99-1fy2026q2earningsrele.htm",
+        "period": "2026-06-30"
+      },
+      {
+        "form": "EX-99.1",
+        "filing_date": "2026-05-04",
+        "report_date": "2026-05-04",
+        "accession": "0001781755-26-000032",
+        "url": "https://www.sec.gov/Archives/edgar/data/1781755/000178175526000032/ex99-1fy2026q1earningsrele.htm",
+        "period": "2026-03-31"
+      },
+      {
+        "form": "EX-99.1",
+        "filing_date": "2026-02-26",
+        "report_date": "2026-02-26",
+        "accession": "0001781755-26-000015",
+        "url": "https://www.sec.gov/Archives/edgar/data/1781755/000178175526000015/ex991bwinfy2025q4earningsr.htm",
+        "period": "2025-12-31"
+      }
+    ],
+    "files_10k": true,
+    "complete": false,
+    "complete_with_releases": true,
+    "gaps": [
+      "3 of 3 quarters have a release, not a presentation, on EDGAR"
+    ]
+  },
+  "files": [
+    {
+      "form": "10-K",
+      "filing_date": "2026-02-26",
+      "report_date": "2025-12-31",
+      "accession": "0001781755-26-000018",
+      "url": "https://www.sec.gov/Archives/edgar/data/1781755/000178175526000018/bwin-20251231.htm",
+      "file": "10-K_2025-12-31_bwin-20251231.htm",
+      "sha256": "8207a1f84318b7f16003e57e64cf31aa7747cc41108612fac909edc113808629"
+    },
+    {
+      "form": "10-Q",
+      "filing_date": "2026-07-30",
+      "report_date": "2026-06-30",
+      "accession": "0001781755-26-000049",
+      "url": "https://www.sec.gov/Archives/edgar/data/1781755/000178175526000049/bwin-20260630.htm",
+      "file": "10-Q_2026-06-30_bwin-20260630.htm",
+      "sha256": "b9a424eeb1eb0e0908d74d97c8b5d0598658536ee3d03cc5912e92aee4374b56"
+    },
+    {
+      "form": "10-Q",
+      "filing_date": "2026-05-04",
+      "report_date": "2026-03-31",
+      "accession": "0001781755-26-000034",
+      "url": "https://www.sec.gov/Archives/edgar/data/1781755/000178175526000034/bwin-20260331.htm",
+      "file": "10-Q_2026-03-31_bwin-20260331.htm",
+      "sha256": "1d5da61dc802ec1a012e216d356149fef6f8e89ca8f86ba2df12fd63968d9bcd"
+    },
+    {
+      "form": "10-Q",
+      "filing_date": "2025-11-04",
+      "report_date": "2025-09-30",
+      "accession": "0001781755-25-000109",
+      "url": "https://www.sec.gov/Archives/edgar/data/1781755/000178175525000109/bwin-20250930.htm",
+      "file": "10-Q_2025-09-30_bwin-20250930.htm",
+      "sha256": "a95edcf718dbcd73fc5393e8f874417639ad68bf51b0df8521bc8da50a2706e7"
+    },
+    {
+      "form": "EX-99.1",
+      "filing_date": "2026-07-30",
+      "report_date": "2026-07-30",
+      "accession": "0001781755-26-000047",
+      "url": "https://www.sec.gov/Archives/edgar/data/1781755/000178175526000047/ex99-1fy2026q2earningsrele.htm",
+      "period": "2026-06-30",
+      "file": "EX-99.1_2026-07-30_ex99-1fy2026q2earningsrele.htm",
+      "sha256": "6e82d5d99e52064ae907ff443f73e820ab47c0d27a1ed6a37af6a75122685295",
+      "visible_text_chars": 31433,
+      "image_only": false
+    },
+    {
+      "form": "EX-99.1",
+      "filing_date": "2026-05-04",
+      "report_date": "2026-05-04",
+      "accession": "0001781755-26-000032",
+      "url": "https://www.sec.gov/Archives/edgar/data/1781755/000178175526000032/ex99-1fy2026q1earningsrele.htm",
+      "period": "2026-03-31",
+      "file": "EX-99.1_2026-05-04_ex99-1fy2026q1earningsrele.htm",
+      "sha256": "49d9c312306f6ebf88a8152d4f569645479d115a4f07d35da590483353f21725",
+      "visible_text_chars": 28618,
+      "image_only": false
+    },
+    {
+      "form": "EX-99.1",
+      "filing_date": "2026-02-26",
+      "report_date": "2026-02-26",
+      "accession": "0001781755-26-000015",
+      "url": "https://www.sec.gov/Archives/edgar/data/1781755/000178175526000015/ex991bwinfy2025q4earningsr.htm",
+      "period": "2025-12-31",
+      "file": "EX-99.1_2026-02-26_ex991bwinfy2025q4earningsr.htm",
+      "sha256": "2a9d250a5462217e589bc808a63d29c02eaa4f0b0d1f65dcc71a294936bc6c60",
+      "visible_text_chars": 38204,
+      "image_only": false
+    }
+  ]
+}

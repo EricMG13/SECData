@@ -1,0 +1,148 @@
+{
+  "retrieved": "2026-11-05",
+  "pack": {
+    "cik": "912958",
+    "filer": "foreign private issuer",
+    "annual": [
+      {
+        "form": "20-F",
+        "filing_date": "2026-03-24",
+        "report_date": "2025-12-31",
+        "accession": "0001628280-26-020831",
+        "url": "https://www.sec.gov/Archives/edgar/data/912958/000162828026020831/tigo-20251231.htm"
+      }
+    ],
+    "quarterly": [
+      {
+        "form": "6-K",
+        "filing_date": "2026-11-05",
+        "report_date": "2026-11-05",
+        "accession": "0000950103-26-017042",
+        "url": "https://www.sec.gov/Archives/edgar/data/912958/000095010326017042/dp256407_6k.htm",
+        "period": "2026-11-05"
+      },
+      {
+        "form": "6-K",
+        "filing_date": "2026-08-06",
+        "report_date": "2026-08-06",
+        "accession": "0000950103-26-012022",
+        "url": "https://www.sec.gov/Archives/edgar/data/912958/000095010326012022/dp251442_6k.htm",
+        "period": "2026-08-06"
+      },
+      {
+        "form": "6-K",
+        "filing_date": "2026-05-14",
+        "report_date": "2026-05-12",
+        "accession": "0000950103-26-007169",
+        "url": "https://www.sec.gov/Archives/edgar/data/912958/000095010326007169/dp246578_6k.htm",
+        "period": "2026-05-12"
+      }
+    ],
+    "presentations": [],
+    "releases_instead_of_presentations": [
+      {
+        "form": "6-K",
+        "filing_date": "2026-11-05",
+        "report_date": "2026-11-05",
+        "accession": "0000950103-26-017042",
+        "url": "https://www.sec.gov/Archives/edgar/data/912958/000095010326017042/dp256407_6k.htm",
+        "period": "2026-11-05"
+      },
+      {
+        "form": "6-K",
+        "filing_date": "2026-08-06",
+        "report_date": "2026-08-06",
+        "accession": "0000950103-26-012022",
+        "url": "https://www.sec.gov/Archives/edgar/data/912958/000095010326012022/dp251442_6k.htm",
+        "period": "2026-08-06"
+      },
+      {
+        "form": "6-K",
+        "filing_date": "2026-05-14",
+        "report_date": "2026-05-12",
+        "accession": "0000950103-26-007169",
+        "url": "https://www.sec.gov/Archives/edgar/data/912958/000095010326007169/dp246578_6k.htm",
+        "period": "2026-05-12"
+      }
+    ],
+    "files_10k": false,
+    "files_20f_or_40f": true,
+    "complete": false,
+    "complete_with_releases": true,
+    "gaps": [
+      "interim results furnished on 6-K, not 10-Q (foreign private issuer)",
+      "3 of 3 quarters have a release, not a presentation, on EDGAR"
+    ]
+  },
+  "files": [
+    {
+      "form": "20-F",
+      "filing_date": "2026-03-24",
+      "report_date": "2025-12-31",
+      "accession": "0001628280-26-020831",
+      "url": "https://www.sec.gov/Archives/edgar/data/912958/000162828026020831/tigo-20251231.htm",
+      "file": "20-F_2025-12-31_tigo-20251231.htm",
+      "sha256": "1dd12c7d353ffd664e48fc510121579ac055b11ac892512eabd0393d867661b0"
+    },
+    {
+      "form": "6-K",
+      "filing_date": "2026-11-05",
+      "report_date": "2026-11-05",
+      "accession": "0000950103-26-017042",
+      "url": "https://www.sec.gov/Archives/edgar/data/912958/000095010326017042/dp256407_6k.htm",
+      "period": "2026-11-05",
+      "file": "6-K_2026-11-05_dp256407_6k.htm",
+      "sha256": "c73e7d62bdb32e3808a50ca8f2c6345e00e79058916589cdec9e718b6031f264"
+    },
+    {
+      "form": "6-K",
+      "filing_date": "2026-08-06",
+      "report_date": "2026-08-06",
+      "accession": "0000950103-26-012022",
+      "url": "https://www.sec.gov/Archives/edgar/data/912958/000095010326012022/dp251442_6k.htm",
+      "period": "2026-08-06",
+      "file": "6-K_2026-08-06_dp251442_6k.htm",
+      "sha256": "db539ae1772515d59862420f7715a15f70e87169d14e85c8405bd4fbb8e38a48"
+    },
+    {
+      "form": "6-K",
+      "filing_date": "2026-05-14",
+      "report_date": "2026-05-12",
+      "accession": "0000950103-26-007169",
+      "url": "https://www.sec.gov/Archives/edgar/data/912958/000095010326007169/dp246578_6k.htm",
+      "period": "2026-05-12",
+      "file": "6-K_2026-05-12_dp246578_6k.htm",
+      "sha256": "e451987ce173059e98ec2d54ca6517613fd027fac453e0036c061f5c868c1786"
+    },
+    {
+      "form": "6-K",
+      "filing_date": "2026-11-05",
+      "report_date": "2026-11-05",
+      "accession": "0000950103-26-017042",
+      "url": "https://www.sec.gov/Archives/edgar/data/912958/000095010326017042/dp256407_6k.htm",
+      "period": "2026-11-05",
+      "file": "6-K_2026-11-05_dp256407_6k.htm",
+      "sha256": "c73e7d62bdb32e3808a50ca8f2c6345e00e79058916589cdec9e718b6031f264"
+    },
+    {
+      "form": "6-K",
+      "filing_date": "2026-08-06",
+      "report_date": "2026-08-06",
+      "accession": "0000950103-26-012022",
+      "url": "https://www.sec.gov/Archives/edgar/data/912958/000095010326012022/dp251442_6k.htm",
+      "period": "2026-08-06",
+      "file": "6-K_2026-08-06_dp251442_6k.htm",
+      "sha256": "db539ae1772515d59862420f7715a15f70e87169d14e85c8405bd4fbb8e38a48"
+    },
+    {
+      "form": "6-K",
+      "filing_date": "2026-05-14",
+      "report_date": "2026-05-12",
+      "accession": "0000950103-26-007169",
+      "url": "https://www.sec.gov/Archives/edgar/data/912958/000095010326007169/dp246578_6k.htm",
+      "period": "2026-05-12",
+      "file": "6-K_2026-05-12_dp246578_6k.htm",
+      "sha256": "e451987ce173059e98ec2d54ca6517613fd027fac453e0036c061f5c868c1786"
+    }
+  ]
+}

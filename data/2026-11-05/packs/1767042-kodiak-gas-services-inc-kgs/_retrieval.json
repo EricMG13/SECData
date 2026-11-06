@@ -1,0 +1,145 @@
+{
+  "retrieved": "2026-11-05",
+  "pack": {
+    "cik": "1767042",
+    "annual": [
+      {
+        "form": "10-K",
+        "filing_date": "2026-02-26",
+        "report_date": "2025-12-31",
+        "accession": "0001767042-26-000012",
+        "url": "https://www.sec.gov/Archives/edgar/data/1767042/000176704226000012/kgs-20251231.htm"
+      }
+    ],
+    "quarterly": [
+      {
+        "form": "10-Q",
+        "filing_date": "2026-08-07",
+        "report_date": "2026-06-30",
+        "accession": "0001767042-26-000055",
+        "url": "https://www.sec.gov/Archives/edgar/data/1767042/000176704226000055/kgs-20260630.htm"
+      },
+      {
+        "form": "10-Q",
+        "filing_date": "2026-05-11",
+        "report_date": "2026-03-31",
+        "accession": "0001767042-26-000043",
+        "url": "https://www.sec.gov/Archives/edgar/data/1767042/000176704226000043/kgs-20260331.htm"
+      },
+      {
+        "form": "10-Q",
+        "filing_date": "2025-11-05",
+        "report_date": "2025-09-30",
+        "accession": "0001767042-25-000080",
+        "url": "https://www.sec.gov/Archives/edgar/data/1767042/000176704225000080/kgs-20250930.htm"
+      }
+    ],
+    "presentations": [],
+    "releases_instead_of_presentations": [
+      {
+        "form": "EX-99.1",
+        "filing_date": "2026-08-06",
+        "report_date": "2026-08-06",
+        "accession": "0001767042-26-000052",
+        "url": "https://www.sec.gov/Archives/edgar/data/1767042/000176704226000052/kgsq22026earningsrelease.htm",
+        "period": "2026-06-30"
+      },
+      {
+        "form": "EX-99.1",
+        "filing_date": "2026-05-11",
+        "report_date": "2026-05-11",
+        "accession": "0001767042-26-000041",
+        "url": "https://www.sec.gov/Archives/edgar/data/1767042/000176704226000041/kgsq12026earningsrelease.htm",
+        "period": "2026-03-31"
+      },
+      {
+        "form": "EX-99.1",
+        "filing_date": "2026-02-25",
+        "report_date": "2026-02-25",
+        "accession": "0001767042-26-000009",
+        "url": "https://www.sec.gov/Archives/edgar/data/1767042/000176704226000009/kgsq42025earningsrelease.htm",
+        "period": "2025-12-31"
+      }
+    ],
+    "files_10k": true,
+    "complete": false,
+    "complete_with_releases": true,
+    "gaps": [
+      "3 of 3 quarters have a release, not a presentation, on EDGAR"
+    ]
+  },
+  "files": [
+    {
+      "form": "10-K",
+      "filing_date": "2026-02-26",
+      "report_date": "2025-12-31",
+      "accession": "0001767042-26-000012",
+      "url": "https://www.sec.gov/Archives/edgar/data/1767042/000176704226000012/kgs-20251231.htm",
+      "file": "10-K_2025-12-31_kgs-20251231.htm",
+      "sha256": "9018e737fb0e5fec69efe4e02f3f2e0f357b2ecc5d9e905a62a0e24bb814adc4"
+    },
+    {
+      "form": "10-Q",
+      "filing_date": "2026-08-07",
+      "report_date": "2026-06-30",
+      "accession": "0001767042-26-000055",
+      "url": "https://www.sec.gov/Archives/edgar/data/1767042/000176704226000055/kgs-20260630.htm",
+      "file": "10-Q_2026-06-30_kgs-20260630.htm",
+      "sha256": "bab6ba0140f19668e9712d0e02912cbf0350e7750ab5faf6a17ed0880750f7c6"
+    },
+    {
+      "form": "10-Q",
+      "filing_date": "2026-05-11",
+      "report_date": "2026-03-31",
+      "accession": "0001767042-26-000043",
+      "url": "https://www.sec.gov/Archives/edgar/data/1767042/000176704226000043/kgs-20260331.htm",
+      "file": "10-Q_2026-03-31_kgs-20260331.htm",
+      "sha256": "cd8ab464800cbf92e99f7ed953ad21fe43b7f3ae3acd25fe7bfb5a488a90a3f6"
+    },
+    {
+      "form": "10-Q",
+      "filing_date": "2025-11-05",
+      "report_date": "2025-09-30",
+      "accession": "0001767042-25-000080",
+      "url": "https://www.sec.gov/Archives/edgar/data/1767042/000176704225000080/kgs-20250930.htm",
+      "file": "10-Q_2025-09-30_kgs-20250930.htm",
+      "sha256": "3afcef636e96ea35db2f1092146b673b83025e04933ad0d2854b371d12c5b3f1"
+    },
+    {
+      "form": "EX-99.1",
+      "filing_date": "2026-08-06",
+      "report_date": "2026-08-06",
+      "accession": "0001767042-26-000052",
+      "url": "https://www.sec.gov/Archives/edgar/data/1767042/000176704226000052/kgsq22026earningsrelease.htm",
+      "period": "2026-06-30",
+      "file": "EX-99.1_2026-08-06_kgsq22026earningsrelease.htm",
+      "sha256": "cd20c093d89f8cbaea03182018f1664e14a8c14d57377dd45692d5bbabaf829f",
+      "visible_text_chars": 35268,
+      "image_only": false
+    },
+    {
+      "form": "EX-99.1",
+      "filing_date": "2026-05-11",
+      "report_date": "2026-05-11",
+      "accession": "0001767042-26-000041",
+      "url": "https://www.sec.gov/Archives/edgar/data/1767042/000176704226000041/kgsq12026earningsrelease.htm",
+      "period": "2026-03-31",
+      "file": "EX-99.1_2026-05-11_kgsq12026earningsrelease.htm",
+      "sha256": "8ca14e3ef97d7a94d9d1b88dd2de670bdb6155eb0418d24e37203fa1d8adf248",
+      "visible_text_chars": 30804,
+      "image_only": false
+    },
+    {
+      "form": "EX-99.1",
+      "filing_date": "2026-02-25",
+      "report_date": "2026-02-25",
+      "accession": "0001767042-26-000009",
+      "url": "https://www.sec.gov/Archives/edgar/data/1767042/000176704226000009/kgsq42025earningsrelease.htm",
+      "period": "2025-12-31",
+      "file": "EX-99.1_2026-02-25_kgsq42025earningsrelease.htm",
+      "sha256": "34ce8b56b1f8a10c68159e6ee9f1501f39223b4d1bd2761d43ede0cb3c5e3a96",
+      "visible_text_chars": 37149,
+      "image_only": false
+    }
+  ]
+}

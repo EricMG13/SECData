@@ -1,0 +1,143 @@
+{
+  "retrieved": "2026-11-05",
+  "pack": {
+    "cik": "785161",
+    "annual": [
+      {
+        "form": "10-K",
+        "filing_date": "2026-02-26",
+        "report_date": "2025-12-31",
+        "accession": "0000785161-26-000081",
+        "url": "https://www.sec.gov/Archives/edgar/data/785161/000078516126000081/ehc-20251231.htm"
+      }
+    ],
+    "quarterly": [
+      {
+        "form": "10-Q",
+        "filing_date": "2026-11-03",
+        "report_date": "2026-09-30",
+        "accession": "0000785161-26-000239",
+        "url": "https://www.sec.gov/Archives/edgar/data/785161/000078516126000239/ehc-20260930.htm"
+      },
+      {
+        "form": "10-Q",
+        "filing_date": "2026-08-07",
+        "report_date": "2026-06-30",
+        "accession": "0000785161-26-000186",
+        "url": "https://www.sec.gov/Archives/edgar/data/785161/000078516126000186/ehc-20260630.htm"
+      },
+      {
+        "form": "10-Q",
+        "filing_date": "2026-05-01",
+        "report_date": "2026-03-31",
+        "accession": "0000785161-26-000130",
+        "url": "https://www.sec.gov/Archives/edgar/data/785161/000078516126000130/ehc-20260331.htm"
+      }
+    ],
+    "presentations": [
+      {
+        "form": "EX-99.2",
+        "filing_date": "2026-10-28",
+        "report_date": "2026-10-28",
+        "accession": "0000785161-26-000236",
+        "url": "https://www.sec.gov/Archives/edgar/data/785161/000078516126000236/ehcq32026earningsslides_.htm",
+        "period": "2026-09-30"
+      },
+      {
+        "form": "EX-99.2",
+        "filing_date": "2026-08-05",
+        "report_date": "2026-08-05",
+        "accession": "0000785161-26-000183",
+        "url": "https://www.sec.gov/Archives/edgar/data/785161/000078516126000183/ehcq22026earningsslides_.htm",
+        "period": "2026-06-30"
+      },
+      {
+        "form": "EX-99.2",
+        "filing_date": "2026-04-30",
+        "report_date": "2026-04-30",
+        "accession": "0000785161-26-000128",
+        "url": "https://www.sec.gov/Archives/edgar/data/785161/000078516126000128/ehcq12026earningsslides_.htm",
+        "period": "2026-03-31"
+      }
+    ],
+    "releases_instead_of_presentations": [],
+    "files_10k": true,
+    "complete": true,
+    "complete_with_releases": true,
+    "gaps": []
+  },
+  "files": [
+    {
+      "form": "10-K",
+      "filing_date": "2026-02-26",
+      "report_date": "2025-12-31",
+      "accession": "0000785161-26-000081",
+      "url": "https://www.sec.gov/Archives/edgar/data/785161/000078516126000081/ehc-20251231.htm",
+      "file": "10-K_2025-12-31_ehc-20251231.htm",
+      "sha256": "743285f4a3eb207f6aa13b88eaa1655bc3aee1cae1b36396d586a8b632345a60"
+    },
+    {
+      "form": "10-Q",
+      "filing_date": "2026-11-03",
+      "report_date": "2026-09-30",
+      "accession": "0000785161-26-000239",
+      "url": "https://www.sec.gov/Archives/edgar/data/785161/000078516126000239/ehc-20260930.htm",
+      "file": "10-Q_2026-09-30_ehc-20260930.htm",
+      "sha256": "6f7a220b40577a87ee5ea3d894187f3fe7d1ec160ab97b491f10b56fb56e3f57"
+    },
+    {
+      "form": "10-Q",
+      "filing_date": "2026-08-07",
+      "report_date": "2026-06-30",
+      "accession": "0000785161-26-000186",
+      "url": "https://www.sec.gov/Archives/edgar/data/785161/000078516126000186/ehc-20260630.htm",
+      "file": "10-Q_2026-06-30_ehc-20260630.htm",
+      "sha256": "834fffae8fb0bafcae2b83e04b4193b8d7c3ffa2d8c4fcd40f8db50d7bc40870"
+    },
+    {
+      "form": "10-Q",
+      "filing_date": "2026-05-01",
+      "report_date": "2026-03-31",
+      "accession": "0000785161-26-000130",
+      "url": "https://www.sec.gov/Archives/edgar/data/785161/000078516126000130/ehc-20260331.htm",
+      "file": "10-Q_2026-03-31_ehc-20260331.htm",
+      "sha256": "d0ab195a5f1c8a6de1c629cff6fe40a3e644a2ba49b50bce8311d852e4c8d02f"
+    },
+    {
+      "form": "EX-99.2",
+      "filing_date": "2026-10-28",
+      "report_date": "2026-10-28",
+      "accession": "0000785161-26-000236",
+      "url": "https://www.sec.gov/Archives/edgar/data/785161/000078516126000236/ehcq32026earningsslides_.htm",
+      "period": "2026-09-30",
+      "file": "EX-99.2_2026-10-28_ehcq32026earningsslides_.htm",
+      "sha256": "62699cf815900666a6f5beafe6b848c273035803c5ba7acd4434a16142d948ef",
+      "visible_text_chars": 43591,
+      "image_only": false
+    },
+    {
+      "form": "EX-99.2",
+      "filing_date": "2026-08-05",
+      "report_date": "2026-08-05",
+      "accession": "0000785161-26-000183",
+      "url": "https://www.sec.gov/Archives/edgar/data/785161/000078516126000183/ehcq22026earningsslides_.htm",
+      "period": "2026-06-30",
+      "file": "EX-99.2_2026-08-05_ehcq22026earningsslides_.htm",
+      "sha256": "6c136946c720e575ade5e2e98223113851037c3944b58f3d0ada3d832cbac400",
+      "visible_text_chars": 41691,
+      "image_only": false
+    },
+    {
+      "form": "EX-99.2",
+      "filing_date": "2026-04-30",
+      "report_date": "2026-04-30",
+      "accession": "0000785161-26-000128",
+      "url": "https://www.sec.gov/Archives/edgar/data/785161/000078516126000128/ehcq12026earningsslides_.htm",
+      "period": "2026-03-31",
+      "file": "EX-99.2_2026-04-30_ehcq12026earningsslides_.htm",
+      "sha256": "4ca2bd368b24f76b4df28c7a85b6f1f51cefa6dcd6f7fe4b774d78bb4bf27483",
+      "visible_text_chars": 37477,
+      "image_only": false
+    }
+  ]
+}

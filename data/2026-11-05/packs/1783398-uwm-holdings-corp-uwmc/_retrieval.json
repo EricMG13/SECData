@@ -1,0 +1,146 @@
+{
+  "retrieved": "2026-11-05",
+  "pack": {
+    "cik": "1783398",
+    "annual": [
+      {
+        "form": "10-K",
+        "filing_date": "2026-02-25",
+        "report_date": "2025-12-31",
+        "accession": "0001783398-26-000013",
+        "url": "https://www.sec.gov/Archives/edgar/data/1783398/000178339826000013/uwmc-20251231.htm"
+      }
+    ],
+    "quarterly": [
+      {
+        "form": "10-Q",
+        "filing_date": "2026-08-07",
+        "report_date": "2026-06-30",
+        "accession": "0001783398-26-000117",
+        "url": "https://www.sec.gov/Archives/edgar/data/1783398/000178339826000117/uwmc-20260630.htm"
+      },
+      {
+        "form": "10-Q",
+        "filing_date": "2026-05-11",
+        "report_date": "2026-03-31",
+        "accession": "0001783398-26-000051",
+        "url": "https://www.sec.gov/Archives/edgar/data/1783398/000178339826000051/uwmc-20260331.htm"
+      },
+      {
+        "form": "10-Q",
+        "filing_date": "2025-11-06",
+        "report_date": "2025-09-30",
+        "accession": "0001783398-25-000050",
+        "url": "https://www.sec.gov/Archives/edgar/data/1783398/000178339825000050/uwmc-20250930.htm"
+      }
+    ],
+    "presentations": [
+      {
+        "form": "EX-99.1",
+        "filing_date": "2026-02-27",
+        "report_date": "2026-02-26",
+        "accession": "0001783398-26-000018",
+        "url": "https://www.sec.gov/Archives/edgar/data/1783398/000178339826000018/irdeck4q25andfy2025-fina.htm",
+        "period": "2025-12-31"
+      }
+    ],
+    "releases_instead_of_presentations": [
+      {
+        "form": "EX-99.1",
+        "filing_date": "2026-08-06",
+        "report_date": "2026-08-05",
+        "accession": "0001783398-26-000114",
+        "url": "https://www.sec.gov/Archives/edgar/data/1783398/000178339826000114/q22026ex-991pressrelease.htm",
+        "period": "2026-06-30"
+      },
+      {
+        "form": "EX-99.1",
+        "filing_date": "2026-05-06",
+        "report_date": "2026-05-06",
+        "accession": "0001783398-26-000047",
+        "url": "https://www.sec.gov/Archives/edgar/data/1783398/000178339826000047/q12026ex-991pressrelease.htm",
+        "period": "2026-03-31"
+      }
+    ],
+    "files_10k": true,
+    "complete": false,
+    "complete_with_releases": true,
+    "gaps": [
+      "2 of 3 quarters have a release, not a presentation, on EDGAR"
+    ]
+  },
+  "files": [
+    {
+      "form": "10-K",
+      "filing_date": "2026-02-25",
+      "report_date": "2025-12-31",
+      "accession": "0001783398-26-000013",
+      "url": "https://www.sec.gov/Archives/edgar/data/1783398/000178339826000013/uwmc-20251231.htm",
+      "file": "10-K_2025-12-31_uwmc-20251231.htm",
+      "sha256": "924bbbb9664720309e2f04982f12e226432687f12bce3690985df5e84f16d91d"
+    },
+    {
+      "form": "10-Q",
+      "filing_date": "2026-08-07",
+      "report_date": "2026-06-30",
+      "accession": "0001783398-26-000117",
+      "url": "https://www.sec.gov/Archives/edgar/data/1783398/000178339826000117/uwmc-20260630.htm",
+      "file": "10-Q_2026-06-30_uwmc-20260630.htm",
+      "sha256": "76758a2827bc5bc7110c089e05ac34da8d761fe84e646b5140f485acafeddf22"
+    },
+    {
+      "form": "10-Q",
+      "filing_date": "2026-05-11",
+      "report_date": "2026-03-31",
+      "accession": "0001783398-26-000051",
+      "url": "https://www.sec.gov/Archives/edgar/data/1783398/000178339826000051/uwmc-20260331.htm",
+      "file": "10-Q_2026-03-31_uwmc-20260331.htm",
+      "sha256": "f2ab1352e5695a70a72b90629a915bf3b86d23e0ea44d10fef6b8309765a4c20"
+    },
+    {
+      "form": "10-Q",
+      "filing_date": "2025-11-06",
+      "report_date": "2025-09-30",
+      "accession": "0001783398-25-000050",
+      "url": "https://www.sec.gov/Archives/edgar/data/1783398/000178339825000050/uwmc-20250930.htm",
+      "file": "10-Q_2025-09-30_uwmc-20250930.htm",
+      "sha256": "66fca0b45271feb1820bb043fa280311c9c778a894eb75e602173b3474ebaa6a"
+    },
+    {
+      "form": "EX-99.1",
+      "filing_date": "2026-02-27",
+      "report_date": "2026-02-26",
+      "accession": "0001783398-26-000018",
+      "url": "https://www.sec.gov/Archives/edgar/data/1783398/000178339826000018/irdeck4q25andfy2025-fina.htm",
+      "period": "2025-12-31",
+      "file": "EX-99.1_2026-02-26_irdeck4q25andfy2025-fina.htm",
+      "sha256": "cbc63dd4d39ab7473e19e99766d97675d4311e1684ed57f514ddb0d8ed8c8b99",
+      "visible_text_chars": 26112,
+      "image_only": false
+    },
+    {
+      "form": "EX-99.1",
+      "filing_date": "2026-08-06",
+      "report_date": "2026-08-05",
+      "accession": "0001783398-26-000114",
+      "url": "https://www.sec.gov/Archives/edgar/data/1783398/000178339826000114/q22026ex-991pressrelease.htm",
+      "period": "2026-06-30",
+      "file": "EX-99.1_2026-08-05_q22026ex-991pressrelease.htm",
+      "sha256": "4a112f35829fe8e0ae9b90c2f96e090380877891f539a3f824f40e018158b306",
+      "visible_text_chars": 28011,
+      "image_only": false
+    },
+    {
+      "form": "EX-99.1",
+      "filing_date": "2026-05-06",
+      "report_date": "2026-05-06",
+      "accession": "0001783398-26-000047",
+      "url": "https://www.sec.gov/Archives/edgar/data/1783398/000178339826000047/q12026ex-991pressrelease.htm",
+      "period": "2026-03-31",
+      "file": "EX-99.1_2026-05-06_q12026ex-991pressrelease.htm",
+      "sha256": "9768c8480e0e3a425489812b23d5d32a6ede776649e313d422b1cfcaa471a6db",
+      "visible_text_chars": 27564,
+      "image_only": false
+    }
+  ]
+}

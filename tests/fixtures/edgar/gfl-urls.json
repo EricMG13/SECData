@@ -1,0 +1,167 @@
+{
+  "https://data.sec.gov/submissions/CIK0001780232.json": {
+    "full": "gfl-full-CIK0001780232.json"
+  },
+  "https://efts.sec.gov/LATEST/search-index?keysTyped=gfl%20environmental": {
+    "full": "efts-gfl-environmental.json"
+  },
+  "https://www.sec.gov/Archives/edgar/data/1780232/000110465926046899/0001104659-26-046899-index.htm": {
+    "full": "gfl-full-0001104659-26-046899-index.htm"
+  },
+  "https://www.sec.gov/Archives/edgar/data/1780232/000110465926046899/tm261268d2_ex99-2.htm": {
+    "head": "gfl-head-tm261268d2_ex99-2.htm"
+  },
+  "https://www.sec.gov/Archives/edgar/data/1780232/000110465926046899/tm261268d2_ex99-3.htm": {
+    "head": "gfl-head-tm261268d2_ex99-3.htm"
+  },
+  "https://www.sec.gov/Archives/edgar/data/1780232/000110465926046899/tm261268d4_ex99-1.htm": {
+    "head": "gfl-head-tm261268d4_ex99-1.htm"
+  },
+  "https://www.sec.gov/Archives/edgar/data/1780232/000110465926047044/0001104659-26-047044-index.htm": {
+    "full": "gfl-full-0001104659-26-047044-index.htm"
+  },
+  "https://www.sec.gov/Archives/edgar/data/1780232/000110465926047044/tm2612468d1_ex99-1.htm": {
+    "head": "gfl-head-tm2612468d1_ex99-1.htm"
+  },
+  "https://www.sec.gov/Archives/edgar/data/1780232/000110465926047044/tm2612468d1_ex99-2.htm": {
+    "head": "gfl-head-tm2612468d1_ex99-2.htm"
+  },
+  "https://www.sec.gov/Archives/edgar/data/1780232/000110465926051500/0001104659-26-051500-index.htm": {
+    "full": "gfl-full-0001104659-26-051500-index.htm"
+  },
+  "https://www.sec.gov/Archives/edgar/data/1780232/000110465926051500/tm2612685d2_ex99-1.htm": {
+    "head": "gfl-head-tm2612685d2_ex99-1.htm"
+  },
+  "https://www.sec.gov/Archives/edgar/data/1780232/000110465926054228/0001104659-26-054228-index.htm": {
+    "full": "gfl-full-0001104659-26-054228-index.htm"
+  },
+  "https://www.sec.gov/Archives/edgar/data/1780232/000110465926054228/tm2612685d3_ex99-1.htm": {
+    "head": "gfl-head-tm2612685d3_ex99-1.htm"
+  },
+  "https://www.sec.gov/Archives/edgar/data/1780232/000110465926054228/tm2612685d3_ex99-2.htm": {
+    "head": "gfl-head-tm2612685d3_ex99-2.htm"
+  },
+  "https://www.sec.gov/Archives/edgar/data/1780232/000110465926054228/tm2612685d3_ex99-3.htm": {
+    "head": "gfl-head-tm2612685d3_ex99-3.htm"
+  },
+  "https://www.sec.gov/Archives/edgar/data/1780232/000110465926054228/tm2612685d3_ex99-4.htm": {
+    "head": "gfl-head-tm2612685d3_ex99-4.htm"
+  },
+  "https://www.sec.gov/Archives/edgar/data/1780232/000110465926060345/0001104659-26-060345-index.htm": {
+    "full": "gfl-full-0001104659-26-060345-index.htm"
+  },
+  "https://www.sec.gov/Archives/edgar/data/1780232/000110465926060345/tm2614384d1_ex99-1.htm": {
+    "head": "gfl-head-tm2614384d1_ex99-1.htm"
+  },
+  "https://www.sec.gov/Archives/edgar/data/1780232/000110465926060345/tm2614384d1_ex99-2.htm": {
+    "head": "gfl-head-tm2614384d1_ex99-2.htm"
+  },
+  "https://www.sec.gov/Archives/edgar/data/1780232/000110465926076120/0001104659-26-076120-index.htm": {
+    "full": "gfl-full-0001104659-26-076120-index.htm"
+  },
+  "https://www.sec.gov/Archives/edgar/data/1780232/000110465926076120/tm2618407d3_ex99-1.htm": {
+    "head": "gfl-head-tm2618407d3_ex99-1.htm"
+  },
+  "https://www.sec.gov/Archives/edgar/data/1780232/000110465926076620/0001104659-26-076620-index.htm": {
+    "full": "gfl-full-0001104659-26-076620-index.htm"
+  },
+  "https://www.sec.gov/Archives/edgar/data/1780232/000110465926076620/tm2618407d4_ex99-1.htm": {
+    "head": "gfl-head-tm2618407d4_ex99-1.htm"
+  },
+  "https://www.sec.gov/Archives/edgar/data/1780232/000110465926077507/0001104659-26-077507-index.htm": {
+    "full": "gfl-full-0001104659-26-077507-index.htm"
+  },
+  "https://www.sec.gov/Archives/edgar/data/1780232/000110465926077507/tm2618407d11_ex99-1.htm": {
+    "head": "gfl-head-tm2618407d11_ex99-1.htm"
+  },
+  "https://www.sec.gov/Archives/edgar/data/1780232/000110465926077650/0001104659-26-077650-index.htm": {
+    "full": "gfl-full-0001104659-26-077650-index.htm"
+  },
+  "https://www.sec.gov/Archives/edgar/data/1780232/000110465926077650/tm2618407d10_6k.htm": {
+    "body": "gfl-body-tm2618407d10_6k.htm"
+  },
+  "https://www.sec.gov/Archives/edgar/data/1780232/000110465926079065/0001104659-26-079065-index.htm": {
+    "full": "gfl-full-0001104659-26-079065-index.htm"
+  },
+  "https://www.sec.gov/Archives/edgar/data/1780232/000110465926079065/tm2619312d1_ex99-1.htm": {
+    "head": "gfl-head-tm2619312d1_ex99-1.htm"
+  },
+  "https://www.sec.gov/Archives/edgar/data/1780232/000110465926080072/0001104659-26-080072-index.htm": {
+    "full": "gfl-full-0001104659-26-080072-index.htm"
+  },
+  "https://www.sec.gov/Archives/edgar/data/1780232/000110465926080072/tm2619540d1_ex99-1.htm": {
+    "head": "gfl-head-tm2619540d1_ex99-1.htm"
+  },
+  "https://www.sec.gov/Archives/edgar/data/1780232/000110465926088156/0001104659-26-088156-index.htm": {
+    "full": "gfl-full-0001104659-26-088156-index.htm"
+  },
+  "https://www.sec.gov/Archives/edgar/data/1780232/000110465926088156/tm2619744d2_ex99-1.htm": {
+    "head": "gfl-head-tm2619744d2_ex99-1.htm"
+  },
+  "https://www.sec.gov/Archives/edgar/data/1780232/000110465926089279/0001104659-26-089279-index.htm": {
+    "full": "gfl-full-0001104659-26-089279-index.htm"
+  },
+  "https://www.sec.gov/Archives/edgar/data/1780232/000110465926089279/tm2619744d3_ex99-1.htm": {
+    "head": "gfl-head-tm2619744d3_ex99-1.htm"
+  },
+  "https://www.sec.gov/Archives/edgar/data/1780232/000110465926089279/tm2619744d3_ex99-2.htm": {
+    "head": "gfl-head-tm2619744d3_ex99-2.htm"
+  },
+  "https://www.sec.gov/Archives/edgar/data/1780232/000110465926089279/tm2619744d3_ex99-3.htm": {
+    "head": "gfl-head-tm2619744d3_ex99-3.htm"
+  },
+  "https://www.sec.gov/Archives/edgar/data/1780232/000110465926089279/tm2619744d3_ex99-4.htm": {
+    "head": "gfl-head-tm2619744d3_ex99-4.htm"
+  },
+  "https://www.sec.gov/Archives/edgar/data/1780232/000110465926104147/0001104659-26-104147-index.htm": {
+    "full": "gfl-full-0001104659-26-104147-index.htm"
+  },
+  "https://www.sec.gov/Archives/edgar/data/1780232/000110465926104147/tm2624383d1_ex99-1.htm": {
+    "head": "gfl-head-tm2624383d1_ex99-1.htm"
+  },
+  "https://www.sec.gov/Archives/edgar/data/1780232/000110465926110148/0001104659-26-110148-index.htm": {
+    "full": "gfl-full-0001104659-26-110148-index.htm"
+  },
+  "https://www.sec.gov/Archives/edgar/data/1780232/000110465926110148/tm2626039d1_ex99-1.htm": {
+    "head": "gfl-head-tm2626039d1_ex99-1.htm"
+  },
+  "https://www.sec.gov/Archives/edgar/data/1780232/000110465926111558/0001104659-26-111558-index.htm": {
+    "full": "gfl-full-0001104659-26-111558-index.htm"
+  },
+  "https://www.sec.gov/Archives/edgar/data/1780232/000110465926111558/tm2626497d1_ex99-1.htm": {
+    "head": "gfl-head-tm2626497d1_ex99-1.htm"
+  },
+  "https://www.sec.gov/Archives/edgar/data/1780232/000110465926112566/0001104659-26-112566-index.htm": {
+    "full": "gfl-full-0001104659-26-112566-index.htm"
+  },
+  "https://www.sec.gov/Archives/edgar/data/1780232/000110465926112566/tm2626687d1_ex99-1.htm": {
+    "head": "gfl-head-tm2626687d1_ex99-1.htm"
+  },
+  "https://www.sec.gov/Archives/edgar/data/1780232/000110465926114518/0001104659-26-114518-index.htm": {
+    "full": "gfl-full-0001104659-26-114518-index.htm"
+  },
+  "https://www.sec.gov/Archives/edgar/data/1780232/000110465926114518/tm2627215d1_ex99-1.htm": {
+    "head": "gfl-head-tm2627215d1_ex99-1.htm"
+  },
+  "https://www.sec.gov/Archives/edgar/data/1780232/000110465926119630/0001104659-26-119630-index.htm": {
+    "full": "gfl-full-0001104659-26-119630-index.htm"
+  },
+  "https://www.sec.gov/Archives/edgar/data/1780232/000110465926119630/tm2626649d2_ex99-1.htm": {
+    "head": "gfl-head-tm2626649d2_ex99-1.htm"
+  },
+  "https://www.sec.gov/Archives/edgar/data/1780232/000110465926120719/0001104659-26-120719-index.htm": {
+    "full": "gfl-full-0001104659-26-120719-index.htm"
+  },
+  "https://www.sec.gov/Archives/edgar/data/1780232/000110465926120719/tm2626649d1_ex99-1.htm": {
+    "head": "gfl-head-tm2626649d1_ex99-1.htm"
+  },
+  "https://www.sec.gov/Archives/edgar/data/1780232/000110465926120719/tm2626649d1_ex99-2.htm": {
+    "head": "gfl-head-tm2626649d1_ex99-2.htm"
+  },
+  "https://www.sec.gov/Archives/edgar/data/1780232/000110465926120719/tm2626649d1_ex99-3.htm": {
+    "head": "gfl-head-tm2626649d1_ex99-3.htm"
+  },
+  "https://www.sec.gov/Archives/edgar/data/1780232/000110465926120719/tm2626649d1_ex99-4.htm": {
+    "head": "gfl-head-tm2626649d1_ex99-4.htm"
+  }
+}
