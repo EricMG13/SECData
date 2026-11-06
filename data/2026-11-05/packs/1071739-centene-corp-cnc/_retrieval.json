@@ -1,0 +1,145 @@
+{
+  "retrieved": "2026-11-05",
+  "pack": {
+    "cik": "1071739",
+    "annual": [
+      {
+        "form": "10-K",
+        "filing_date": "2026-02-17",
+        "report_date": "2025-12-31",
+        "accession": "0001071739-26-000049",
+        "url": "https://www.sec.gov/Archives/edgar/data/1071739/000107173926000049/cnc-20251231.htm"
+      }
+    ],
+    "quarterly": [
+      {
+        "form": "10-Q",
+        "filing_date": "2026-10-27",
+        "report_date": "2026-09-30",
+        "accession": "0001071739-26-000192",
+        "url": "https://www.sec.gov/Archives/edgar/data/1071739/000107173926000192/cnc-20260930.htm"
+      },
+      {
+        "form": "10-Q",
+        "filing_date": "2026-07-28",
+        "report_date": "2026-06-30",
+        "accession": "0001071739-26-000153",
+        "url": "https://www.sec.gov/Archives/edgar/data/1071739/000107173926000153/cnc-20260630.htm"
+      },
+      {
+        "form": "10-Q",
+        "filing_date": "2026-04-28",
+        "report_date": "2026-03-31",
+        "accession": "0001071739-26-000098",
+        "url": "https://www.sec.gov/Archives/edgar/data/1071739/000107173926000098/cnc-20260331.htm"
+      }
+    ],
+    "presentations": [],
+    "releases_instead_of_presentations": [
+      {
+        "form": "EX-99.1",
+        "filing_date": "2026-10-27",
+        "report_date": "2026-10-27",
+        "accession": "0001071739-26-000194",
+        "url": "https://www.sec.gov/Archives/edgar/data/1071739/000107173926000194/a20261027ex991pressrelease.htm",
+        "period": "2026-09-30"
+      },
+      {
+        "form": "EX-99.1",
+        "filing_date": "2026-07-28",
+        "report_date": "2026-07-28",
+        "accession": "0001071739-26-000154",
+        "url": "https://www.sec.gov/Archives/edgar/data/1071739/000107173926000154/a20260728ex991pressrelease.htm",
+        "period": "2026-06-30"
+      },
+      {
+        "form": "EX-99.1",
+        "filing_date": "2026-04-28",
+        "report_date": "2026-04-28",
+        "accession": "0001071739-26-000099",
+        "url": "https://www.sec.gov/Archives/edgar/data/1071739/000107173926000099/a20260428ex991pressrelease.htm",
+        "period": "2026-03-31"
+      }
+    ],
+    "files_10k": true,
+    "complete": false,
+    "complete_with_releases": true,
+    "gaps": [
+      "3 of 3 quarters have a release, not a presentation, on EDGAR"
+    ]
+  },
+  "files": [
+    {
+      "form": "10-K",
+      "filing_date": "2026-02-17",
+      "report_date": "2025-12-31",
+      "accession": "0001071739-26-000049",
+      "url": "https://www.sec.gov/Archives/edgar/data/1071739/000107173926000049/cnc-20251231.htm",
+      "file": "10-K_2025-12-31_cnc-20251231.htm",
+      "sha256": "84f363689f1eece5286ce0dc59aa3056b86661579db8f8deb3c84c222eb50ec3"
+    },
+    {
+      "form": "10-Q",
+      "filing_date": "2026-10-27",
+      "report_date": "2026-09-30",
+      "accession": "0001071739-26-000192",
+      "url": "https://www.sec.gov/Archives/edgar/data/1071739/000107173926000192/cnc-20260930.htm",
+      "file": "10-Q_2026-09-30_cnc-20260930.htm",
+      "sha256": "79ddcf084bbb94a972eaff9b37bfae2e01e530497d998523788ec4a726b43a76"
+    },
+    {
+      "form": "10-Q",
+      "filing_date": "2026-07-28",
+      "report_date": "2026-06-30",
+      "accession": "0001071739-26-000153",
+      "url": "https://www.sec.gov/Archives/edgar/data/1071739/000107173926000153/cnc-20260630.htm",
+      "file": "10-Q_2026-06-30_cnc-20260630.htm",
+      "sha256": "7fc98f7d77f2e49ceaa9d2468247189c3993bb785908f54fb145bfc7c86f2918"
+    },
+    {
+      "form": "10-Q",
+      "filing_date": "2026-04-28",
+      "report_date": "2026-03-31",
+      "accession": "0001071739-26-000098",
+      "url": "https://www.sec.gov/Archives/edgar/data/1071739/000107173926000098/cnc-20260331.htm",
+      "file": "10-Q_2026-03-31_cnc-20260331.htm",
+      "sha256": "ca7706752a9c72356443db182cb1fb91c3cae7866d206d7a26e6c3eb7ad81d66"
+    },
+    {
+      "form": "EX-99.1",
+      "filing_date": "2026-10-27",
+      "report_date": "2026-10-27",
+      "accession": "0001071739-26-000194",
+      "url": "https://www.sec.gov/Archives/edgar/data/1071739/000107173926000194/a20261027ex991pressrelease.htm",
+      "period": "2026-09-30",
+      "file": "EX-99.1_2026-10-27_a20261027ex991pressrelease.htm",
+      "sha256": "6df511b4d3dd8bdc9f5fecb50fbfa29aef45f45f8a0089c702f472a7b471d34d",
+      "visible_text_chars": 40097,
+      "image_only": false
+    },
+    {
+      "form": "EX-99.1",
+      "filing_date": "2026-07-28",
+      "report_date": "2026-07-28",
+      "accession": "0001071739-26-000154",
+      "url": "https://www.sec.gov/Archives/edgar/data/1071739/000107173926000154/a20260728ex991pressrelease.htm",
+      "period": "2026-06-30",
+      "file": "EX-99.1_2026-07-28_a20260728ex991pressrelease.htm",
+      "sha256": "e6da01ac242a165841fcb23dfad9153bc093055dd08a480d1a76473d63b9e485",
+      "visible_text_chars": 37145,
+      "image_only": false
+    },
+    {
+      "form": "EX-99.1",
+      "filing_date": "2026-04-28",
+      "report_date": "2026-04-28",
+      "accession": "0001071739-26-000099",
+      "url": "https://www.sec.gov/Archives/edgar/data/1071739/000107173926000099/a20260428ex991pressrelease.htm",
+      "period": "2026-03-31",
+      "file": "EX-99.1_2026-04-28_a20260428ex991pressrelease.htm",
+      "sha256": "ba1e3369ba2b37ce91b644885906778d5bae09bbd72dfe5a8af5eaefa81a1626",
+      "visible_text_chars": 36428,
+      "image_only": false
+    }
+  ]
+}

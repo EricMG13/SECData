@@ -1,0 +1,160 @@
+{
+  "retrieved": "2026-11-05",
+  "pack": {
+    "cik": "1780232",
+    "filer": "foreign private issuer",
+    "annual": [
+      {
+        "form": "40-F",
+        "filing_date": "2026-02-18",
+        "report_date": "2025-12-31",
+        "accession": "0001104659-26-016748",
+        "url": "https://www.sec.gov/Archives/edgar/data/1780232/000110465926016748/gfl-20251231x40f.htm"
+      }
+    ],
+    "quarterly": [
+      {
+        "form": "6-K-EX-99.1",
+        "filing_date": "2026-10-30",
+        "report_date": "2026-10-30",
+        "accession": "0001104659-26-120719",
+        "url": "https://www.sec.gov/Archives/edgar/data/1780232/000110465926120719/tm2626649d1_ex99-1.htm",
+        "period": "2026-10-30"
+      },
+      {
+        "form": "6-K-EX-99.1",
+        "filing_date": "2026-07-31",
+        "report_date": "2026-06-30",
+        "accession": "0001104659-26-089279",
+        "url": "https://www.sec.gov/Archives/edgar/data/1780232/000110465926089279/tm2619744d3_ex99-1.htm",
+        "period": "2026-06-30"
+      },
+      {
+        "form": "6-K-EX-99.1",
+        "filing_date": "2026-05-01",
+        "report_date": "2026-03-31",
+        "accession": "0001104659-26-054228",
+        "url": "https://www.sec.gov/Archives/edgar/data/1780232/000110465926054228/tm2612685d3_ex99-1.htm",
+        "period": "2026-03-31"
+      }
+    ],
+    "presentations": [],
+    "releases_instead_of_presentations": [
+      {
+        "form": "6-K-EX-99.1",
+        "filing_date": "2026-10-28",
+        "report_date": "2026-10-28",
+        "accession": "0001104659-26-119630",
+        "url": "https://www.sec.gov/Archives/edgar/data/1780232/000110465926119630/tm2626649d2_ex99-1.htm",
+        "period": "2026-10-28"
+      },
+      {
+        "form": "6-K-EX-99.1",
+        "filing_date": "2026-07-29",
+        "report_date": "2026-07-29",
+        "accession": "0001104659-26-088156",
+        "url": "https://www.sec.gov/Archives/edgar/data/1780232/000110465926088156/tm2619744d2_ex99-1.htm",
+        "period": "2026-07-29"
+      },
+      {
+        "form": "6-K-EX-99.1",
+        "filing_date": "2026-04-29",
+        "report_date": "2026-04-29",
+        "accession": "0001104659-26-051500",
+        "url": "https://www.sec.gov/Archives/edgar/data/1780232/000110465926051500/tm2612685d2_ex99-1.htm",
+        "period": "2026-04-29"
+      }
+    ],
+    "files_10k": false,
+    "files_20f_or_40f": true,
+    "complete": false,
+    "complete_with_releases": true,
+    "gaps": [
+      "interim results furnished on 6-K, not 10-Q (foreign private issuer)",
+      "3 of 3 quarters have a release, not a presentation, on EDGAR"
+    ]
+  },
+  "files": [
+    {
+      "form": "40-F",
+      "filing_date": "2026-02-18",
+      "report_date": "2025-12-31",
+      "accession": "0001104659-26-016748",
+      "url": "https://www.sec.gov/Archives/edgar/data/1780232/000110465926016748/gfl-20251231x40f.htm",
+      "file": "40-F_2025-12-31_gfl-20251231x40f.htm",
+      "sha256": "db04a7bc06b05eebb6ff1a9e6ef62a229861c3ab56df6b09e8abfaab29844a1c"
+    },
+    {
+      "form": "6-K-EX-99.1",
+      "filing_date": "2026-10-30",
+      "report_date": "2026-10-30",
+      "accession": "0001104659-26-120719",
+      "url": "https://www.sec.gov/Archives/edgar/data/1780232/000110465926120719/tm2626649d1_ex99-1.htm",
+      "period": "2026-10-30",
+      "file": "6-K-EX-99.1_2026-10-30_tm2626649d1_ex99-1.htm",
+      "sha256": "9509e058391d1fc2b5459ff3fdc9543814e081ad546b1517d3f4b8ae16c40a31",
+      "visible_text_chars": 54838,
+      "image_only": false
+    },
+    {
+      "form": "6-K-EX-99.1",
+      "filing_date": "2026-07-31",
+      "report_date": "2026-06-30",
+      "accession": "0001104659-26-089279",
+      "url": "https://www.sec.gov/Archives/edgar/data/1780232/000110465926089279/tm2619744d3_ex99-1.htm",
+      "period": "2026-06-30",
+      "file": "6-K-EX-99.1_2026-06-30_tm2619744d3_ex99-1.htm",
+      "sha256": "41892415c006baf02ccfda0da2f4c80af23facb332c0c0a52c32bad4c1864572",
+      "visible_text_chars": 49562,
+      "image_only": false
+    },
+    {
+      "form": "6-K-EX-99.1",
+      "filing_date": "2026-05-01",
+      "report_date": "2026-03-31",
+      "accession": "0001104659-26-054228",
+      "url": "https://www.sec.gov/Archives/edgar/data/1780232/000110465926054228/tm2612685d3_ex99-1.htm",
+      "period": "2026-03-31",
+      "file": "6-K-EX-99.1_2026-03-31_tm2612685d3_ex99-1.htm",
+      "sha256": "9ab3ea7a156bdaba2c6b26d42bd71b58c941337dab1942e9556511fece59bea4",
+      "visible_text_chars": 41689,
+      "image_only": false
+    },
+    {
+      "form": "6-K-EX-99.1",
+      "filing_date": "2026-10-28",
+      "report_date": "2026-10-28",
+      "accession": "0001104659-26-119630",
+      "url": "https://www.sec.gov/Archives/edgar/data/1780232/000110465926119630/tm2626649d2_ex99-1.htm",
+      "period": "2026-10-28",
+      "file": "6-K-EX-99.1_2026-10-28_tm2626649d2_ex99-1.htm",
+      "sha256": "92e2a4de5861581872b76811097719ed4c6e55e97e7338207bc7578aa4f21940",
+      "visible_text_chars": 48619,
+      "image_only": false
+    },
+    {
+      "form": "6-K-EX-99.1",
+      "filing_date": "2026-07-29",
+      "report_date": "2026-07-29",
+      "accession": "0001104659-26-088156",
+      "url": "https://www.sec.gov/Archives/edgar/data/1780232/000110465926088156/tm2619744d2_ex99-1.htm",
+      "period": "2026-07-29",
+      "file": "6-K-EX-99.1_2026-07-29_tm2619744d2_ex99-1.htm",
+      "sha256": "f9af186ba35413abd28ed76383e071b09c3652591dd5942c8c0426a91780b7d8",
+      "visible_text_chars": 48419,
+      "image_only": false
+    },
+    {
+      "form": "6-K-EX-99.1",
+      "filing_date": "2026-04-29",
+      "report_date": "2026-04-29",
+      "accession": "0001104659-26-051500",
+      "url": "https://www.sec.gov/Archives/edgar/data/1780232/000110465926051500/tm2612685d2_ex99-1.htm",
+      "period": "2026-04-29",
+      "file": "6-K-EX-99.1_2026-04-29_tm2612685d2_ex99-1.htm",
+      "sha256": "2fd02d3b1922ef4bf49d6b568488b505e9d1e8d24ddff383352bc5e7c847ad56",
+      "visible_text_chars": 39323,
+      "image_only": false
+    }
+  ]
+}

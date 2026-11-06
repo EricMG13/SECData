@@ -1,0 +1,153 @@
+{
+  "retrieved": "2026-11-05",
+  "pack": {
+    "cik": "1619762",
+    "filer": "foreign private issuer",
+    "annual": [
+      {
+        "form": "20-F",
+        "filing_date": "2026-02-24",
+        "report_date": "2025-12-31",
+        "accession": "0001628280-26-011083",
+        "url": "https://www.sec.gov/Archives/edgar/data/1619762/000162828026011083/igt-20251231.htm"
+      }
+    ],
+    "quarterly": [
+      {
+        "form": "6-K",
+        "filing_date": "2026-08-04",
+        "report_date": "2026-06-30",
+        "accession": "0001628280-26-052565",
+        "url": "https://www.sec.gov/Archives/edgar/data/1619762/000162828026052565/brightstar-6302026xform6k.htm",
+        "period": "2026-06-30"
+      },
+      {
+        "form": "6-K",
+        "filing_date": "2026-05-12",
+        "report_date": "2026-03-31",
+        "accession": "0001628280-26-034114",
+        "url": "https://www.sec.gov/Archives/edgar/data/1619762/000162828026034114/brightstar-3312026xform6k.htm",
+        "period": "2026-03-31"
+      },
+      {
+        "form": "6-K",
+        "filing_date": "2025-11-04",
+        "report_date": "2025-09-30",
+        "accession": "0001628280-25-048813",
+        "url": "https://www.sec.gov/Archives/edgar/data/1619762/000162828025048813/brightstar-9302025xform6k.htm",
+        "period": "2025-09-30"
+      }
+    ],
+    "presentations": [
+      {
+        "form": "6-K-EX-99.2",
+        "filing_date": "2026-08-04",
+        "report_date": "2026-06-30",
+        "accession": "0001628280-26-052120",
+        "url": "https://www.sec.gov/Archives/edgar/data/1619762/000162828026052120/q226earningsslidedeck-fi.htm",
+        "period": "2026-06-30"
+      },
+      {
+        "form": "6-K-EX-99.2",
+        "filing_date": "2026-05-12",
+        "report_date": "2026-03-31",
+        "accession": "0001628280-26-033845",
+        "url": "https://www.sec.gov/Archives/edgar/data/1619762/000162828026033845/q126earningsslidedeckfin.htm",
+        "period": "2026-03-31"
+      },
+      {
+        "form": "6-K-EX-99.2",
+        "filing_date": "2026-02-24",
+        "report_date": "2025-12-31",
+        "accession": "0001628280-26-010863",
+        "url": "https://www.sec.gov/Archives/edgar/data/1619762/000162828026010863/q425earningsslidedeck-fi.htm",
+        "period": "2025-12-31"
+      }
+    ],
+    "releases_instead_of_presentations": [],
+    "files_10k": false,
+    "files_20f_or_40f": true,
+    "complete": true,
+    "complete_with_releases": true,
+    "gaps": [
+      "interim results furnished on 6-K, not 10-Q (foreign private issuer)"
+    ]
+  },
+  "files": [
+    {
+      "form": "20-F",
+      "filing_date": "2026-02-24",
+      "report_date": "2025-12-31",
+      "accession": "0001628280-26-011083",
+      "url": "https://www.sec.gov/Archives/edgar/data/1619762/000162828026011083/igt-20251231.htm",
+      "file": "20-F_2025-12-31_igt-20251231.htm",
+      "sha256": "ddd7cfdf3fed59df7d159b9bd3a0babc23c4f1533175b942e1f06b2c86c57ccc"
+    },
+    {
+      "form": "6-K",
+      "filing_date": "2026-08-04",
+      "report_date": "2026-06-30",
+      "accession": "0001628280-26-052565",
+      "url": "https://www.sec.gov/Archives/edgar/data/1619762/000162828026052565/brightstar-6302026xform6k.htm",
+      "period": "2026-06-30",
+      "file": "6-K_2026-06-30_brightstar-6302026xform6k.htm",
+      "sha256": "f460e0cb4738e6b873a122129d70f12b25a932e91282089329dedd25450bdc18"
+    },
+    {
+      "form": "6-K",
+      "filing_date": "2026-05-12",
+      "report_date": "2026-03-31",
+      "accession": "0001628280-26-034114",
+      "url": "https://www.sec.gov/Archives/edgar/data/1619762/000162828026034114/brightstar-3312026xform6k.htm",
+      "period": "2026-03-31",
+      "file": "6-K_2026-03-31_brightstar-3312026xform6k.htm",
+      "sha256": "bda22cfbc2b5348a6d38826d88c85c9c3b8b2ee7e38f4eab02ca660c270fa964"
+    },
+    {
+      "form": "6-K",
+      "filing_date": "2025-11-04",
+      "report_date": "2025-09-30",
+      "accession": "0001628280-25-048813",
+      "url": "https://www.sec.gov/Archives/edgar/data/1619762/000162828025048813/brightstar-9302025xform6k.htm",
+      "period": "2025-09-30",
+      "file": "6-K_2025-09-30_brightstar-9302025xform6k.htm",
+      "sha256": "d430b5a49abf430bdcb88aea57ea5eeeb6a0bb0f9ae172c9beeed9a1f17b3b60"
+    },
+    {
+      "form": "6-K-EX-99.2",
+      "filing_date": "2026-08-04",
+      "report_date": "2026-06-30",
+      "accession": "0001628280-26-052120",
+      "url": "https://www.sec.gov/Archives/edgar/data/1619762/000162828026052120/q226earningsslidedeck-fi.htm",
+      "period": "2026-06-30",
+      "file": "6-K-EX-99.2_2026-06-30_q226earningsslidedeck-fi.htm",
+      "sha256": "e4d82456ba9c37fb3bf643e408b73793959e153f4ce1e62e528727b66b756405",
+      "visible_text_chars": 26944,
+      "image_only": false
+    },
+    {
+      "form": "6-K-EX-99.2",
+      "filing_date": "2026-05-12",
+      "report_date": "2026-03-31",
+      "accession": "0001628280-26-033845",
+      "url": "https://www.sec.gov/Archives/edgar/data/1619762/000162828026033845/q126earningsslidedeckfin.htm",
+      "period": "2026-03-31",
+      "file": "6-K-EX-99.2_2026-03-31_q126earningsslidedeckfin.htm",
+      "sha256": "bb1fd9994b298ecd3fb6fd4e3d76ebb85222ad3930744777e3f7abc78747be9e",
+      "visible_text_chars": 21265,
+      "image_only": false
+    },
+    {
+      "form": "6-K-EX-99.2",
+      "filing_date": "2026-02-24",
+      "report_date": "2025-12-31",
+      "accession": "0001628280-26-010863",
+      "url": "https://www.sec.gov/Archives/edgar/data/1619762/000162828026010863/q425earningsslidedeck-fi.htm",
+      "period": "2025-12-31",
+      "file": "6-K-EX-99.2_2025-12-31_q425earningsslidedeck-fi.htm",
+      "sha256": "3212d641183bc23fd6170d40215527d5738de518c03e582f4cc854d4826b5a82",
+      "visible_text_chars": 25473,
+      "image_only": false
+    }
+  ]
+}
